@@ -1,3 +1,49 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: 
+languageCode: it-IT
+title: marcofanuntza.it
+paginate: 5
+theme: PaperMod
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
+
+params:
+  defaultTheme: auto
+  homeInfoParams:
+    Title: Marco Fanuntza
+    Content: Howto e esperienze di shell...
+  color: 'linen'                           # linen, wheat, gray, light
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+
+
+  socialIcons: # optional
+    - name: "instagram"
+      url: "https://instagram.com/marco_fanuntza"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/marcofanuntza"
+  assets:
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon-16x16.png"
+    favicon32x32: "img/favicon-32x32.png"  
+
+
+services:
+  disqus:
+    shortname: your-disqus-shortname
