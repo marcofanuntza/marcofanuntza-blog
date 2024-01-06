@@ -1,4 +1,4 @@
-baseURL: 
+baseURL: "https://marcofanuntza.github.io/marcofanuntza-blog"
 languageCode: it-IT
 title: marcofanuntza.it
 paginate: 5
