@@ -25,12 +25,12 @@ menu:
       url: /search/
       weight: 40
 
-googleAnalytics: G-295972142
+googleAnalytics: G-DMXNC50LDV
 
 
 analytics:
     google:
-        SiteVerificationTag: "G-295972142"
+        SiteVerificationTag: "G-DMXNC50LDV"
 
 
 minify:
@@ -44,7 +44,7 @@ params:
     enabled: true
     title: "***MARCO  FANUNTZA***" # optional default will be site title
     subtitle: "Sistemista aspirante Devops, lavoro nel settore IT interessato alla virtualizzazione, ultimamente il mio focus è sui container e orchestratore Kubernetes"
-    imageUrl: "/img/logo-ultimo.webp" # optional
+    imageUrl: "/img/new_logo_2.webp" # optional
     imageWidth: 320 # custom size
     imageHeight: 320 # custom size
     buttons:
