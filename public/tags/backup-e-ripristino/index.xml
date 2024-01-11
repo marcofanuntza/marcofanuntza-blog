@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup e Ripristino on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/backup-e-ripristino/</link>
+    <description>Recent content in Backup e Ripristino on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:53:54 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/backup-e-ripristino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Il mio nuovo NAS con Truenas</title>
+      <link>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</guid>
+      <description>Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!</description>
+    </item>
+    <item>
+      <title>Come reimpostare la password root in un container LXC su Proxmox VE</title>
+      <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</guid>
+      <description>Problema
+Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.
+Soluzione
+*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.
+*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:
+105 (passwdDimenticata) *105 saràil suo ID, passwdDimenticata sarà il suo nome.
+*Avviare il container nel caso non lo fosse già</description>
+    </item>
+    <item>
+      <title>Ridimensionare disco container su Proxmox</title>
+      <link>https://marcofanuntza.it/2023/12/17/ridimensionare-disco-container-su-proxmox/</link>
+      <pubDate>Sun, 17 Dec 2023 09:10:01 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2023/12/17/ridimensionare-disco-container-su-proxmox/</guid>
+      <description>Spesso può capitare la necessità di dover ridimensionare il disco di un container creato troppo grande o relativamente piccolo, a dire la verità spesso si tende ad aumentare lo spazio disco, vuoi crescita dei logs, aggiunta di nuove funzioni, in questo caso specifico però mostreremo come ridurre lo spazio.
+Per chi come me utilizza Proxmox in ambito domestico dovrà fare subito i conti con la mancanza di una LAN a 10GbE, questo si tradurrà in migrazioni tra i nodi eccessivamente lunghe, la regola quindi deve essere: container piccolo = veloce.</description>
+    </item>
+    <item>
+      <title>Gestione home datacenter con Proxmox</title>
+      <link>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</link>
+      <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</guid>
+      <description>Introduzione:
+Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.
+Che cos’è Proxmox?
+è una piattaforma di virtualizzazione, un hypervisor di tipo 1 permette di virtualizzare virtual machine e container interfaccia web per il controllo permette configurazione in cluster gestisce storage, snapshot e backup automatizzati basata su Debian, utilizza KVM per le vm e LXC per i container completamente free e open source piani di licenza enterprise attivabili Virtualizzazione e Containerizzazione: La Combo Vincente</description>
+    </item>
+  </channel>
+</rss>

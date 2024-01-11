@@ -1,0 +1,67 @@
+baseURL: 'https://marcofanuntza.it'
+languageCode: it-IT
+title: Howto e esperienze di shell..â¦
+paginate: 5
+theme: PaperMod
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Categorie
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: posts
+      name: Articoli
+      url: /posts/
+      weight: 10
+
+params:
+  profileMode:
+    enabled: false
+    title: "MARCO FANUNTZA" # optional default will be site title
+    subtitle: "Sistemista aspirante Devops"
+    imageUrl: "/img/marco.webp" # optional
+    imageWidth: 320 # custom size
+    imageHeight: 320 # custom size
+    buttons:
+      - name: Archivio
+        url: "/archives"
+      - name: Articoli
+        url: "/posts"
+
+
+  defaultTheme: light
+  homeInfoParams:
+    Title: Marco Fanuntza
+    Content: Sistemista aspirante Devops
+  color: 'linen'                           # linen, wheat, gray, light
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  comments: true
+  disableThemeToggle: true
+
+  cover:
+        responsiveImages: false
+
+  socialIcons: # optional
+    - name: "instagram"
+      url: "https://instagram.com/marco_fanuntza"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/marcofanuntza"
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+
+
+services:
+  disqus:
+    shortname: your-disqus-shortname

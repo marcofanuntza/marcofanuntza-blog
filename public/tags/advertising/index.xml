@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>advertising on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/advertising/</link>
+    <description>Recent content in advertising on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Sat, 06 Jan 2024 09:53:54 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/advertising/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grazie a Pi-Hole basta con la pubblicità!</title>
+      <link>https://marcofanuntza.it/2024/01/06/grazie-pihole-basta-pubblicita/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2024/01/06/grazie-pihole-basta-pubblicita/</guid>
+      <description>Quanto vi infastidiscono gli annunci pubblicitari navigando sul web? Ormai ci sono pagine web piene di annunci, pop-up fastidiosissimi che non fanno altro che farci perdere tempo e voglia di visitarne il sito, i quotidiani con le news e le notizie sportive su tutti sono i più scassa bit.
+Per fortuna ci viene in aiuto Pi-Hole!
+Pi-hole è un software open-source progettato per il controllo e la gestione della rete orientato nello specifico proprio per combattere la pubblicità e gli annunci correlati, sostanzialmente agisce come un filtro DNS, offrendo funzionalità avanzate per bloccare tutti gli annunci pubblicitari, tracker e tutti i contenuti indesiderati ancor prima che raggiungano i nostri dispositivi connessi alla rete.</description>
+    </item>
+  </channel>
+</rss>

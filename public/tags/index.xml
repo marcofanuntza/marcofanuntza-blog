@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/</link>
+    <description>Recent content in Tags on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Wed, 10 Jan 2024 14:53:54 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://marcofanuntza.it/tags/ai/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificiale</title>
+      <link>https://marcofanuntza.it/tags/artificiale/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/artificiale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dall-E</title>
+      <link>https://marcofanuntza.it/tags/dall-e/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/dall-e/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Immagini</title>
+      <link>https://marcofanuntza.it/tags/immagini/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/immagini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intelligenza</title>
+      <link>https://marcofanuntza.it/tags/intelligenza/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/intelligenza/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>https://marcofanuntza.it/tags/storage/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtualizzazione</title>
+      <link>https://marcofanuntza.it/tags/virtualizzazione/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/virtualizzazione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>adblocker</title>
+      <link>https://marcofanuntza.it/tags/adblocker/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/adblocker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>advertising</title>
+      <link>https://marcofanuntza.it/tags/advertising/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/advertising/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cluster</title>
+      <link>https://marcofanuntza.it/tags/cluster/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/cluster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gestione Server</title>
+      <link>https://marcofanuntza.it/tags/gestione-server/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/gestione-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux Containers</title>
+      <link>https://marcofanuntza.it/tags/linux-containers/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/linux-containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pi-hole</title>
+      <link>https://marcofanuntza.it/tags/pi-hole/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/pi-hole/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pihole</title>
+      <link>https://marcofanuntza.it/tags/pihole/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/pihole/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backup e Ripristino</title>
+      <link>https://marcofanuntza.it/tags/backup-e-ripristino/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/backup-e-ripristino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cluster Domestico</title>
+      <link>https://marcofanuntza.it/tags/cluster-domestico/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/cluster-domestico/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dischi</title>
+      <link>https://marcofanuntza.it/tags/dischi/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/dischi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NAS</title>
+      <link>https://marcofanuntza.it/tags/nas/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/nas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Truenas</title>
+      <link>https://marcofanuntza.it/tags/truenas/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/truenas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dimenticata</title>
+      <link>https://marcofanuntza.it/tags/dimenticata/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/dimenticata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LXC</title>
+      <link>https://marcofanuntza.it/tags/lxc/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/lxc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>password</title>
+      <link>https://marcofanuntza.it/tags/password/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/password/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxmox</title>
+      <link>https://marcofanuntza.it/tags/proxmox/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reset</title>
+      <link>https://marcofanuntza.it/tags/reset/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/reset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Root</title>
+      <link>https://marcofanuntza.it/tags/root/</link>
+      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/root/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containerizzazione</title>
+      <link>https://marcofanuntza.it/tags/containerizzazione/</link>
+      <pubDate>Sun, 17 Dec 2023 09:10:01 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/containerizzazione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LVM</title>
+      <link>https://marcofanuntza.it/tags/lvm/</link>
+      <pubDate>Sun, 17 Dec 2023 09:10:01 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/lvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ridimensionare</title>
+      <link>https://marcofanuntza.it/tags/ridimensionare/</link>
+      <pubDate>Sun, 17 Dec 2023 09:10:01 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/ridimensionare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alta Disponibilità</title>
+      <link>https://marcofanuntza.it/tags/alta-disponibilit%C3%A0/</link>
+      <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/alta-disponibilit%C3%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comunità Proxmox</title>
+      <link>https://marcofanuntza.it/tags/comunit%C3%A0-proxmox/</link>
+      <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/comunit%C3%A0-proxmox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interfaccia Web</title>
+      <link>https://marcofanuntza.it/tags/interfaccia-web/</link>
+      <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/interfaccia-web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KVM</title>
+      <link>https://marcofanuntza.it/tags/kvm/</link>
+      <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/kvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Supporto Professionale</title>
+      <link>https://marcofanuntza.it/tags/supporto-professionale/</link>
+      <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/supporto-professionale/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

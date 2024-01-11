@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/storage/</link>
+    <description>Recent content in Storage on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Wed, 10 Jan 2024 14:53:54 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E pensare che cercavo un logo..</title>
+      <link>https://marcofanuntza.it/2024/01/01/pensare-che-cercavo-un-logo/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2024/01/01/pensare-che-cercavo-un-logo/</guid>
+      <description>Che ne sarà di noi mi verrebbe da dire.. oggi stavo continuando con il tuning del nuovo tema Hugo che sto utilizzando e ho notato che è possibile inserire un logo in homepage, quindi ho avuto la brillante idea di chiedere a bing-chat e alla nuova funzione di Microsoft chiamata Co-Pilot di generare per me un&amp;rsquo;immagine logo con l&amp;rsquo;ausilio della intelligenza artificiale. Come avrete potuto già intuire la situazione mi è leggermente sfuggita di mano.</description>
+    </item>
+    <item>
+      <title>Il mio nuovo NAS con Truenas</title>
+      <link>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</guid>
+      <description>Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!</description>
+    </item>
+  </channel>
+</rss>

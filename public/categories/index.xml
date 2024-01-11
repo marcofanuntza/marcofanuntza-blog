@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/categories/</link>
+    <description>Recent content in Categories on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Wed, 10 Jan 2024 14:53:54 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>intelligenza artificiale</title>
+      <link>https://marcofanuntza.it/categories/intelligenza-artificiale/</link>
+      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/categories/intelligenza-artificiale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>linux</title>
+      <link>https://marcofanuntza.it/categories/linux/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>server</title>
+      <link>https://marcofanuntza.it/categories/server/</link>
+      <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/categories/server/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

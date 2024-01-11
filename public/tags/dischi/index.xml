@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dischi on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/dischi/</link>
+    <description>Recent content in Dischi on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:53:54 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/dischi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Il mio nuovo NAS con Truenas</title>
+      <link>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</link>
+      <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</guid>
+      <description>Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!</description>
+    </item>
+  </channel>
+</rss>
