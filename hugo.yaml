@@ -1,7 +1,8 @@
 baseURL: "https://marcofanuntza.it"
-languageCode: it-IT
+languageCode: it-it
+defaultContentLanguage: it
 title: Howto e esperienze di shell..
-paginate: 7 
+paginate: 7
 theme: PaperMod
 
 
@@ -22,7 +23,7 @@ menu:
     - identifier: search
       name: Cerca
       url: /search/
-      weight: 40 
+      weight: 40
 
 googleAnalytics: G-295972142
 
@@ -38,10 +39,11 @@ minify:
 
 params:
   env: production
+  dateFormat: "02 Jan 2006"
   profileMode:
     enabled: true
-    title: "MARCO FANUNTZA" # optional default will be site title
-    subtitle: "Sistemista aspirante Devops"
+    title: "***MARCO  FANUNTZA***" # optional default will be site title
+    subtitle: "Sistemista aspirante Devops, lavoro nel settore IT interessato alla virtualizzazione, ultimamente il mio focus è sui container e orchestratore Kubernetes"
     imageUrl: "/img/logo-ultimo.webp" # optional
     imageWidth: 320 # custom size
     imageHeight: 320 # custom size
@@ -50,9 +52,6 @@ params:
         url: "/posts"
       - name: Cerca
         url: "/search"
-
-
-
 
   defaultTheme: auto
   homeInfoParams:
@@ -64,30 +63,34 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
 
-  ShowWordCount: true
   ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
 
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
 
   ShowReadingTime: true
-  comments: true
 
   disableThemeToggle: false
-  UseHugoToc: true
-
-  showtoc: true
-  tocopen: true
 
   cover:
     responsiveImages: false
-    linkFullImages: true
-
-
+    linkFullImages: false
 
   socialIcons: # optional
     - name: "instagram"
       url: "https://instagram.com/marco_fanuntza"
     - name: "linkedin"
       url: "https://linkedin.com/in/marcofanuntza"
+    - name: "telegram"
+      url: "https://t.me/Marco_Fan"
+    - name: "github"
+      url: "https://github.com/marcofanuntza"
   assets:
     favicon: "favicon.ico"
     favicon16x16: "favicon-16x16.png"
