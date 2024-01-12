@@ -24,7 +24,7 @@ cover:
 
 **Introduzione:**
 
-Quando ho deciso di riscrivere sul blog il cms scelto inizialmente era stato Wordpress, per ambito lavorativo avevo già gestito server worpress decine di volte, avevo avuto anche un'esperienza come writer assiduo sul defunto blog actioncamitalia, la scelta quindi si era basata esclusivamente sull'esperienza passata.
+Quando ho deciso di riscrivere sul blog il cms scelto inizialmente era stato Wordpress, per ambito lavorativo avevo già gestito server wordpress decine di volte, avevo avuto anche un'esperienza come writer assiduo sul defunto blog actioncamitalia, la scelta quindi si era basata esclusivamente sull'esperienza passata.
 Dopo un pò mi sono accorto però che per le mie esigenze, per le esigenze di questo blog specifico, l'utilizzo delle risorse necessarie per worpress erano sprecate, insomma non ne avevo bisogno. 
 
 Da qui è partita la ricerca su un nuovo CMS per il mio blog.
@@ -83,7 +83,7 @@ Scoprirete che hugo ha creato una nuova directory con il nome del sito e posizio
 
 ![Example image](/img/hugo-articolo1.webp#center)
  
-Il passo successivo sarà scegliere e abiltare un tema da utilizzare, date un'occhiata sul sito ufficiale e scegliete quello che preferite. Sono quasi tutti ben documentati e la procedura per attivarla è quasi sempre la stessa, sostanzialmente va utilizzato git e scaricato il repository all'interno del path creato in precedenza da Hugo.
+Il passo successivo sarà scegliere e abiltare un tema da utilizzare, date un'occhiata sul sito ufficiale e scegliete quello che preferite. Sono quasi tutti ben documentati e la procedura per attivarli è quasi sempre la stessa, sostanzialmente va utilizzato git e scaricato il repository all'interno del path creato in precedenza da Hugo.
 
 Io ho scelto il tema **PaperMod** è l'ho abilitato come submodulo di git con i seguenti comandi:
 
