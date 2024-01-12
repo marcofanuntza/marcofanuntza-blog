@@ -1,7 +1,8 @@
-baseURL: 'https://marcofanuntza.it'
-languageCode: it-IT
-title: Howto e esperienze di shell..â¦
-paginate: 5
+baseURL: "https://marcofanuntza.it"
+languageCode: it-it
+defaultContentLanguage: it
+title: Howto e esperienze di shell..
+paginate: 7
 theme: PaperMod
 
 
@@ -19,23 +20,40 @@ menu:
       name: Articoli
       url: /posts/
       weight: 10
+    - identifier: search
+      name: Cerca
+      url: /search/
+      weight: 40
+
+googleAnalytics: G-DMXNC50LDV
+
+
+analytics:
+    google:
+        SiteVerificationTag: "G-DMXNC50LDV"
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
+  env: production
+  dateFormat: "02 Jan 2006"
   profileMode:
-    enabled: false
-    title: "MARCO FANUNTZA" # optional default will be site title
-    subtitle: "Sistemista aspirante Devops"
-    imageUrl: "/img/marco.webp" # optional
+    enabled: true
+    title: "***MARCO  FANUNTZA***" # optional default will be site title
+    subtitle: "Sistemista aspirante Devops, lavoro nel settore IT interessato alla virtualizzazione, ultimamente il mio focus Ã¨ sui container e orchestratore Kubernetes"
+    imageUrl: "/img/new_logo_2.webp" # optional
     imageWidth: 320 # custom size
     imageHeight: 320 # custom size
     buttons:
-      - name: Archivio
-        url: "/archives"
       - name: Articoli
         url: "/posts"
+      - name: Cerca
+        url: "/search"
 
-
-  defaultTheme: light
+  defaultTheme: auto
   homeInfoParams:
     Title: Marco Fanuntza
     Content: Sistemista aspirante Devops
@@ -44,24 +62,66 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-  ShowReadingTime: true
+
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+
+  disableScrollToTop: false
   comments: true
-  disableThemeToggle: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  ShowReadingTime: true
+
+  disableThemeToggle: false
 
   cover:
-        responsiveImages: false
+    responsiveImages: false
+    linkFullImages: false
 
   socialIcons: # optional
     - name: "instagram"
       url: "https://instagram.com/marco_fanuntza"
     - name: "linkedin"
       url: "https://linkedin.com/in/marcofanuntza"
+    - name: "telegram"
+      url: "https://t.me/Marco_Fan"
+    - name: "github"
+      url: "https://github.com/marcofanuntza"
+    - name: "email"
+      url: "mailto:info@marcofanuntza.it"
   assets:
     favicon: "favicon.ico"
     favicon16x16: "favicon-16x16.png"
     favicon32x32: "favicon-32x32.png"
+    disableFingerprinting: true
 
+    # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 services:
   disqus:
-    shortname: your-disqus-shortname
+    shortname: marcofanuntza-it
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessa
+
+sitemap:
+  changeFreq: "daily"
+  filename: sitemap.xml
+  priority: -1
+
+enableRobotsTXT: true

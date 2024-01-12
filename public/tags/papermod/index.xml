@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PaperMod on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/papermod/</link>
+    <description>Recent content in PaperMod on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Fri, 12 Jan 2024 10:18:27 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ho scelto Hugo!</title>
+      <link>https://marcofanuntza.it/2024/01/12/ho-scelto-hugo/</link>
+      <pubDate>Fri, 12 Jan 2024 10:18:27 +0000</pubDate>
+      <guid>https://marcofanuntza.it/2024/01/12/ho-scelto-hugo/</guid>
+      <description>Introduzione:
+Quando ho deciso di riscrivere sul blog il cms scelto inizialmente era stato Wordpress, per ambito lavorativo avevo già gestito server worpress decine di volte, avevo avuto anche un&amp;rsquo;esperienza come writer assiduo sul defunto blog actioncamitalia, la scelta quindi si era basata esclusivamente sull&amp;rsquo;esperienza passata. Dopo un pò mi sono accorto però che per le mie esigenze, per le esigenze di questo blog specifico, l&amp;rsquo;utilizzo delle risorse necessarie per worpress erano sprecate, insomma non ne avevo bisogno.</description>
+    </item>
+  </channel>
+</rss>

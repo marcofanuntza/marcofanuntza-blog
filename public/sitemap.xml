@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcofanuntza.it/tags/blog/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/cms/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/cms/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/go/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/2024/01/12/ho-scelto-hugo/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/hugo/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/linux/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/linux/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/papermod/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/server/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-01-12T10:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/tags/ai/</loc>
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,19 +66,11 @@
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/</loc>
-    <lastmod>2024-01-10T14:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/dall-e/</loc>
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/2024/01/01/pensare-che-cercavo-un-logo/</loc>
-    <lastmod>2024-01-10T14:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/</loc>
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -38,15 +86,7 @@
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-01-10T14:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/storage/</loc>
-    <lastmod>2024-01-10T14:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -74,10 +114,6 @@
     <lastmod>2024-01-06T09:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/linux/</loc>
-    <lastmod>2024-01-06T09:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/linux-containers/</loc>
     <lastmod>2024-01-06T09:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -87,10 +123,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/pihole/</loc>
-    <lastmod>2024-01-06T09:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/server/</loc>
     <lastmod>2024-01-06T09:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
