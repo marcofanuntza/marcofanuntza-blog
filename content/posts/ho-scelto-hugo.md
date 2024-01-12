@@ -85,7 +85,7 @@ Scoprirete che hugo ha creato una nuova directory con il nome del sito e posizio
  
 Il passo successivo sarà scegliere e abiltare un tema da utilizzare, date un'occhiata sul sito ufficiale e scegliete quello che preferite. Sono quasi tutti ben documentati e la procedura per attivarli è quasi sempre la stessa, sostanzialmente va utilizzato git e scaricato il repository all'interno del path creato in precedenza da Hugo.
 
-Io ho scelto il tema **PaperMod** è l'ho abilitato come submodulo di git con i seguenti comandi:
+Io ho scelto il tema **PaperMod** e l'ho abilitato come submodulo di git con i seguenti comandi:
 
     git init
 
