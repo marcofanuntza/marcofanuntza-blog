@@ -3,7 +3,7 @@ languageCode: it-it
 defaultContentLanguage: it
 title: Howto e esperienze di shell..
 paginate: 7
-theme: PaperMod
+theme: ["PaperMod" , "hugo-shortcode-gallery"]
 
 
 menu:

@@ -18,7 +18,7 @@ tags:
   - CMS
 
 cover:
-    image: /img/hugo-icon2.webp
+    image: /img/hugo-icon.webp
 ---
 
 
@@ -57,17 +57,18 @@ Su qualsiasi distribuzione linux è abbastanza banale installare Hugo, i vari sn
 
 Nel mio caso specifico ho deciso di installare Hugo su un container LXC erogato dal mio cluster Proxmox, distribuzione ho scelto una ubuntu 23-10, dal sito di Hugo ho scaricato l'ultima release disponibile del pacchetto deb
 
+nota. scegliete la versione "extended"
 
-    wget https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_0.121.2_linux-amd64.deb
+    wget https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_extended_0.121.2_linux-amd64.deb
 
 eseguito il comando di installazione:
 
-    dpkg -i hugo_0.121.2_linux-amd64.deb
+    dpkg -i hugo_extended_0.121.2_linux-amd64.deb
 
 qui il risultato:
 
     hugo version
-    hugo v0.121.2-6d5b44305eaa9d0a157946492a6f319da38de154 linux/amd64 BuildDate=2024-01-05T12:21:15Z VendorInfo=gohugoio
+    hugo v0.121.2-6d5b44305eaa9d0a157946492a6f319da38de154+extended linux/amd64 BuildDate=2024-01-05T12:21:15Z VendorInfo=gohugoio
 
 **Primi Passi**
 
@@ -96,7 +97,7 @@ questo vi servirà anche nel caso voi decidiate di versionare il vostro sito su 
 
 Ora troverete il tema installato e a disposizione per il vostro nuovo sito, i files del tema sono posizionati all'interno del path themes/PaperMod.
 
-Adesso verrà il bello per voi, il file che editerete principalmente sarà config.yaml, questo è di fatto il punto principale di controllo per il vostro sito Hugo.
+Il file che editerete principalmente sarà config.yaml, questo è di fatto il punto principale di controllo per il vostro sito Hugo.
 
 Ma finiamo con un'ultimo comando poi lascerò a voi il bello di configurarvi il vostro sito Hugo!
 
