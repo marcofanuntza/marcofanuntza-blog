@@ -85,7 +85,7 @@ A questo punto dovrei mostrarvi il risultato&#8230;&#8230; si però dovrete atte
 
 Come diceva il grande JeeG Robot &#8220;Miwa lanciami i componenti!&#8221;
 
-In aggiornamento&#8230;..
+Ecco clicca [QUI](https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/) per la seconda parte dell'articolo
 
 ![Example image](/img/end-japan.webp)
 
