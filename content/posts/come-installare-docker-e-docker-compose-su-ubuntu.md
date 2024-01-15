@@ -20,7 +20,7 @@ Questa guida elenca passo per passo la procedura da seguire per installare docke
 
 **Procedura**
 
-Tutti i comandi verranno eseguiti da terminale, e in precedenza avevate già provato un'installazione di Docker sarebbe opportuno rimuoverla eseguendo il comando che segue:
+Tutti i comandi verranno eseguiti da terminale, se in precedenza avevate già provato un'installazione di Docker sarebbe opportuno rimuoverla eseguendo il comando che segue:
 
     sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
 
