@@ -13,9 +13,9 @@
       <link>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</link>
       <pubDate>Sat, 13 Jan 2024 08:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</guid>
-      <description>Questo articolo continua il log partito da QUI dove spiegavo la scelta e il perché
-I componenti che attendevo sono arrivati, oltre la lista iniziale ho apportato un&amp;rsquo;integrazione aggiungendo una scheda PCI che di fatto mette a disposizione due porte SATA III aggiuntive. A questa scheda sono direttamente connessi i due dischi da 2,5 pollici, 2TB cadauno.
-La prima installazione è abbastanza banale, se avete già avuto modo di installare una distro linux da pendrive USB sarà una passeggiata.</description>
+      <description>Questo articolo continua il log partito da QUI dove spiegavo la scelta e il perchè .
+I componenti che attendevo sono arrivati, oltre la lista iniziale ho apportato alcune integrazioni aggiungendo una scheda PCI che di fatto mette a disposizione due porte SATA III aggiuntive. A questa scheda sono direttamente connessi i due dischi da 2,5 pollici, 2TB cadauno. Altra integrazione è un ulteriore banco di ram da 8GB.
+La prima installazione è abbastanza semplice, se avete già avuto modo di installare una distro linux da pendrive USB sarà una passeggiata.</description>
     </item>
     <item>
       <title>E pensare che cercavo un logo..</title>

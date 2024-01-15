@@ -53,7 +53,7 @@ Hugo è un framework open source per la generazione di siti web statici. Creato 
 
 **Installare Hugo**
 
-Su qualsiasi distribuzione linux è abbastanza banale installare Hugo, i vari snap, apt e yum hanno nei loro repository i pacchetti necessari, ma c'è da dire che spesso non sono aggiornati. Il mio consiglio è scaricarvi il pacchetto più recente e installarlo a manina.
+Su qualsiasi distribuzione linux è abbastanza semplice installare Hugo, i vari snap, apt e yum hanno nei loro repository i pacchetti necessari, ma c'è da dire che spesso non sono aggiornati. Il mio consiglio è scaricarvi il pacchetto più recente e installarlo a manina.
 
 Nel mio caso specifico ho deciso di installare Hugo su un container LXC erogato dal mio cluster Proxmox, distribuzione ho scelto una ubuntu 23-10, dal sito di Hugo ho scaricato l'ultima release disponibile del pacchetto deb
 
@@ -78,7 +78,7 @@ Io non l'ho seguita alla lettera ma ho apportato alcune modifiche, procediamo co
 
     hugo new site mio-nuovo-blog --format yaml
 
-descrivendo nello specifico il comando, la prima parte istruisce hugo per creare un sito, mio-nuovo-blog sarà il nome del sito e l'opzione -f yml farà in modo che i file di configurazione vengano formattati in formato yaml invece che toml, a mio avviso più semplice da capire a prima vista.
+descrivendo nello specifico il comando, la prima parte istruisce hugo per creare un sito, mio-nuovo-blog sarà il nome del sito e l'opzione -format yaml farà in modo che i file di configurazione vengano formattati in formato yaml invece che toml, a mio avviso più semplice e intuitivo a prima vista.
 
 Scoprirete che hugo ha creato una nuova directory con il nome del sito e posizionato al suo interno tutti i files necessari, dovreste ritrovarvi in questa simile situazione
 
