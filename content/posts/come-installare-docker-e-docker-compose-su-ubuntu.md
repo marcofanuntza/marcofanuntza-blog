@@ -3,6 +3,17 @@ title: 'Come installare Docker e Docker Compose su Ubuntu'
 date: 2024-01-15T13:34:41+01:00
 draft: false
 
+categories:
+  - linux
+  - server
+  - docker
+tags:
+  - Docker
+  - Docker compose
+  - Containerd
+  - Ubuntu
+  - Container
+  - Virtualizzazione
 
 cover:
     image: /img/docker-popart.webp
