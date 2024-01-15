@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/tags/backup-e-ripristino/</loc>
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -26,10 +38,6 @@
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</loc>
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -39,10 +47,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/nas/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>

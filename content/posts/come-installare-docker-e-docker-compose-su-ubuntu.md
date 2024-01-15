@@ -1,7 +1,7 @@
 ---
-title: 'Come Installare Docker E Docker Compose Su Ubuntu'
+title: 'Come installare Docker e Docker Compose su Ubuntu'
 date: 2024-01-15T13:34:41+01:00
-draft: true
+draft: false
 
 
 cover:
@@ -9,7 +9,7 @@ cover:
 
 Come installare Docker e Docker compose su Ubuntu
 
-Questa guida elenca passo per passo la procedura da seguire per installare docker, docker compose, containerd su distribuzione Ubuntu.
+Questa guida elenca passo per passo la procedura da seguire per installare docker, docker compose e containerd su distribuzione Ubuntu.
 
 **Prerequisiti:**
 
@@ -50,7 +50,7 @@ verifichiamo le versioni installate di Docker e Docker compose:
     docker -v
     docker compose
 
-a questo punto possiamo considerare completata l'installazione, in via opzionale ci resta solamente abilitare il nostro useer per utilizzo del comndo docker senza il bisogno di utlizzare ogni volta sudo, per farlo aggiungiamo semplicemente lo user al gruppo docker
+a questo punto possiamo considerare completata l'installazione, in via opzionale ci resta solamente abilitare il nostro user per utilizzo del comando docker senza il bisogno di utilizzare ogni volta sudo, per farlo aggiungiamo semplicemente lo user al gruppo docker
 
     sudo usermod -aG docker $USER
 
