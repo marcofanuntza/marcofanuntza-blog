@@ -5,6 +5,7 @@ draft: false
 
 
 cover:
+    image: /img/docker-popart.webp
 ---
 
 Come installare Docker e Docker compose su Ubuntu
