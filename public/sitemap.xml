@@ -2,7 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcofanuntza.it/categories/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/container/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/containerd/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/docker/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/docker/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/docker-compose/</loc>
     <lastmod>2024-01-15T13:34:41+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -10,15 +34,31 @@
     <lastmod>2024-01-15T13:34:41+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
+    <loc>https://marcofanuntza.it/categories/linux/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/posts/</loc>
     <lastmod>2024-01-15T13:34:41+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/backup-e-ripristino/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
+    <loc>https://marcofanuntza.it/categories/server/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/</loc>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/ubuntu/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/virtualizzazione/</loc>
+    <lastmod>2024-01-15T13:34:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/backup-e-ripristino/</loc>
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -42,15 +82,7 @@
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/linux/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/nas/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/server/</loc>
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -58,15 +90,7 @@
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/truenas/</loc>
-    <lastmod>2024-01-13T08:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/virtualizzazione/</loc>
     <lastmod>2024-01-13T08:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
