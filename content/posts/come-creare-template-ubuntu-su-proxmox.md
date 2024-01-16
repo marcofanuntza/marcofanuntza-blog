@@ -15,7 +15,8 @@ catergories:
  - server
 
 cover:
-  img: 
+    image: /img/template-ubuntu-px.webp
+ 
 ---
 
 **Premessa**
