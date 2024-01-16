@@ -17,3 +17,7 @@ catergories:
 cover:
   img: 
 ---
+
+**Premessa**
+
+Questa guida elenca comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata nella guida sarà Ubuntu.
