@@ -53,7 +53,7 @@ Rendiamo l'unità cloud-init avviabile e limitiamo i permessi al solo BIOS
 
     qm set 2000 --boot c --bootdisk scsi0
 
-Aggiungiamo infine serial concole
+Aggiungiamo infine serial console
 
     qm set 2000 --serial0 socket --vga serial0
 
