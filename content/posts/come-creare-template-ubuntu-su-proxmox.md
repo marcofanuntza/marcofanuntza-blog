@@ -90,7 +90,7 @@ Noterete anche che l'immagine ha un disco di soli 3.5GB, nessun problema in base
 
 Adesso siamo pronti per far partire la nostra nuova VM creata dal template.. ma manca qualcosa, spero i più attenti ci abbiano fatto caso, che user e passwd dobbiamo utilizzare per il login?
 
-E' qui che entra in gioco cloud-init, aprite la web-gui di Proxmox e posizionatevi sulle voci di menù relative alla VM, cliccate sulla voce **Cloud-init** e noterete le voci che si possono editare, modificatele e provate a far partire la VM.
+E' qui che entra in gioco cloud-init, aprite la web-gui di Proxmox e posizionatevi sulle voci di menù relative alla VM, cliccate sulla voce **Cloud-init** e noterete le voci che si possono editare, modificatele e provate a far partire la VM. Vi consiglio comunque di utilizzare direttamente la vostra chiave SSH
 
 ![Example image](/img/template-ubuntu-px1.webp)
 
