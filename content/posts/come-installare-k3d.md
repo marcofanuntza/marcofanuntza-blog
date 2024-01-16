@@ -16,10 +16,10 @@ categories:
 
    
 cover:
- image: 
+    image: /img/k3d-cover.webp
 ---
 
-Iniziamo con capire che cos'è K3D e non confondiamolo con K3S
+Iniziamo con capire che cos'è **K3D** e non confondiamolo con **K3S**
 
 **K3D** 
 
