@@ -21,7 +21,7 @@ cover:
 
 **Premessa**
 
-Questa guida elenca comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata nella guida sarà Ubuntu e l'immagine sarà una versione specifica per il cloud.
+Questa guida mostra i comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata è Ubuntu e l'immagine sarà una versione specifica per il cloud.
 
 Le Immagini Cloud sono piccole immagini certificate e pronte per il cloud, hanno Cloud Init preinstallato e pronto per accettare una Cloud Config.
 
