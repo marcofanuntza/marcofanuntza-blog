@@ -111,6 +111,7 @@ Continuando a curiosare potete vedere cosa ha installato K3D
     kube-system   traefik          LoadBalancer   10.43.61.96    172.18.0.2    80:32526/TCP,443:32411/TCP   19m
 
     sudo kubectl get pods -A
+    
     NAMESPACE     NAME                                     READY   STATUS      RESTARTS   AGE
     kube-system   local-path-provisioner-957fdf8bc-g6vsb   1/1     Running     0          20m
     kube-system   coredns-77ccd57875-h6krb                 1/1     Running     0          20m
