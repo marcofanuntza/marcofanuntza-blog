@@ -8,7 +8,8 @@ tags:
  - K3D
  - Kubernetes
  - Rancher
- - 
+ - installare
+ - Ubuntu
 categories:
  - linux
  - server
