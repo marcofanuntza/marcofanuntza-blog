@@ -55,7 +55,7 @@ Ora che K3D è installato possiamo provare a creare il nostro primo cluster Kube
 
     sudo k3d cluster create mycluster
 
-Attendete il completamento, ci metterà un pò
+Attendete il completamento, nel mio caso ha completato in poco più di 30 secondi
 
 
     INFO[0000] Prep: Network
