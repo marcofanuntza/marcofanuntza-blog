@@ -80,7 +80,7 @@ Verificando possiamo notare la VM appena creata con ID 110 e nome ubuntu-noble-0
     110 ubuntu-noble-01      stopped    2048               3.50 0         
     2000 ubuntu-cloud-noble   stopped    2048               3.50 0 
 
-Noeterete anche che l'immagine ha un disco di soli 3.5GB, nessun problema, in base alle eseigenze potete ridimensionare il disco a piacimento eseguendo questo successivo comando
+Noterete anche che l'immagine ha un disco di soli 3.5GB, nessun problema in base alle vostre esigenze potete ridimensionare il disco eseguendo questo successivo comando
 
     qm resize 110 resize scsi0 15G
     
@@ -88,7 +88,14 @@ Noeterete anche che l'immagine ha un disco di soli 3.5GB, nessun problema, in ba
     Logical volume pve/vm-110-disk-0 successfully resized.
 
 
-La guida termina qui, 
+Adesso siamo pronti per far partire la nostra nuova VM creata dal template.. ma manca qualcosa, spero i più attenti ci abbiano fatto caso, che user e passwd dobbiamo utilizzare per il login?
+
+E' qui che entra in gioco cloud-init, aprite la web-gui di Proxmox e posizionatevi sulle voci di menù relative alla VM, cliccate sulla voce **Cloud-init** e noterete le voci che si possono editare, modificatele e rigenerate l'immagine
+
+
+La guida termina qui, se velete utilizzare una distribuzione diversa da Ubuntu niente vi vieta di farlo, la guida va semplicemente adattata utilizzando un'immagine diversa.
+
+
 
 
 
