@@ -87,7 +87,7 @@ Ora come suggerisce l'ultima riga dell'output, per interagire con il cluster dob
     sudo chmod +x kubectl
     sudo mv kubectl /usr/local/bin
 
-Adesso dobbiamo fare in modo che kubectl conosca il file di configurazione del cluster
+Dobbiamo fare in modo che kubectl conosca il file di configurazione del cluster
 
     sudo k3d kubeconfig merge mycluster --kubeconfig-switch-context
 
