@@ -81,6 +81,24 @@ Attendete il completamento, ci metterà un pò
     INFO[0030] You can now use it like this:
     kubectl cluster-info
     
+Ora come suggerisce l'ultima riga dell'output, per interagire con il cluster dobbiamo utilizzare kubectl, installiamolo quindi
+
+    sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+    sudo chmod +x kubectl
+    sudo mv kubectl /usr/local/bin
+
+Adesso dobbiamo fare in modo che kubectl conosca il file di configurazione del cluster
+
+    sudo k3d kubeconfig merge mycluster --kubeconfig-switch-context
+
+Adesso siamo pronti per interagire con il cluster
+
+    sudo kubectl get nodes -o wide
+
+    NAME                     STATUS   ROLES                  AGE   VERSION        INTERNAL-IP   EXTERNAL-IP   OS-IMAGE   KERNEL-VERSION      CONTAINER-RUNTIME
+    k3d-mycluster-server-0   Ready    control-plane,master   12m   v1.27.4+k3s1   172.18.0.2    <none>        K3s dev    5.15.0-91-generic   containerd://1.7.1-k3s1
+
+Come potrete notare il cluster è composto da un unico nodo K3S, ma questo sarà comunque sufficente per eseguire tutti i test e le esigenze di sviluppo.
 
 
 
