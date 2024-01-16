@@ -100,7 +100,7 @@ Adesso siamo pronti per interagire con il cluster
 
 Come potrete notare il cluster è composto da un unico nodo K3S, ma questo sarà comunque sufficente per eseguire tutti i test e le esigenze di sviluppo.
 
-Continuando a curiosare potete vedere che cosa ha installato K3D
+Continuando a curiosare potete vedere cosa ha installato K3D
 
     sudo kubectl get svc -A
     
