@@ -39,11 +39,11 @@ In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes
 
 Per installare K3D sostanzialmente si tratterà semplicemente di scaricare uno script bash che si occuperà in totale autonomia dell'installazione, abbiamo due alternative, utilizzare curl oppure wget, c'è da dire che lo script utilizzerà curl per scaricare i files quindi curl dovete installarlo comunque.
 
-    apt install curl -y
+    sudo apt install curl -y
 
-    wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+    sudo wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
     
-    curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+    sudo curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 
 Attendete che lo script completi e poi verificatene il risultato con
 
@@ -53,9 +53,10 @@ Attendete che lo script completi e poi verificatene il risultato con
 
 Ora che K3D è installato possiamo provare a creare il nostro primo cluster Kubernetes (K3S) eseguendo questo comando
 
-    k3d cluster create mycluster
+    sudo k3d cluster create mycluster
 
 Attendete il completamento, ci metterà un pò
+
 
     INFO[0000] Prep: Network
     INFO[0000] Created network 'k3d-mycluster'
@@ -65,17 +66,20 @@ Attendete il completamento, ci metterà un pò
     INFO[0001] Pulling image 'ghcr.io/k3d-io/k3d-tools:5.6.0'
     INFO[0003] Pulling image 'docker.io/rancher/k3s:v1.27.4-k3s1'
     INFO[0003] Starting Node 'k3d-mycluster-tools'
-    INFO[0587] Creating LoadBalancer 'k3d-mycluster-serverlb'
-    INFO[0588] Pulling image 'ghcr.io/k3d-io/k3d-proxy:5.6.0'
-    INFO[0593] Using the k3d-tools node to gather environment information
-    INFO[0593] HostIP: using network gateway 172.18.0.1 address
-    INFO[0593] Starting cluster 'mycluster'
-    INFO[0593] Starting servers...
-    INFO[0593] Starting Node 'k3d-mycluster-server-0'
-    INFO[0597] All agents already running.
-    INFO[0597] Starting helpers...
-    INFO[0597] Starting Node 'k3d-mycluster-serverlb'
-    INFO[0603] Injecting records for hostAliases (incl. host.k3d.internal) and for 2 network members into CoreDNS configmap...
+    INFO[0011] Creating LoadBalancer 'k3d-mycluster-serverlb'
+    INFO[0012] Pulling image 'ghcr.io/k3d-io/k3d-proxy:5.6.0'
+    INFO[0017] Using the k3d-tools node to gather environment information
+    INFO[0017] HostIP: using network gateway 172.18.0.1 address
+    INFO[0017] Starting cluster 'mycluster'
+    INFO[0017] Starting servers...
+    INFO[0017] Starting Node 'k3d-mycluster-server-0'
+    INFO[0022] All agents already running.
+    INFO[0022] Starting helpers...
+    INFO[0022] Starting Node 'k3d-mycluster-serverlb'
+    INFO[0028] Injecting records for hostAliases (incl. host.k3d.internal) and for 2 network members into CoreDNS configmap...
+    INFO[0030] Cluster 'mycluster' created successfully!
+    INFO[0030] You can now use it like this:
+    kubectl cluster-info
     
 
 
