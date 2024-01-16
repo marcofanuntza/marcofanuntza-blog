@@ -100,5 +100,28 @@ Adesso siamo pronti per interagire con il cluster
 
 Come potrete notare il cluster è composto da un unico nodo K3S, ma questo sarà comunque sufficente per eseguire tutti i test e le esigenze di sviluppo.
 
+Continuando a curiosare potete vedere che cosa ha installato K3D
+
+    sudo kubectl get svc -A
+    
+    NAMESPACE     NAME             TYPE           CLUSTER-IP     EXTERNAL-IP   PORT(S)                      AGE
+    default       kubernetes       ClusterIP      10.43.0.1      <none>        443/TCP                      20m
+    kube-system   kube-dns         ClusterIP      10.43.0.10     <none>        53/UDP,53/TCP,9153/TCP       20m
+    kube-system   metrics-server   ClusterIP      10.43.151.46   <none>        443/TCP                      20m
+    kube-system   traefik          LoadBalancer   10.43.61.96    172.18.0.2    80:32526/TCP,443:32411/TCP   19m
+
+    sudo kubectl get pods -A
+    NAMESPACE     NAME                                     READY   STATUS      RESTARTS   AGE
+    kube-system   local-path-provisioner-957fdf8bc-g6vsb   1/1     Running     0          20m
+    kube-system   coredns-77ccd57875-h6krb                 1/1     Running     0          20m
+    kube-system   metrics-server-648b5df564-nn5kk          1/1     Running     0          20m
+    kube-system   helm-install-traefik-crd-52bfs           0/1     Completed   0          20m
+    kube-system   helm-install-traefik-nzmhv               0/1     Completed   1          20m
+    kube-system   svclb-traefik-caab8633-t7m98             2/2     Running     0          19m
+    kube-system   traefik-64f55bb67d-gnvf8                 1/1     Running     0          19m
+
+
+Personalmente conosco anche un altra alternativa per creare velocemente un cluster kubernetes, forse scriverò un prossimo articolo, l'alternativa cmq è **kind**
+
 
 
