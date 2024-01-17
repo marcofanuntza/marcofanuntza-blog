@@ -48,6 +48,6 @@ Che esempio del piffero che ho fatto, comunque tutto questo per farvi capire che
 ![Example image](/img/gatto.webp#center)
 
 
-A me stranamente invece è venuta idea di creare immagini con ragazze asiatiche con sullo sfondo città Asiatiche.
+A me stranamente invece è venuta idea di creare immagini con ragazze asiatiche con sullo sfondo città Asiatiche. Sawadee Kaaap!
 
 ![Example image](/img/screen-browser.webp#center)
