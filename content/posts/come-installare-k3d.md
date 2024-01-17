@@ -101,7 +101,9 @@ Adesso siamo pronti per interagire con il cluster
     NAME                     STATUS   ROLES                  AGE   VERSION        INTERNAL-IP   EXTERNAL-IP   OS-IMAGE   KERNEL-VERSION      CONTAINER-RUNTIME
     k3d-mycluster-server-0   Ready    control-plane,master   12m   v1.27.4+k3s1   172.18.0.2    <none>        K3s dev    5.15.0-91-generic   containerd://1.7.1-k3s1
 
-Come potrete notare il cluster è composto da un unico nodo K3S, ma questo sarà comunque sufficente per eseguire tutti i test e le esigenze di sviluppo.
+Come potrete notare il cluster è composto da un unico nodo K3S, ma questo sarà comunque sufficente per eseguire tutti i test e le esigenze di sviluppo. 
+
+Sia comunque ben chiaro che questo è solo un esempio, **K3D** tramite ulteriori opzioni e file di configurazione vi permette di creare cluster con più nodi.
 
 Continuando a curiosare potete vedere cosa ha installato K3D
 
