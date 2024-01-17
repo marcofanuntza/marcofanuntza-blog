@@ -92,6 +92,65 @@ Eseguiamo ora una prima verifica della presenza del cluster e dei nodi elencati
 
 Se tutto procede come dovrebbe dovreste avere lo stesso risultato di sotto
 
+    NAME                            STATUS   ROLES                  AGE   VERSION
+    k3d-k8s-test-rancher-server-0   Ready    control-plane,master   36s   v1.27.4+k3s1
+    k3d-k8s-test-rancher-agent-0    Ready    <none>                 32s   v1.27.4+k3s1
+    k3d-k8s-test-rancher-agent-1    Ready    <none>                 32s   v1.27.4+k3s1
+
+Adesso siamo pronti per l'ultimo passaggio fondamentale, installare Rancher tramite Helm
+
+    helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
+
+    helm install rancher rancher-latest/rancher --namespace cattle-system --create-namespace --set ingress.enabled=false --set tls=external --set replicas=1
+
+Nel frattempo che Helm completerà l'installazione, se siete cusiosi potete interagire con il cluster e verificare cosa stia installando
+
+    sudo kubectl get deployment -n cattle-system
+    sudo kubectl get pods -n cattle-system
+
+A questo punto dobbiamo metterci nelle condizioni di poter raggiungere Rancher sulla propria web-gui, per farlo è necessario creare un NodePort. Create questo file yaml
+
+    sudo vi rancher.yaml
+
+al suo interno incollate questa dichiarazione, che sostanzialmente eseguirà un match con le porte settate in precedenza
+
+    apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+      app: rancher
+      name: ranchernodeport
+      namespace: cattle-system
+    spec:
+      ports:
+      - name: http
+        nodePort: 30080
+        port: 80
+        protocol: TCP
+        targetPort: 80
+      - name: https-internal
+        nodePort: 30081
+        port: 443
+        protocol: TCP
+        targetPort: 443
+      selector:
+        app: rancher
+    type: NodePort
+
+Attenzione è importante sia identato correttamente, dovete rispettare gli spazi, yaml non perdona, lo scoprirete presto :D
+
+Attiviamo il NodePort eseguendo il comando
+
+    sudo kubectl apply -f rancher.yaml
+
+Adesso potete utilizzare il vostro browser e chiamare la seguente url: https://vostroip:8901/dashboard/auth/login
+
+Fregatevene del warning sul certificato è perche utilizza un self signed,  andate avanti e vi ritroverete la pagina web di Rancher, vi verrà suggerito come recuperare la passwd seguite le indicazioni con il comando kubectl
+
+**Benvenuti su Rancher** la guida termina quì, spero sia stata semplice e chiara da seguire!
+
+
+
 
 
 
