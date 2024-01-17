@@ -70,7 +70,7 @@ K3D
 
 Helm
 
-    curl -s https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+    sudo curl -s https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 Kubectl
 
@@ -106,9 +106,9 @@ Se tutto procede come dovrebbe dovreste avere lo stesso risultato di sotto
 
 Adesso siamo pronti per l'ultimo passaggio fondamentale, installare Rancher tramite Helm
 
-    helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
+    sudo helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 
-    helm install rancher rancher-latest/rancher --namespace cattle-system --create-namespace --set ingress.enabled=false --set tls=external --set replicas=1
+    sudo helm install rancher rancher-latest/rancher --namespace cattle-system --create-namespace --set ingress.enabled=false --set tls=external --set replicas=1
 
 Nel frattempo che Helm completerà l'installazione, se siete cusiosi potete interagire con il cluster e verificare cosa stia installando
 
@@ -135,7 +135,7 @@ al suo interno incollate questa dichiarazione, che sostanzialmente eseguirà un 
         port: 80
         protocol: TCP
         targetPort: 80
-      - name: https-internal
+      - name: https
         nodePort: 30081
         port: 443
         protocol: TCP
