@@ -103,7 +103,7 @@ Adesso siamo pronti per interagire con il cluster
 
 Come potrete notare il cluster è composto da un unico nodo K3S, ma questo sarà comunque sufficente per eseguire tutti i test e le esigenze di sviluppo. 
 
-Sia comunque ben chiaro che questo è solo un esempio, **K3D** tramite ulteriori opzioni e file di configurazione vi permette di creare cluster con più nodi.
+Sia comunque ben chiaro che questo è solo un esempio, **K3D** tramite ulteriori opzioni e file di configurazione vi permette di creare cluster con più nodi. [QUI](https://k3d.io/v5.3.0/usage/configfile/) la documentazione ufficiale.
 
 Continuando a curiosare potete vedere cosa ha installato K3D
 
