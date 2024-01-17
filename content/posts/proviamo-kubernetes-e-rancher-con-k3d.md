@@ -15,7 +15,7 @@ tags:
  - helm
 
 cover:
-  img: 
+    image: /img/kube-rancher.webp
 ---
 
 Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
