@@ -33,10 +33,14 @@ Con questo articolo spero di aiutare tutti gli interessati che vogliono conoscer
 Per raggiungere le scopo verranno installati i seguenti elementi:
 
 **Docker:** Il sistema più diffuso per gestire container
+
 **Kubectl:** Strumento a riga di comando utilizzato per controllare il cluster Kubernetes
+
 **Helm:** Gestore di pacchetti per Kubernetes. Consente di installare, aggiornare e gestire applicazioni su un cluster Kubernetes.
 **K3d:** k3d è un progetto guidato dalla community, supportato da Rancher (SUSE). È un wrapper per eseguire k3s in Docker.
+
 **K3s:** È una distribuzione Kubernetes pronta per la produzione, molto leggera, sviluppata da Rancher.
+
 **Rancher:** Banalmente potrebbe essere considerata una GUI per Kubernetes ma fa molto di più! Permette di gestire e configurare più cluster Kubernetes da un unico punto di controllo.
 
 **Premessa**
