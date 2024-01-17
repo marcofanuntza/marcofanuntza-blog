@@ -31,7 +31,7 @@ In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes
 È importante notare che **K3D** è un progetto guidato dalla community, non è un prodotto ufficiale di **Rancher (SUSE)** che ha creato e mantiene K3S. Tuttavia, K3D offre un'opzione comoda e flessibile per coloro che desiderano utilizzare K3S all'interno di container Docker.
 
 **Prerequisiti**
- - avere a disposizione un server o una VM con distribuzione linux
+ - avere a disposizione un server o una VM con distribuzione linux (si può installare anche su Windows o Mac ma non lo tratteremo quì)
  - accesso alla rete per scaricare  files
  - curl e/o wget installati
  - avere docker installato, per installarlo vi ricordo un precedente articolo [QUI](https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/)
