@@ -20,7 +20,9 @@ cover:
 
 Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
 
-Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare. Si facile da utilizzare dopo che si supera il primo scoglio iniziale.. 
+Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no). 
+
+Si facile da utilizzare dopo che si supera il primo scoglio iniziale.. 
 
 Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.
 
