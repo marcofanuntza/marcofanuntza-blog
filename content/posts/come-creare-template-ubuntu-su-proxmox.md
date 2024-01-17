@@ -92,10 +92,9 @@ Adesso siamo pronti per far partire la nostra nuova VM creata dal template.. ma 
 
 E' qui che entra in gioco cloud-init, aprite la web-gui di Proxmox e posizionatevi sulle voci di menù relative alla VM, cliccate sulla voce **Cloud-init** e noterete le voci che si possono editare, modificatele e provate a far partire la VM. 
 
-Per l'accesso tramite SSH da remoto dovete utilizzare direttamente la vostra chiave SSH, si potete inserirla direttamente come sopra.
-
 ![Example image](/img/template-ubuntu-px1.webp)
 
+Per l'accesso tramite SSH da remoto dovete utilizzare direttamente la vostra chiave SSH, si potete inserirla direttamente come sopra.
 
 La guida termina qui, se velete utilizzare una distribuzione diversa da Ubuntu niente vi vieta di farlo, la guida va semplicemente adattata utilizzando un'immagine diversa.
 
