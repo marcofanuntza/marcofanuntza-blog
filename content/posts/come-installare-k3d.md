@@ -28,7 +28,7 @@ K3D è un "wrapper" che come scrive [Wikipedia](https://it.wikipedia.org/wiki/Wr
 
 In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.
 
-È importante notare che K3D è un progetto guidato dalla community, non è un prodotto ufficiale di Rancher (SUSE) che ha creato e mantiene K3S. Tuttavia, K3D offre un'opzione comoda e flessibile per coloro che desiderano utilizzare K3S all'interno di container Docker.
+È importante notare che **K3D** è un progetto guidato dalla community, non è un prodotto ufficiale di **Rancher (SUSE)** che ha creato e mantiene K3S. Tuttavia, K3D offre un'opzione comoda e flessibile per coloro che desiderano utilizzare K3S all'interno di container Docker.
 
 **Prerequisiti**
  - avere a disposizione un server, una VM, un container con distribuzione linux
