@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>installare on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/installare/</link>
+    <description>Recent content in installare on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 16 Jan 2024 09:52:46 +0100</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/installare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come installare K3D</title>
+      <link>https://marcofanuntza.it/posts/come-installare-k3d/</link>
+      <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/come-installare-k3d/</guid>
+      <description>Iniziamo con capire che cos&amp;rsquo;è K3D e non confondiamolo con K3S
+K3D
+K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive Wikipedia &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.
+In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.</description>
+    </item>
+  </channel>
+</rss>
