@@ -1,7 +1,7 @@
 ---
 title: Proviamo Kubernetes con Rancher
 date: 2024-01-17T09:01:55+01:00
-draft: true
+draft: false
 
 categories:
  - server
@@ -147,7 +147,7 @@ Adesso potete utilizzare il vostro browser e chiamare la seguente url: https://v
 
 Fregatevene del warning sul certificato è perche utilizza un self signed,  andate avanti e vi ritroverete la pagina web di Rancher, vi verrà suggerito come recuperare la passwd seguite le indicazioni con il comando kubectl
 
-**Benvenuti su Rancher** la guida termina quì, spero sia stata semplice e chiara da seguire!
+**Benvenuti su Rancher** il vostro cluster Kubernetes è pronto! la guida termina quì, spero sia stata semplice e chiara da seguire!
 
 
 
