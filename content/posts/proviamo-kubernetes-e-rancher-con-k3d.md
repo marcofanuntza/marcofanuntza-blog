@@ -154,7 +154,7 @@ Adesso potete utilizzare il vostro browser e chiamare la seguente url
 
     https://vostroip:8901/dashboard/auth/login
 
-Fregatevene del warning sul certificato è perche utilizza un self signed,  andate avanti e vi ritroverete la pagina web di Rancher, vi verrà suggerito come recuperare la passwd seguite le indicazioni con il comando kubectl
+Non date importanza al warning sul certificato è perche utilizza un self signed,  andate avanti e vi ritroverete la pagina web di Rancher, vi verrà suggerito come recuperare la passwd seguite le indicazioni con il comando kubectl
 
 **Benvenuti su Rancher** il vostro cluster Kubernetes è pronto! la guida termina quì, spero sia stata semplice e chiara da seguire!
 
