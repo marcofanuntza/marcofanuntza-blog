@@ -158,6 +158,8 @@ Non date importanza al warning sul certificato è perche utilizza un self signed
 
 **Benvenuti su Rancher** il vostro cluster Kubernetes è pronto! la guida termina quì, spero sia stata semplice e chiara da seguire!
 
+ps. immagine in copertina creata da Dall-E tramite co-pilot
+
 
 
 
