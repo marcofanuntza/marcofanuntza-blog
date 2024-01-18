@@ -41,6 +41,7 @@ params:
   env: production
   dateFormat: "02 Jan 2006"
   keywords: [Marco Fanuntza, Blog, Portfolio, Sysadmin, Devops, Cagliari Sardegna]
+  author: "Marco Fanuntza"
   profileMode:
     enabled: true
     title: "***MARCO  FANUNTZA***" # optional default will be site title
@@ -77,8 +78,8 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
   ShowReadingTime: true
   disableThemeToggle: false
 
