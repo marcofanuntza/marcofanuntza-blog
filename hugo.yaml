@@ -40,6 +40,7 @@ minify:
 params:
   env: production
   dateFormat: "02 Jan 2006"
+  keywords: [Marco Fanuntza, Blog, Portfolio, Sysadmin, Devops, Cagliari Sardegna]
   profileMode:
     enabled: true
     title: "***MARCO  FANUNTZA***" # optional default will be site title
