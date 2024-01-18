@@ -37,12 +37,13 @@ Di seguito alcuni aspetti salienti:
 
 Nel mio ambito lavorativo Ansible era da un pò che ne sentivo parlare ma personalmente non avevo mai avuto modo di utilizzarlo, con questo post sul mio blog unisco l'utile al dilettevole cogliendo l'occasione per conscerlo meglio!
 
-Partiamo dalla basi prima di tutto installandolo, eseguirò i test su un container LXC con distribuzione Ubuntu, ansible e i relativi moduli python considerando questo un'ambiente di test verranno installati tramite APT
+Partiamo dalla basi prima di tutto installandolo, eseguirò i test su un container LXC con distribuzione Ubuntu, ansible e i relativi moduli python considerando questo un'ambiente di test verranno installati tramite APT, se non abbiamo i pacchetti aggiornatissimi non sarà un problema.
     
     #Installo ansible
     sudo apt install ansible
 
     #Verifico la versione installata
+    sudo ansible --version
     ansible [core 2.14.9]
     config file = None
     configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
