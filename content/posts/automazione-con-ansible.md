@@ -37,16 +37,24 @@ Di seguito alcuni aspetti salienti:
 
 Nel mio ambito lavorativo Ansible era da un pò che ne sentivo parlare ma personalmente non avevo mai avuto modo di utilizzarlo, con questo post sul mio blog unisco l'utile al dilettevole cogliendo l'occasione per conscerlo meglio!
 
-Partiamo dalla basi prima di tutto installandolo, eseguirò i test su un container LXC con distribuzione Ubuntu, tralascio l'installazione tramite APT per avere i pacchetti aggiornati e utilizzo direttamente il modulo pip tramite python
-
-    #Utilizzo APT solo per installare python
-    sudo apt install python3 
-
-    #Installo il modulo pip
-    sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-
+Partiamo dalla basi prima di tutto installandolo, eseguirò i test su un container LXC con distribuzione Ubuntu, ansible e i relativi moduli python considerando questo un'ambiente di test verranno installati tramite APT
+    
     #Installo ansible
-    sudo python3 -m pip install --user ansible
+    sudo apt install ansible
+
+    #Verifico la versione installata
+    ansible [core 2.14.9]
+    config file = None
+    configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+    ansible python module location = /usr/lib/python3/dist-packages/ansible
+    ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+    executable location = /usr/bin/ansible
+    python version = 3.11.6 (main, Oct  8 2023, 05:06:43) [GCC 13.2.0] (/usr/bin/python3)
+    jinja version = 3.1.2
+    libyaml = True
+
+
+    
 
     
 
