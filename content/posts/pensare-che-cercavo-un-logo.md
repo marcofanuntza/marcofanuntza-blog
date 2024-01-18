@@ -5,7 +5,7 @@ date: 2024-01-10T14:53:54+00:00
 url: /2024/01/01/pensare-che-cercavo-un-logo/
 
 categories:
-  - intelligenza artificiale
+  - 
 tags:
   - AI
   - Immagini
