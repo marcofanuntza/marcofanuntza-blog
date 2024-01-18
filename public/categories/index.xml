@@ -6,27 +6,34 @@
     <description>Recent content in Categories on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 16 Jan 2024 09:52:46 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2024 09:01:55 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>kubernetes</title>
-      <link>https://marcofanuntza.it/categories/kubernetes/</link>
-      <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
-      <guid>https://marcofanuntza.it/categories/kubernetes/</guid>
+      <title>howto</title>
+      <link>https://marcofanuntza.it/categories/howto/</link>
+      <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
+      <guid>https://marcofanuntza.it/categories/howto/</guid>
       <description></description>
     </item>
     <item>
       <title>linux</title>
       <link>https://marcofanuntza.it/categories/linux/</link>
-      <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
+      <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>server</title>
       <link>https://marcofanuntza.it/categories/server/</link>
-      <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
+      <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/categories/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kubernetes</title>
+      <link>https://marcofanuntza.it/categories/kubernetes/</link>
+      <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/categories/kubernetes/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +48,6 @@
       <link>https://marcofanuntza.it/categories/cms/</link>
       <pubDate>Fri, 12 Jan 2024 10:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/categories/cms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>intelligenza artificiale</title>
-      <link>https://marcofanuntza.it/categories/intelligenza-artificiale/</link>
-      <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
-      <guid>https://marcofanuntza.it/categories/intelligenza-artificiale/</guid>
       <description></description>
     </item>
   </channel>

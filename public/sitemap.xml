@@ -3,14 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://marcofanuntza.it/categories/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/posts/come-installare-k3d/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
+    <loc>https://marcofanuntza.it/tags/helm/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/howto/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/k3d/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/k3s/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/linux/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/rancher/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/server/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/come-installare-k3d/</loc>
     <lastmod>2024-01-16T09:52:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -18,39 +62,7 @@
     <lastmod>2024-01-16T09:52:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/k3d/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/k3s/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/categories/kubernetes/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/linux/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/rancher/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/server/</loc>
-    <lastmod>2024-01-16T09:52:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2024-01-16T09:52:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -187,10 +199,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/intelligenza/</loc>
-    <lastmod>2024-01-10T14:53:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/intelligenza-artificiale/</loc>
     <lastmod>2024-01-10T14:53:54+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>

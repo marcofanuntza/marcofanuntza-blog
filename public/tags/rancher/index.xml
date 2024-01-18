@@ -6,8 +6,18 @@
     <description>Recent content in Rancher on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 16 Jan 2024 09:52:46 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2024 09:01:55 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/rancher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proviamo Kubernetes con Rancher</title>
+      <link>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</link>
+      <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</guid>
+      <description>Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
+Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).
+Si facile da utilizzare dopo che si supera il primo scoglio iniziale..
+Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.</description>
+    </item>
     <item>
       <title>Come installare K3D</title>
       <link>https://marcofanuntza.it/posts/come-installare-k3d/</link>
