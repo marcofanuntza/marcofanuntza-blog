@@ -39,7 +39,7 @@ Nel mio ambito lavorativo Ansible era da un pò che ne sentivo parlare ma person
 
 Partiamo dalla basi prima di tutto installandolo, eseguirò i test su un container LXC con distribuzione Ubuntu, tralascio l'installazione tramite APT per avere i pacchetti aggiornati e utilizzo direttamente il modulo pip tramite python
 
-    #Utilizzo APT solo per python
+    #Utilizzo APT solo per installare python
     sudo apt install python3 
 
     #Installo il modulo pip
