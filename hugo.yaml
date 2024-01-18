@@ -58,24 +58,27 @@ params:
     Title: Marco Fanuntza
     Content: Sistemista aspirante Devops
   color: 'linen'                           # linen, wheat, gray, light
+
+  # Logo and name shown on top left of site
+  label:
+    text: "Howto e esperienze di shell.."
+    icon: /img/new_logo_2.webp
+    iconHeight: 35
+
   ShowShareButtons: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-
   disableScrollToTop: false
   comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
-
   ShowReadingTime: true
-
   disableThemeToggle: false
 
   cover:
