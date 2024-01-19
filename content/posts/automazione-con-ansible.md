@@ -80,8 +80,75 @@ Noi in questo esempio andiamo a editarlo così per questa sola parte
     192.168.1.150
     192.168.1.154
 
-come potete intuire sono gli IP delle macchine elencate in precedenza, le ho inserite nel gruppo "webserver".
+come potete intuire sono gli IP delle macchine elencate in precedenza, le ho inserite nel gruppo "webserver". Verifichiamo con il comando seguente
 
+    sudo ansible-inventory --list -y
+    all:
+      children:
+        webservers:
+          hosts:
+          192.168.1.149: {}
+          192.168.1.150: {}
+          192.168.1.154: {}
+
+A ulteriore conferma eseguite anche questo comando
+
+    sudo ansible all -m ping -u root
+    192.168.1.149 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+    }
+    192.168.1.150 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+    }
+    192.168.1.154 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+    }
+
+Come annunciato in precedenza Ansible non utilizza client o agent all'interno dei server da gestire ma si avvale della sola connessione SSH, per utilizzarla però deve essere in grado di connettersi sui server di destinazione, per fare questo è necessario copiare la chiave SSH dal server Ansible verso i server da gestire. Questo inoltre eviterà di dover utilizzare la passwd per connettersi che andrebbe a inficiare sull'automatismo non rendendolo possibile
+
+Iniziamo con creare la chiave sul server Ansible
+
+    #Date sempre invio dopo il comando
+    sudo ssh-keygen
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/root/.ssh/id_rsa):
+    Enter passphrase (empty for no passphrase):
+    Enter same passphrase again:
+    Your identification has been saved in /root/.ssh/id_rsa
+    Your public key has been saved in /root/.ssh/id_rsa.pub
+    The key fingerprint is:
+    SHA256:ZRAsk+qjBjQjpsLdEF39qdUmOa5ARx7QPFr6EEQhbDY root@ubuntu-22-04-lts
+    The key's randomart image is:
+    +---[RSA 3072]----+
+    |    o.+OO.       |
+    |   . E=..X       |
+    |    +..oB * +    |
+    |.= ..  = = B o   |
+    |* +.o . S + +    |
+    |+. .o. . o .     |
+    |.. . .  . .      |
+    |  o      .       |
+    | .               |
+    +----[SHA256]-----+
+
+
+la chiave pubblica adesso va copiata sui server da gestire, il comando che segue va eseguito su tutti e tre i server, la password andrà inserita la prima volta.
+
+    sudo ssh-copy-id root@192.168.1.149
+    sudo ssh-copy-id root@192.168.1.150
+    sudo ssh-copy-id root@192.168.1.154
 
 
 
