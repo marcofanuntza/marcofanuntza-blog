@@ -160,7 +160,7 @@ Dopo il file inventario adesso è il momento di mettere mano al file "playbook".
 
 Nel nostro esempio abbiamo deciso di installare Nginx, il nostro primo file playbook quindi sarà: /etc/ansible/nginx-playbook.yml
 
-Eccone il contenuto, è un'esempio trovato in rete
+Ecco il contenuto, è un'esempio trovato in rete
 
     ---
     - hosts: webservers
