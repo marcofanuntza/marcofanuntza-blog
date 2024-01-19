@@ -69,7 +69,7 @@ Ora i punti cardine principali di Ansible sono i file di configurazione "inventa
 Il file inventario di Ansible contiene informazioni su tutti gli host che Ansible andrà a gestire, in questo file si ha la possibilità di organizzare gli host in diversi gruppi in base ai loro ruoli o funzioni, come ad esempio web-server, database, server di frontend, oppure possiamo categorizzarli in base al sistema operativo.
 Il file in questione lo troviamo nel path /etc/ansible ed'è chiamato hosts, andando a editarlo scoprirete che in parte è già strutturato per aiutarne la comprensione, basterà quindi eliminare i commenti e adattarlo a piacimento.
 
-
+![Example image](/img/ansible-esempio1.webp#center)
 
 Noi in questo esempio andiamo a editarlo così per questa sola parte
 
@@ -80,7 +80,9 @@ Noi in questo esempio andiamo a editarlo così per questa sola parte
     192.168.1.150
     192.168.1.154
 
-come potete intuire sono gli IP delle macchine elencate in precedenza, le ho inserite nel gruppo "webserver"
+come potete intuire sono gli IP delle macchine elencate in precedenza, le ho inserite nel gruppo "webserver".
+
+
 
 
 
