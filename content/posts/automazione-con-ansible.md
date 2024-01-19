@@ -66,7 +66,7 @@ ans-serv-02 192.168.1.150
 
 ans-serv-03 192.168.1.154
 
-Ora i punti cardine principali di Ansible sono i file di configurazione "inventario" e "playbook" 
+**Ora i punti cardine principali di Ansible sono i file di configurazione "inventario" e "playbook"**
 
 Il file inventario di Ansible contiene informazioni su tutti gli host che Ansible andrà a gestire, in questo file si ha la possibilità di organizzare gli host in diversi gruppi in base ai loro ruoli o funzioni, come ad esempio web-server, database, server di frontend, oppure possiamo categorizzarli in base al sistema operativo.
 Il file in questione lo troviamo nel path /etc/ansible ed'è chiamato hosts, andando a editarlo scoprirete che in parte è già strutturato per aiutarne la comprensione, basterà quindi eliminare i commenti e adattarlo a piacimento.
