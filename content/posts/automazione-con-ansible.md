@@ -35,7 +35,7 @@ Di seguito alcuni aspetti salienti:
 - Ansible inoltre è in grado di gestire ambienti di varie dimensioni, rendendolo adatto per piccoli progetti fino a progetti più articolati e complessi.
 
 
-Nel mio ambito lavorativo Ansible era da un pò che ne sentivo parlare ma personalmente non avevo mai avuto modo di utilizzarlo, con questo post sul mio blog unisco l'utile al dilettevole cogliendo l'occasione per conscerlo meglio!
+Nel mio ambito lavorativo Ansible era da un pò che ne sentivo parlare ma personalmente non avevo mai avuto modo di utilizzarlo, con questo post sul mio blog unisco l'utile al dilettevole cogliendo l'occasione per conoscerlo meglio!
 
 Partiamo dalla basi prima di tutto installandolo, eseguirò i test su una VM con distribuzione Ubuntu 22-04, ansible e i relativi moduli python verranno installati tramite APT
     
@@ -56,12 +56,14 @@ Partiamo dalla basi prima di tutto installandolo, eseguirò i test su una VM con
       jinja version = 3.0.3
       libyaml = True
 
-Adesso che Ansible è installato dobbiamo avere a disposizione dei server o delle VM con cui utilizzarlo, per fare questo io personalmente ho creato 3 istanze LXC sul mio cluster Proxmox, anche in questo caso la distribuzione utilizzata è ubuntu, giusto a titolo d'esempio, qualsiasi altra distribuzione linux andrebbe bene.
+Adesso che Ansible è installato dobbiamo avere a disposizione dei server o delle VM con cui utilizzarlo, per fare questo io personalmente ho creato 3 istanze LXC sul mio cluster Proxmox, anche in questo caso la distribuzione utilizzata è ubuntu, giusto a titolo d'esempio qualsiasi altra distribuzione linux andrebbe bene.
 
 Questo è il recap delle macchine che ho a disposizione:
 
 ans-serv-01 192.168.1.149
+
 ans-serv-02 192.168.1.150
+
 ans-serv-03 192.168.1.154
 
 Ora i punti cardine principali di Ansible sono i file di configurazione "inventario" e "playbook" 
