@@ -154,10 +154,10 @@ Verifichiamo il buon esito eseguendo questo comando
 
 **Adesso Ansible è pronto!**
 
-Dopo il file inventario adesso è il momento di mettere mano al file "playbook". Rispetto al file inventario che definisce le macchine nel concetto, passatemi il termine hardware, nel file playbook invece vengono definiti gli aspetti software, quindi si andranno a dichiarare tutti gli elementi software correlati.
-Nel nostro esempio abbiamo decido di installare Nginx, il nostro primo file playbook quindi sarà: /etc/ansible/nginx-playbook.yml
+Dopo il file inventario adesso è il momento di mettere mano al file "playbook". Rispetto al file inventario che definisce le macchine nel concetto, passatemi il termine hardware, nel file playbook invece vengono definiti gli aspetti software, quindi si andranno a dichiarare tutti gli elementi software e correlati.
+Nel nostro esempio abbiamo deciso di installare Nginx, il nostro primo file playbook quindi sarà: /etc/ansible/nginx-playbook.yml
 
-Eccone il contenuto
+Eccone il contenuto, è un'esempio trovato in rete
 
     ---
     - hosts: webservers
@@ -183,7 +183,7 @@ Eccone il contenuto
 
 riuscite a intuire che operazioni eseguirà? dai è semplice e mi raccomando prestate attenzione all'identazione del file, è YAML lo sai....
 
-Siamo pronti per provare il nostro primo playbook, per eseguirlo utilizzeremo questo comando
+Siamo pronti per provare il nostro primo playbook, per eseguirlo utilizzeremo questo comando semplice e basilare
 
     sudo ansible-playbook nginx-playbook.yml
 
@@ -224,5 +224,21 @@ Ecco l'output che riceveremo
     
 **Grande Giove!**
 
+Entriamo in uno dei server e verifichiamo la presenza di Nginx
 
+    ssh root@192.168.1.154
     
+    Welcome to Ubuntu 23.10 (GNU/Linux 6.5.11-7-pve x86_64)
+
+    * Documentation:  https://help.ubuntu.com
+    * Management:     https://landscape.canonical.com
+    * Support:        https://ubuntu.com/pro
+    Last login: Fri Jan 19 15:37:04 2024 from 192.168.1.147
+    root@ans-serv-03:~# ps -ef | grep nginx
+    root        1181       1  0 15:37 ?        00:00:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+    www-data    1183    1181  0 15:37 ?        00:00:00 nginx: worker process
+    root        1241    1231  0 15:44 pts/3    00:00:00 grep --color=auto nginx
+
+E' tutto vero! Eh si è!
+
+Buon Ansible a tutti!
