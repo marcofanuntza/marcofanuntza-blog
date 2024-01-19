@@ -91,37 +91,13 @@ come potete intuire sono gli IP delle macchine elencate in precedenza, le ho ins
           192.168.1.150: {}
           192.168.1.154: {}
 
-A ulteriore conferma eseguite anche questo comando
-
-    sudo ansible all -m ping -u root
-    192.168.1.149 | SUCCESS => {
-    "ansible_facts": {
-        "discovered_interpreter_python": "/usr/bin/python3"
-    },
-    "changed": false,
-    "ping": "pong"
-    }
-    192.168.1.150 | SUCCESS => {
-    "ansible_facts": {
-        "discovered_interpreter_python": "/usr/bin/python3"
-    },
-    "changed": false,
-    "ping": "pong"
-    }
-    192.168.1.154 | SUCCESS => {
-    "ansible_facts": {
-        "discovered_interpreter_python": "/usr/bin/python3"
-    },
-    "changed": false,
-    "ping": "pong"
-    }
-
 Come annunciato in precedenza Ansible non utilizza client o agent all'interno dei server da gestire ma si avvale della sola connessione SSH, per utilizzarla però deve essere in grado di connettersi sui server di destinazione, per fare questo è necessario copiare la chiave SSH dal server Ansible verso i server da gestire. Questo inoltre eviterà di dover utilizzare la passwd per connettersi che andrebbe a inficiare sull'automatismo non rendendolo possibile
 
 Iniziamo con creare la chiave sul server Ansible
 
     #Date sempre invio dopo il comando
     sudo ssh-keygen
+    
     Generating public/private rsa key pair.
     Enter file in which to save the key (/root/.ssh/id_rsa):
     Enter passphrase (empty for no passphrase):
@@ -151,13 +127,102 @@ la chiave pubblica adesso va copiata sui server da gestire, il comando che segue
     sudo ssh-copy-id root@192.168.1.154
 
 
+Verifichiamo il buon esito eseguendo questo comando
 
+    sudo ansible all -m ping -u root
+    192.168.1.149 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+    }
+    192.168.1.150 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+    }
+    192.168.1.154 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+    }
 
+**Adesso Ansible è pronto!**
 
+Dopo il file inventario adesso è il momento di mettere mano al file "playbook". Rispetto al file inventario che definisce le macchine nel concetto, passatemi il termine hardware, nel file playbook invece vengono definiti gli aspetti software, quindi si andranno a dichiarare tutti gli elementi software correlati.
+Nel nostro esempio abbiamo decido di installare Nginx, il nostro primo file playbook quindi sarà: /etc/ansible/nginx-playbook.yml
+
+Eccone il contenuto
+
+    ---
+    - hosts: webservers
+
+    tasks:
+      - ping: ~
+
+      - name: Update APT package manager repositories cache
+        become: true
+        apt:
+          update_cache: yes
+
+      - name: Upgrade installed packages
+        become: true
+        apt:
+          upgrade: safe
+
+      - name: Install Nginx web server
+        become: true
+        apt:
+         name: nginx
+         state: latest
+
+riuscite a intuire che operazioni eseguirà? dai è semplice e mi raccomando prestate attenzione all'identazione del file, è YAML lo sai....
+
+Siamo pronti per provare il nostro primo playbook, per eseguirlo utilizzeremo questo comando
+
+    sudo ansible-playbook nginx-playbook.yml
+
+Ecco l'output che riceveremo
+
+    PLAY [webservers] ******************************************************************************************************************************************************
+
+    TASK [Gathering Facts] *************************************************************************************************************************************************
+    ok: [192.168.1.154]
+    ok: [192.168.1.150]
+    ok: [192.168.1.149]
+
+    TASK [ping] ************************************************************************************************************************************************************
+    ok: [192.168.1.154]
+    ok: [192.168.1.150]
+    ok: [192.168.1.149]
+
+    TASK [Update APT package manager repositories cache] *******************************************************************************************************************
+    changed: [192.168.1.150]
+    changed: [192.168.1.154]
+    changed: [192.168.1.149]
+
+    TASK [Upgrade installed packages] **************************************************************************************************************************************
+    ok: [192.168.1.150]
+    ok: [192.168.1.154]
+    ok: [192.168.1.149]
+
+    TASK [Install Nginx web server] ****************************************************************************************************************************************
+    changed: [192.168.1.149]
+    changed: [192.168.1.154]
+    changed: [192.168.1.150]
+
+    PLAY RECAP *************************************************************************************************************************************************************
+    192.168.1.149              : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+    192.168.1.150              : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+    192.168.1.154              : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
     
-
-    
+**Grande Giove!**
 
 
     
