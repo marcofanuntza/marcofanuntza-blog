@@ -17,7 +17,7 @@ tags:
  - kubernetes
 
 cover:
- image:
+ image: img/passwd-admin-rancher.webp
 
 ---
 
