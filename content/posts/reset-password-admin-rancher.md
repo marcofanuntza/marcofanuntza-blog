@@ -55,5 +55,5 @@ noterete che il prompt dei comandi sarà cambiato, siamo all'interno del pod e p
 
 dopo aver copiato la password potete uscire dalla console con "exit". 
 
-Con questi semplice passaggi la vostra password admin è stata rigenereata e sarete nuovamente in grado di accedere al vostro Rancher con utenza admin!
+Con questi semplici passaggi la vostra password admin è stata rigenereata e sarete nuovamente in grado di accedere al vostro Rancher con utenza admin!
 
