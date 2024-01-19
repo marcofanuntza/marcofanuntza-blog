@@ -31,6 +31,7 @@ L'esempio che segue mostra come eseguire il reset della password dell'utente adm
 **Prerequisiti**
 
 - avere accesso al cluster Kubernetes tramite kubectl
+- avere accesso al server che esegue docker (nel secondo caso)
 
 
 **Procedura**
