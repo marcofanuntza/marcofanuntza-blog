@@ -37,22 +37,53 @@ Di seguito alcuni aspetti salienti:
 
 Nel mio ambito lavorativo Ansible era da un pò che ne sentivo parlare ma personalmente non avevo mai avuto modo di utilizzarlo, con questo post sul mio blog unisco l'utile al dilettevole cogliendo l'occasione per conscerlo meglio!
 
-Partiamo dalla basi prima di tutto installandolo, eseguirò i test su un container LXC con distribuzione Ubuntu, ansible e i relativi moduli python considerando questo un'ambiente di test verranno installati tramite APT, se non abbiamo i pacchetti aggiornatissimi non sarà un problema.
+Partiamo dalla basi prima di tutto installandolo, eseguirò i test su una VM con distribuzione Ubuntu 22-04, ansible e i relativi moduli python verranno installati tramite APT
     
     #Installo ansible
-    sudo apt install ansible
+    sudo add-apt-repository --yes --update ppa:ansible/ansible
+    sudo apt install ansible-core
 
     #Verifico la versione installata
     sudo ansible --version
-    ansible [core 2.14.9]
-    config file = None
-    configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
-    ansible python module location = /usr/lib/python3/dist-packages/ansible
-    ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
-    executable location = /usr/bin/ansible
-    python version = 3.11.6 (main, Oct  8 2023, 05:06:43) [GCC 13.2.0] (/usr/bin/python3)
-    jinja version = 3.1.2
-    libyaml = True
+    
+    ansible [core 2.15.8]
+      config file = /etc/ansible/ansible.cfg
+      configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+      ansible python module location = /usr/lib/python3/dist-packages/ansible
+      ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+      executable location = /usr/bin/ansible
+      python version = 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] (/usr/bin/python3)
+      jinja version = 3.0.3
+      libyaml = True
+
+Adesso che Ansible è installato dobbiamo avere a disposizione dei server o delle VM con cui utilizzarlo, per fare questo io personalmente ho creato 3 istanze LXC sul mio cluster Proxmox, anche in questo caso la distribuzione utilizzata è ubuntu, giusto a titolo d'esempio, qualsiasi altra distribuzione linux andrebbe bene.
+
+Questo è il recap delle macchine che ho a disposizione:
+
+ans-serv-01 192.168.1.149
+ans-serv-02 192.168.1.150
+ans-serv-03 192.168.1.154
+
+Ora i punti cardine principali di Ansible sono i file di configurazione "inventario" e "playbook" 
+
+Il file inventario di Ansible contiene informazioni su tutti gli host che Ansible andrà a gestire, in questo file si ha la possibilità di organizzare gli host in diversi gruppi in base ai loro ruoli o funzioni, come ad esempio web-server, database, server di frontend, oppure possiamo categorizzarli in base al sistema operativo.
+Il file in questione lo troviamo nel path /etc/ansible ed'è chiamato hosts, andando a editarlo scoprirete che in parte è già strutturato per aiutarne la comprensione, basterà quindi eliminare i commenti e adattarlo a piacimento.
+
+
+
+Noi in questo esempio andiamo a editarlo così per questa sola parte
+
+    [webservers]
+    ## alpha.example.org
+    ## beta.example.org
+    192.168.1.149
+    192.168.1.150
+    192.168.1.154
+
+come potete intuire sono gli IP delle macchine elencate in precedenza, le ho inserite nel gruppo "webserver"
+
+
+
 
 
     
