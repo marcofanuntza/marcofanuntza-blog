@@ -125,7 +125,9 @@ Iniziamo con creare la chiave sul server Ansible
 la chiave pubblica adesso va copiata sui server da gestire, il comando che segue va eseguito su tutti e tre i server, la password andrà inserita la prima volta.
 
     sudo ssh-copy-id root@192.168.1.149
+    
     sudo ssh-copy-id root@192.168.1.150
+    
     sudo ssh-copy-id root@192.168.1.154
 
 
