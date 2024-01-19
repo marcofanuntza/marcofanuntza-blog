@@ -157,6 +157,7 @@ Verifichiamo il buon esito eseguendo questo comando
 **Adesso Ansible è pronto!**
 
 Dopo il file inventario adesso è il momento di mettere mano al file "playbook". Rispetto al file inventario che definisce le macchine nel concetto, passatemi il termine hardware, nel file playbook invece vengono definiti gli aspetti software, quindi si andranno a dichiarare tutti gli elementi software e correlati.
+
 Nel nostro esempio abbiamo deciso di installare Nginx, il nostro primo file playbook quindi sarà: /etc/ansible/nginx-playbook.yml
 
 Eccone il contenuto, è un'esempio trovato in rete
