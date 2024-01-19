@@ -21,7 +21,7 @@ cover:
 
 ---
 
-Rancher come eseguire un reset della password dell'utente Admin
+**Rancher come eseguire un reset della password dell'utente Admin**
 
 Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
 
