@@ -244,4 +244,4 @@ Entriamo in uno dei server e verifichiamo la presenza di Nginx
 
 E' tutto vero! Eh si è!
 
-Buon Ansible a tutti!
+Buon Ansible a tutti! Questo articolo termina quì, è solo un semplice esempio di quanto sia in grado di fare questo grande strumento di automazione, l'unico peccato è non averlo utilizzato prima! 
