@@ -2,8 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcofanuntza.it/tags/ansible/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/automation/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/automazione-con-ansible/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/categories/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/linux/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/playbook/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/server/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/admin/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubectl/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/password/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/rancher/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/rancher/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/reset/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/reset-password-admin-rancher/</loc>
+    <lastmod>2024-01-19T08:57:35+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/helm/</loc>
@@ -11,10 +79,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/categories/howto/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/</loc>
     <lastmod>2024-01-17T09:01:55+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -26,31 +90,7 @@
     <lastmod>2024-01-17T09:01:55+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/linux/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/rancher/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/server/</loc>
-    <lastmod>2024-01-17T09:01:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2024-01-17T09:01:55+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -239,14 +279,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/lxc/</loc>
-    <lastmod>2023-12-31T17:34:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/password/</loc>
-    <lastmod>2023-12-31T17:34:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/reset/</loc>
     <lastmod>2023-12-31T17:34:21+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>

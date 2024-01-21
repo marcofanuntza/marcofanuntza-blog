@@ -2,8 +2,8 @@ baseURL: "https://marcofanuntza.it"
 languageCode: it-it
 defaultContentLanguage: it
 title: Howto e esperienze di shell..
-paginate: 7
-theme: PaperMod
+paginate: 10
+theme: ["PaperMod" , "hugo-shortcode-gallery"]
 
 
 menu:
@@ -27,7 +27,7 @@ menu:
 
 googleAnalytics: G-DMXNC50LDV
 
-
+enableRobotsTXT: true
 analytics:
     google:
         SiteVerificationTag: "G-DMXNC50LDV"
@@ -40,6 +40,8 @@ minify:
 params:
   env: production
   dateFormat: "02 Jan 2006"
+  keywords: [Marco Fanuntza, Blog, Portfolio, Sysadmin, Devops, Cagliari Sardegna]
+  author: "Marco Fanuntza"
   profileMode:
     enabled: true
     title: "***MARCO  FANUNTZA***" # optional default will be site title
@@ -58,24 +60,27 @@ params:
     Title: Marco Fanuntza
     Content: Sistemista aspirante Devops
   color: 'linen'                           # linen, wheat, gray, light
+
+  # Logo and name shown on top left of site
+  label:
+    text: "Howto e esperienze di shell.."
+    icon: /img/new_logo_2.webp
+    iconHeight: 35
+
   ShowShareButtons: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-
   disableScrollToTop: false
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
-
+  showtoc: true
+  tocopen: true
   ShowReadingTime: true
-
   disableThemeToggle: false
 
   cover:
@@ -110,9 +115,6 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-services:
-  disqus:
-    shortname: marcofanuntza-it
 outputs:
     home:
         - HTML
@@ -124,4 +126,43 @@ sitemap:
   filename: sitemap.xml
   priority: -1
 
-enableRobotsTXT: true
+services:
+  disqus:
+    shortname: marcofanuntza-it
+
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+# Source: https://gohugo.io/getting-started/configuration-markup/#highlight
+# Parameter meanings: https://gohugo.io/functions/highlight/
+markup:
+  tableOfContents:
+    # Without this, Hugo ToC doesn't show h4 and higher
+    # https://github.com/alex-shpak/hugo-book/issues/52
+    endLevel: 6
+
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    # highlight.js also doesn't use line numbers by default.
+    # The rationale is that doing so improves readability
+    # (https://highlightjs.readthedocs.io/en/latest/line-numbers.html).
+    # Therefore, I disable it by default.
+    # Note: It's possible to enable it on a specific code block by specifying
+    # ``` {lineNos=true}
+    # ```
+    lineNos: false
+    lineNumbersInTable: true
+    # false means use external CSS file
+    noClasses: false
+    noHl: false
+    # style: monokai
+    tabWidth: 4
+
+
+

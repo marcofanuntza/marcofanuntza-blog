@@ -6,8 +6,17 @@
     <description>Recent content in password on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sun, 31 Dec 2023 17:34:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2024 08:57:35 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/password/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reset password utente admin su Rancher</title>
+      <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
+      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
+Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
+L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+    </item>
     <item>
       <title>Come reimpostare la password root in un container LXC su Proxmox VE</title>
       <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>

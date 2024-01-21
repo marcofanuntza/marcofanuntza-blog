@@ -1,7 +1,0 @@
-draft: true
-Come abiltare Disqus su Hugo Prima di tutto nel caso non lo abbiate già è necessario creare un proprio account sulla piattaforma disqus. Dopo averlo creato dovete configurare 
-l'integrazione con il vostro sito, andate su account in alto a destra, troverete la voce "Add disqus to site" seguitene le indicazioni e salvatevi il vostro "shortname" che sarà 
-utile nella parte finale dell'installazione. creare file chiamato comments.html su path layouts/partials/ incollare all'interno del file questa stringa: {{ template 
-"_internal/disqus.html" . }} Per terminare ora non ci resta che abilitare il servizio sul file della configurazione inserendo in coda services:
-  disqus:
-    shortname: marcofanuntza-it #qui il vostro shortname creato su disqus

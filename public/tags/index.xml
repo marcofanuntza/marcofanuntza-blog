@@ -6,8 +6,71 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 17 Jan 2024 09:01:55 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2024 15:01:35 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ansible</title>
+      <link>https://marcofanuntza.it/tags/ansible/</link>
+      <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/ansible/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>automation</title>
+      <link>https://marcofanuntza.it/tags/automation/</link>
+      <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>playbook</title>
+      <link>https://marcofanuntza.it/tags/playbook/</link>
+      <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/playbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>admin</title>
+      <link>https://marcofanuntza.it/tags/admin/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/admin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kubectl</title>
+      <link>https://marcofanuntza.it/tags/kubectl/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/kubectl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://marcofanuntza.it/tags/kubernetes/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>password</title>
+      <link>https://marcofanuntza.it/tags/password/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/password/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rancher</title>
+      <link>https://marcofanuntza.it/tags/rancher/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/rancher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reset</title>
+      <link>https://marcofanuntza.it/tags/reset/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/reset/</guid>
+      <description></description>
+    </item>
     <item>
       <title>helm</title>
       <link>https://marcofanuntza.it/tags/helm/</link>
@@ -27,20 +90,6 @@
       <link>https://marcofanuntza.it/tags/k3s/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/k3s/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://marcofanuntza.it/tags/kubernetes/</link>
-      <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rancher</title>
-      <link>https://marcofanuntza.it/tags/rancher/</link>
-      <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/rancher/</guid>
       <description></description>
     </item>
     <item>
@@ -286,20 +335,6 @@
       <link>https://marcofanuntza.it/tags/lxc/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/lxc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>password</title>
-      <link>https://marcofanuntza.it/tags/password/</link>
-      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
-      <guid>https://marcofanuntza.it/tags/password/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>reset</title>
-      <link>https://marcofanuntza.it/tags/reset/</link>
-      <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
-      <guid>https://marcofanuntza.it/tags/reset/</guid>
       <description></description>
     </item>
     <item>

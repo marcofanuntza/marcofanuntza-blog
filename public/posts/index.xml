@@ -6,8 +6,27 @@
     <description>Recent content in Posts on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 17 Jan 2024 09:01:55 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2024 15:01:35 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automazione con Ansible</title>
+      <link>https://marcofanuntza.it/posts/automazione-con-ansible/</link>
+      <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/automazione-con-ansible/</guid>
+      <description>Automatic for the people è un album dei R.E.M. mi è venuto in mente quando ho pensato che Ansible è un prodotto di &amp;ldquo;automation&amp;rdquo; IT.
+Ansible è una potente e flessibile piattaforma di automazione IT progettata per semplificare e automatizzare una vasta gamma di compiti, processi e operazioni legate all&amp;rsquo;infrastruttura e allo sviluppo del software.
+Di seguito alcuni aspetti salienti:
+Ansible si distingue per la sua facilità d&amp;rsquo;uso, grazie a una sintassi dichiarativa basata su YAML è accessibile anche a chi ha una conoscenza limitata della programmazione.</description>
+    </item>
+    <item>
+      <title>Reset password utente admin su Rancher</title>
+      <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
+      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
+Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
+L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+    </item>
     <item>
       <title>Proviamo Kubernetes con Rancher</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</link>

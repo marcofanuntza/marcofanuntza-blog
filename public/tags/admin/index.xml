@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/admin/</link>
+    <description>Recent content in admin on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Fri, 19 Jan 2024 08:57:35 +0100</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/admin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reset password utente admin su Rancher</title>
+      <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
+      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
+      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
+Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
+L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+    </item>
+  </channel>
+</rss>
