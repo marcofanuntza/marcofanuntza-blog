@@ -1,6 +1,8 @@
 ---
-title: 'Automazione con Ansible'
+title: Automazione con Ansible
 date: 2024-01-19T15:01:35+01:00
+author: Marco Fanuntza
+url: /posts/automazione-con-ansible/
 draft: false
 
 categories:
@@ -10,6 +12,7 @@ tags:
  - ansible
  - automation
  - playbook
+ - automazione
 
 cover:
   image: img/ansible-cover.webp
