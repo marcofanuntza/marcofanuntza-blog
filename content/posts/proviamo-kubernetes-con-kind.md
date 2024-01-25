@@ -32,13 +32,13 @@ Ecco alcune caratteristiche chiave di kind:
 
 **Installazione Semplificata:** kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.
 
-**Utilizzo di Docker come Nodi:** kind utilizza container Docker per rappresentare i nodi del cluster Kubernetes. Ogni nodo del cluster viene eseguito come un container Docker separato, consentendo un'implementazione leggera e isolata del cluster locale.
+**Utilizzo di Docker come Nodi:** kind utilizza container Docker per creare i nodi del cluster Kubernetes. Ogni nodo del cluster viene eseguito come un container Docker specifico, consentendo un'implementazione leggera e isolata del cluster locale.
 
 **Ambienti Isolati:** kind consente agli sviluppatori di creare cluster Kubernetes completamente isolati, garantendo che le risorse e le configurazioni di un cluster non interferiscano con altri cluster o ambienti.
 
 **Configurazione Dichiarativa:** La configurazione di kind è dichiarativa e può essere definita attraverso file di configurazione in stile YAML. Questo approccio semplifica la creazione e la gestione di cluster con configurazioni complesse.
 
-**Integrazione con Strumenti di CI/CD:** kind è spesso utilizzato negli ambienti di sviluppo e nei flussi di lavoro di integrazione continua e distribuzione continua (CI/CD) per testare e validare applicazioni Kubernetes.
+**Integrazione con Strumenti di CI/CD:** kind è spesso utilizzato negli ambienti di sviluppo e nei flussi di lavoro (CI/CD) per testare e validare applicazioni Kubernetes.
 
 **Agilità nello Sviluppo e nel Test:** kind consente agli sviluppatori di eseguire e testare le proprie applicazioni Kubernetes in un ambiente locale, facilitando lo sviluppo, il debug e il test delle applicazioni Kubernetes senza la necessità di un cluster remoto.
 
@@ -50,7 +50,7 @@ In sintesi, kind è uno strumento che semplifica l'installazione di cluster Kube
 
 **Prerequisiti**
 
-- Virtual Machine, Workstation o Notebook con distribuzione Linux (si può utilizzare anche WSL2 su Windows)
+- Virtual Machine, Workstation o Notebook con distribuzione Linux (si può utilizzare anche WSL2 su Windows con Docker Desktop installati)
 - Docker
 - Kubectl per interagire con il cluster
 
@@ -160,7 +160,7 @@ Eseguiamo il seguente comando che ci permetterà di creare il cluster con la con
 
 Il comando completerà i task in circa due minuti, questo potrebbe variare in base alla vostra connessione internet, tenete conto che Docker dovrà scaricare le apposite immagini.
 
-Dovreste avere un'output simile a completamento
+Dovreste ritrovarvi con un'output simile
 
     Creating cluster "kube-kind-test" ...
      ✓ Ensuring node image (kindest/node:v1.27.3) 🖼
@@ -196,11 +196,11 @@ A questo punto possiamo utilizzare kind per verificare il cluster appena creato 
 
     sudo kubectl get ns
     NAME                 STATUS   AGE
-    default              Active   20m
-    kube-node-lease      Active   20m
-    kube-public          Active   20m
-    kube-system          Active   20m
-    local-path-storage   Active   20m
+    default              Active   2m
+    kube-node-lease      Active   2m
+    kube-public          Active   2m
+    kube-system          Active   2m
+    local-path-storage   Active   2m
 
 
 
@@ -223,7 +223,7 @@ A questo punto possiamo utilizzare kind per verificare il cluster appena creato 
     local-path-storage   local-path-provisioner-6bc4bddd6b-zzw4d                1/1     Running   0          7m48s
 
 
-Infine per completare il discorso ingress-controller procederemo con installazione dell'ingress NGINX, il deployment verrà eseguito direttamente con kubectl scaricando il file direttamente dai repository ufficiali NGINX
+Infine per completare il discorso ingress-controller procederemo con installazione dell'ingress controller NGINX, il deployment verrà eseguito direttamente con kubectl scaricando il file direttamente dai repository ufficiali NGINX
 
     sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 
@@ -243,4 +243,6 @@ Verifichiamo sempre tramite kubectl
 
 
 
-La guida termina quì, spero sia stata semplice e chiara da seguire
+La guida termina quì, spero sia stata semplice e chiara da seguire!
+
+Ps. immagine in copertina creata da Dall-E tramite Microsoft Co-pilot  (peccato per il testo :P )
