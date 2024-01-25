@@ -223,7 +223,7 @@ A questo punto possiamo utilizzare kind per verificare il cluster appena creato 
     local-path-storage   local-path-provisioner-6bc4bddd6b-zzw4d                1/1     Running   0          7m48s
 
 
-Infine per completare il discorso ingress-controller procederemo con installazione dell'ingress controller NGINX, il deployment verrà eseguito direttamente con kubectl scaricando il file direttamente dai repository ufficiali NGINX
+Infine per completare il discorso ingress-controller procederemo con installazione dell'ingress controller NGINX, il deployment verrà eseguito con kubectl scaricando il file direttamente dai repository ufficiali NGINX
 
     sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 
