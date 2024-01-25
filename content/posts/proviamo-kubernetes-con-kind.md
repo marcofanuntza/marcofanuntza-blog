@@ -15,7 +15,7 @@ tags:
  - Cluster
 
 cover:
-  image: 
+    image: img/cover-kind.webp
   
 ---
 
