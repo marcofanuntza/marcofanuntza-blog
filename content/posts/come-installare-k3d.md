@@ -129,5 +129,7 @@ Continuando a curiosare potete vedere cosa ha installato K3D
 
 Personalmente conosco anche un altra alternativa per creare velocemente un cluster kubernetes, forse scriverò un prossimo articolo, l'alternativa cmq è **kind**
 
+**Aggiornamento** Ho scritto un'articolo specifico su **Kind** [QUI](https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/)
+
 
 
