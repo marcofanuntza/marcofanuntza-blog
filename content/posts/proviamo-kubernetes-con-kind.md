@@ -26,7 +26,7 @@ cover:
 Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.
 
 
-**kind (Kubernetes IN Docker)** è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster. 
+**Kind (Kubernetes IN Docker)** è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster. 
 
 Ecco alcune caratteristiche chiave di kind:
 
