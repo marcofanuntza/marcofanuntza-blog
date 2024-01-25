@@ -204,8 +204,8 @@ A questo punto possiamo utilizzare kind per verificare il cluster appena creato 
 
 
 
-     sudo kubectl get pods -A
-     NAMESPACE            NAME                                                   READY   STATUS    RESTARTS   AGE
+    sudo kubectl get pods -A
+    NAMESPACE            NAME                                                   READY   STATUS    RESTARTS   AGE
     kube-system          coredns-5d78c9869d-6dgr5                               1/1     Running   0          7m48s
     kube-system          coredns-5d78c9869d-fchdj                               1/1     Running   0          7m48s
     kube-system          etcd-kube-kind-test-control-plane                      1/1     Running   0          8m2s
