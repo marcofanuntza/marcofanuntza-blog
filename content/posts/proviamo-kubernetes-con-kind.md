@@ -245,4 +245,4 @@ Verifichiamo sempre tramite kubectl
 
 Adesso avete a disposizione tutti gli elementi per provare, testare e utilizzare un cluster Kubernetes. La guida termina quì, spero sia stata semplice e chiara da seguire!
 
-Ps. immagine in copertina creata da Dall-E tramite Microsoft Co-pilot  (peccato per il testo :P )
+Ps. immagine in copertina creata da Dall-E tramite Microsoft Co-pilot  (peccato per il testo :P ) sta AI è talmente intelligente che ha pure la dislessia! LOL
