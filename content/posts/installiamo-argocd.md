@@ -71,7 +71,7 @@ Ora.. se avete seguito la guida che vi ho indicato più sù, diamo per scontato 
     version.BuildInfo{Version:"v3.14.0", GitCommit:"3fc9f4b2638e76f26739cd77c7017139be81d0ea", GitTreeState:"clean", GoVersion:"go1.21.5"}
 
 
-Adesso che abbiamo tutti gli elementi per procedere, iniziamo con creare il namespache da dedicare a argocd sul nostro cluster kubernetes
+Adesso che abbiamo tutti gli elementi per procedere, iniziamo con creare il namespace da dedicare a argocd sul nostro cluster kubernetes
 
     sudo kubectl create namespace argocd
 
@@ -114,18 +114,22 @@ Riceverete questo output:
     echo "Username: \"admin\""
     echo "Password: $(kubectl -n argocd get secret argocd-secret -o jsonpath="{.data.clearPassword}" | base64 -d)"
 
-Verifichiamo se ha mantenuto la password che abbiamo impostato in fase di installazione
+Verifichiamo per sicurezza se la password rispecchia quanto abbiamo impostato in fase di installazione
 
     sudo echo "Password: $(sudo kubectl -n argocd get secret argocd-secret -o jsonpath="{.data.clearPassword}" | base64 -d)"
     Password: AB12345
 
-Ok perfetto, possiamo andare avanti. Adesso dovete prestare attenzione a questi passaggi perche saranno essenziali per permetterci di raggiungere la Web-Gui di Argo-CD.
+Ok perfetto, possiamo andare avanti. 
+
+Adesso dovete prestare attenzione a questi passaggi perche saranno essenziali per permetterci di raggiungere la Web-Gui di Argo-CD.
 
 Iniziamo con provare a chiamare sul browser la url impostata in fase di installazione, riceverete il warning sul certificato che è normale essendo self-signed, accettate e andate avanti, dovreste ricevere lo stesso errore che segue
 
 ![Example image](/img/argocd-1.webp)
 
-Perchè succede questo? Il problema è che di default Argo-CD gestisce la terminazione TLS in autonomia e reindirizza sempre le richieste HTTP a HTTPS. Noi abbiamo l'ingress controller che gestisce la terminazione TLS e comunica sempre con il servizio backend tramite HTTP, il risultato è che il server di Argo-CD risponderà sempre con un reindirizzamento a HTTPS. Da quì il nostro errore! 
+Perchè succede questo? Il problema è che di default Argo-CD gestisce la terminazione TLS in autonomia e reindirizza sempre le richieste HTTP a HTTPS. 
+
+Noi abbiamo l'ingress controller che gestisce la terminazione TLS e comunica sempre con il servizio backend tramite HTTP, il risultato è che il server di Argo-CD risponderà sempre con un reindirizzamento a HTTPS. Da quì il nostro errore! 
 
 Una delle soluzioni consiste nel disabilitare HTTPS su Argo-CD, che possiamo fare utilizzando il flag --insecure sul deployment argocd-server.
 
@@ -149,7 +153,11 @@ Adesso non dovreste più avere l'errore precedente e si presenterà la pagina pe
 
 ![Example image](/img/argocd-2.webp)
 
+Proviamo un login utilizzando lo user admin e la password impostata in fase d'installazione
+
 ![Example image](/img/argocd-3.webp)
+
+L'installazione di ARGO-CD a questo punto possiamo considerarla conclusa, ora non ci (vi) resta che provare lo strumento, per fare questo abbiamo bisogno però di una applicazione e di un server git/gitlab da interrogare.. sarà l'oggetto del mio prossimo post su questo blog?
 
 
 
