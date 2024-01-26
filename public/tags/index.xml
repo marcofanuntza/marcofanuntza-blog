@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 19 Jan 2024 15:01:35 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2024 10:37:46 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cluster</title>
+      <link>https://marcofanuntza.it/tags/cluster/</link>
+      <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/cluster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://marcofanuntza.it/tags/docker/</link>
+      <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kind</title>
+      <link>https://marcofanuntza.it/tags/kind/</link>
+      <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/kind/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://marcofanuntza.it/tags/kubernetes/</link>
+      <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ansible</title>
       <link>https://marcofanuntza.it/tags/ansible/</link>
@@ -48,13 +76,6 @@
       <link>https://marcofanuntza.it/tags/kubectl/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/kubectl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://marcofanuntza.it/tags/kubernetes/</link>
-      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
@@ -149,13 +170,6 @@
       <description></description>
     </item>
     <item>
-      <title>Docker</title>
-      <link>https://marcofanuntza.it/tags/docker/</link>
-      <pubDate>Mon, 15 Jan 2024 13:34:41 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Docker compose</title>
       <link>https://marcofanuntza.it/tags/docker-compose/</link>
       <pubDate>Mon, 15 Jan 2024 13:34:41 +0100</pubDate>
@@ -174,13 +188,6 @@
       <link>https://marcofanuntza.it/tags/backup-e-ripristino/</link>
       <pubDate>Sat, 13 Jan 2024 08:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/backup-e-ripristino/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cluster</title>
-      <link>https://marcofanuntza.it/tags/cluster/</link>
-      <pubDate>Sat, 13 Jan 2024 08:53:54 +0000</pubDate>
-      <guid>https://marcofanuntza.it/tags/cluster/</guid>
       <description></description>
     </item>
     <item>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on Howto e esperienze di shell..</title>
-    <link>https://marcofanuntza.it/tags/docker/</link>
-    <description>Recent content in Docker on Howto e esperienze di shell..</description>
+    <title>Kind on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/kind/</link>
+    <description>Recent content in Kind on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Thu, 25 Jan 2024 10:37:46 +0100</lastBuildDate>
-    <atom:link href="https://marcofanuntza.it/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcofanuntza.it/tags/kind/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proviamo Kubernetes con Kind</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</link>
@@ -18,18 +18,6 @@ Questa guida è indicata per tutti coloro che hanno esigenza di interagire con u
 Kind (Kubernetes IN Docker) è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.
 Ecco alcune caratteristiche chiave di kind:
 Installazione Semplificata: kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.</description>
-    </item>
-    <item>
-      <title>Come installare Docker e Docker Compose su Ubuntu</title>
-      <link>https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/</link>
-      <pubDate>Mon, 15 Jan 2024 13:34:41 +0100</pubDate>
-      <guid>https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/</guid>
-      <description>Come installare Docker e Docker compose su Ubuntu
-Questa guida elenca passo per passo la procedura da seguire per installare docker, docker compose e containerd su distribuzione Ubuntu.
-Prerequisiti:
-server o workstation con distribuzione ubuntu accesso alla rete per scaricare i pacchetti Procedura
-Tutti i comandi verranno eseguiti da terminale, se in precedenza avevate già provato un&amp;rsquo;installazione di Docker sarebbe opportuno rimuoverla eseguendo il comando che segue:
-sudo apt-get purge docker-ce docker-ce-cli containerd.</description>
     </item>
   </channel>
 </rss>
