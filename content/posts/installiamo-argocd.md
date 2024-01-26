@@ -85,9 +85,9 @@ L'installazione di Argo-CD verrà eseguita tramite Helm, nello specifico utilizz
     ...Successfully got an update from the "bitnami" chart repository
     Update Complete. ⎈Happy Helming!⎈
 
-Adattate il comando che segue in base alle vostre esigenze, prestate attenzione alla password
+Adattate il comando che segue in base alle vostre esigenze, prestate attenzione alla password e all'hostname
 
-    sudo helm install argocd --set config.secret.argocdServerAdminPassword=AB12345  --set server.service.type=NodePort bitnami/argo-cd --namespace argocd
+    sudo helm install argocd --set config.secret.argocdServerAdminPassword=AB12345 --set server.ingress.enabled=true --set server.ingress.ingressClassName=nginx --set server.service.type=ClusterIP --set server.ingress.pathType=Prefix --set server.ingress.hostname=argocd.marcofanuntza.it bitnami/argo-cd --namespace argocd
 
 Riceverete questo output:
 
@@ -121,54 +121,31 @@ Verifichiamo se ha mantenuto la password che abbiamo impostato in fase di instal
 
 Ok perfetto, possiamo andare avanti. Adesso dovete prestare attenzione a questi passaggi perche saranno essenziali per permetterci di raggiungere la Web-Gui di Argo-CD.
 
-Iniziamo con cambiare il tipo del service, dovrà diventare un LoadBalancer
+Iniziamo con provare a chiamare sul browser la url impostata in fase di installazione, riceverete il warning sul certificato che è normale essendo self-signed, accettate e andate avanti, dovreste ricevere lo stesso errore che segue
 
-    sudo kubectl patch svc argocd-argo-cd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
-    service/argocd-argo-cd-server patched
 
-verifichiamo esito
+Perchè succede questo? Il problema è che di default Argo-CD gestisce la terminazione TLS in autonomia e reindirizza sempre le richieste HTTP a HTTPS. Noi abbiamo l'ingress controller che gestisce la terminazione TLS e comunica sempre con il servizio backend tramite HTTP, il risultato è che il server di Argo-CD risponderà sempre con un reindirizzamento a HTTPS. Da quì il nostro errore! 
 
-    sudo kubectl get svc -n argocd
-    NAME                            TYPE           CLUSTER-IP      EXTERNAL-IP     PORT(S)                      AGE
-    argocd-argo-cd-app-controller   ClusterIP      10.96.236.60    <none>          8082/TCP                     8m47s
-    argocd-argo-cd-repo-server      ClusterIP      10.96.56.11     <none>          8081/TCP                     8m47s
-    argocd-argo-cd-server           LoadBalancer   10.96.130.179   192.168.1.201   80:30921/TCP,443:30453/TCP   8m47s
-    argocd-redis-headless           ClusterIP      None            <none>          6379/TCP                     8m47s
-    argocd-redis-master             ClusterIP      10.96.70.36     <none>          6379/TCP                     8m47s
+Una delle soluzioni consiste nel disabilitare HTTPS su Argo-CD, che possiamo fare utilizzando il flag --insecure sul deployment argocd-server.
 
-Perfetto! abbiamo anche il nostro external-ip assegnato da metal-lb, ora possiamo procedere con l'ingress che andrà a esporre il nostro servizio.
+Questo problema è effettivamente documentato qui: [link documentazione](https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-2-multiple-ingress-objects-and-hosts)
 
-Creiamo questo file yaml che dichiarerà l'ingress, come solito prestate attenzione alla corretta formatazzione del file yaml
+Modifichiamo quindi il nostro deployment
 
-    apiVersion: networking.k8s.io/v1
-    kind: Ingress
-    metadata:
-      name: argocd-server-http-ingress
-      namespace: argocd
-      annotations:
-        nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
-        nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
-    spec:
-      ingressClassName: nginx
-      rules:
-      - http:
-          paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: argocd-server
-                port:
-                  name: http
-        host: argocd.marcofanuntza.it
-      tls:
-      - hosts:
-        - argocd.marcofanuntza.it
-        secretName: argocd-ingress-http
+    sudo kubectl edit deployment argocd-argo-cd-server -n argocd
 
-applichiamo con 
+Editiamo solo questa sezione del file inserendo l'istruzione --insecure, salvate e chiudete il file, Kubernetes in automatico eseguirà un restart del deployment
 
-    sudo kubectl apply -f 
+          containers:
+          - args:
+             - argocd-server
+             - --insecure
+             - --staticassets
+             - /opt/bitnami/argo-cd/app
+
+
+Adesso non dovreste più avere l'errore precedente e si presenterà la pagina per il login sulle web-gui di Argo-CD
+
 
 
 
