@@ -257,7 +257,9 @@ editate il file inserendo un range di indirizzi IP consentitial loadbalancer met
       - 192.168.1.201-192.168.1.203
 
 tradotto, metal-lb ogni volta che voi creerete un service di tipo LoadBalncer dentro Kubernetes, assegnerà un IP estrapolato da quel range, come potete vedere io ho assegnato 3 indirizzi disponibili.
-    
+Applichiamo la configurazione eseguendo il seguente comando
+
+     sudo kubectl apply -f metallb-config.yaml
 
 
 
