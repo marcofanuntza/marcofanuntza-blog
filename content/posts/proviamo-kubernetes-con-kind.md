@@ -242,6 +242,24 @@ Verifichiamo sempre tramite kubectl
     ingress-nginx-controller-864894d997-48cn4   1/1     Running     0          2m44s
 
 
+**Bonus extra** Installiamo Metal-lb - matel-lb è un servizio che simula la presenza di un load balancer sul nostro cluster Kubernetes, quando attivo si occuperà di assegnare un indirizzo IP al service di tipo LoadBalancer
+
+    sudo kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.13.7/config/manifests/metallb-native.yaml
+
+eseguiamo wget di questo file che poi andremo a editare
+
+    wget https://kind.sigs.k8s.io/examples/loadbalancer/metallb-config.yaml
+
+editate il file inserendo un range di indirizzi IP consentitial loadbalancer metallb, questo range deve appartenere alla vostra LAN, nel mio caso ho editato solo questa parte del file lasciando il resto invariato
+
+    spec:
+      addresses:
+      - 192.168.1.201-192.168.1.203
+
+tradotto, metal-lb ogni volta che voi creerete un service di tipo LoadBalncer dentro Kubernetes, assegnerà un IP estrapolato da quel range, come potete vedere io ho assegnato 3 indirizzi disponibili.
+    
+
+
 
 Adesso avete a disposizione tutti gli elementi per provare, testare e utilizzare un cluster Kubernetes. La guida termina quì, spero sia stata semplice e chiara da seguire!
 
