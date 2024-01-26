@@ -149,7 +149,7 @@ Editiamo solo questa sezione del file inserendo l'istruzione --insecure, salvate
              - /opt/bitnami/argo-cd/app
 
 
-Adesso non dovreste più avere l'errore precedente e si presenterà la pagina per il login sulle web-gui di Argo-CD
+Adesso non dovreste più avere l'errore precedente e si presenterà la pagina per il login sulla web-gui di Argo-CD
 
 ![Example image](/img/argocd-2.webp)
 
