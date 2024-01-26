@@ -131,7 +131,7 @@ Perchè succede questo? Il problema è che di default Argo-CD gestisce la termin
 
 Noi abbiamo l'ingress controller che gestisce la terminazione TLS e comunica sempre con il servizio backend tramite HTTP, il risultato è che il server di Argo-CD risponderà sempre con un reindirizzamento a HTTPS. Da quì il nostro errore! 
 
-Una delle soluzioni consiste nel disabilitare HTTPS su Argo-CD, che possiamo fare utilizzando il flag --insecure sul deployment argocd-server.
+Una delle soluzioni consiste nel disabilitare HTTPS su Argo-CD, che possiamo impostare utilizzando il flag --insecure sul deployment argocd-server.
 
 Questo problema è effettivamente documentato qui: [link documentazione](https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-2-multiple-ingress-objects-and-hosts)
 
