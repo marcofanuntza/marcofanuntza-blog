@@ -252,7 +252,11 @@ Assicuriamoci che l'ingress controller stia funzionando creando questo pod con s
 
 
 
-**Bonus extra** Installiamo Metal-lb - matel-lb è un servizio che simula la presenza di un load balancer sul nostro cluster Kubernetes, quando attivo si occuperà di assegnare un indirizzo IP al service di tipo LoadBalancer
+
+
+
+
+**Bonus extra** Installiamo Metal-lb - metal-lb è un servizio che simula la presenza di un load balancer sul nostro cluster Kubernetes, quando attivo si occuperà di assegnare un indirizzo IP al service di tipo LoadBalancer
 
     sudo kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.13.7/config/manifests/metallb-native.yaml
 
