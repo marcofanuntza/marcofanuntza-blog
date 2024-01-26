@@ -61,6 +61,8 @@ Se non avete a disposizione un cluster Kubernetes, per installarlo possiamo segu
 
 Per questo articolo io ho utilizzato un cluster Kubernetes installato con Kind, potete seguire questa guida [QUI](https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/)
 
+**Procedimento**
+
 Ora.. se avete seguito la guida che vi ho indicato più sù, diamo per scontato che abbiamo già il cluster Kubernetes pronto con Kubectl, non ci rimane quindi che installare Helm.
 
     sudo curl -s https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
