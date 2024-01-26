@@ -20,8 +20,6 @@ cover:
 
 
 
-Installiamo ARGO-CD
-
 
 **ARGO CD**
 
