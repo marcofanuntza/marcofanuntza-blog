@@ -127,7 +127,7 @@ Iniziamo con provare a chiamare sul browser la url impostata in fase di installa
 
 ![Example image](/img/argocd-1.webp)
 
-Perchè succede questo? Il problema è che di default Argo-CD gestisce la terminazione TLS in autonomia e reindirizza sempre le richieste HTTP a HTTPS. 
+Perchè succede questo? Il problema è che di default Argo-CD gestisce la terminazione TLS in autonomia e reindirizza sempre le richieste HTTP in HTTPS. 
 
 Noi abbiamo l'ingress controller che gestisce la terminazione TLS e comunica sempre con il servizio backend tramite HTTP, il risultato è che il server di Argo-CD risponderà sempre con un reindirizzamento a HTTPS. Da quì il nostro errore! 
 
