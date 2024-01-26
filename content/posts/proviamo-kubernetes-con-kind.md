@@ -250,7 +250,7 @@ eseguiamo wget di questo file che poi andremo a editare
 
     wget https://kind.sigs.k8s.io/examples/loadbalancer/metallb-config.yaml
 
-editate il file inserendo un range di indirizzi IP consentitial loadbalancer metallb, questo range deve appartenere alla vostra LAN, nel mio caso ho editato solo questa parte del file lasciando il resto invariato
+editate il file inserendo un range di indirizzi IP consentiti al loadbalancer metallb, questo range deve appartenere alla vostra LAN, nel mio caso ho editato solo questa parte del file lasciando il resto invariato
 
     spec:
       addresses:
@@ -260,7 +260,6 @@ tradotto, metal-lb ogni volta che voi creerete un service di tipo LoadBalncer de
 Applichiamo la configurazione eseguendo il seguente comando
 
      sudo kubectl apply -f metallb-config.yaml
-
 
 
 Adesso avete a disposizione tutti gli elementi per provare, testare e utilizzare un cluster Kubernetes. La guida termina quì, spero sia stata semplice e chiara da seguire!
