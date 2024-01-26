@@ -123,6 +123,7 @@ Ok perfetto, possiamo andare avanti. Adesso dovete prestare attenzione a questi 
 
 Iniziamo con provare a chiamare sul browser la url impostata in fase di installazione, riceverete il warning sul certificato che è normale essendo self-signed, accettate e andate avanti, dovreste ricevere lo stesso errore che segue
 
+![Example image](/img/argocd-1.webp)
 
 Perchè succede questo? Il problema è che di default Argo-CD gestisce la terminazione TLS in autonomia e reindirizza sempre le richieste HTTP a HTTPS. Noi abbiamo l'ingress controller che gestisce la terminazione TLS e comunica sempre con il servizio backend tramite HTTP, il risultato è che il server di Argo-CD risponderà sempre con un reindirizzamento a HTTPS. Da quì il nostro errore! 
 
@@ -145,6 +146,10 @@ Editiamo solo questa sezione del file inserendo l'istruzione --insecure, salvate
 
 
 Adesso non dovreste più avere l'errore precedente e si presenterà la pagina per il login sulle web-gui di Argo-CD
+
+![Example image](/img/argocd-2.webp)
+
+![Example image](/img/argocd-3.webp)
 
 
 
