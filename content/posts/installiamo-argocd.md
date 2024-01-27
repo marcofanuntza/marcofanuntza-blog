@@ -164,13 +164,13 @@ L'installazione di ARGO-CD a questo punto possiamo considerarla conclusa, ora no
 
 Dimenticavo che sarebbe altrettanto utile avere la CLI di Argo-CD, quindi installiamola! Possiamo installare la CLI sul notebook o sulla stessa macchina dove abbiamo già installato Helm, oppure dove preferite a patto che Argo-CD sia raggiungibile.
 
-     sudo curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
-     sudo chmod +x /usr/local/bin/argocd
+    sudo curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+    sudo chmod +x /usr/local/bin/argocd
 
-     argocd version
-     argocd: v2.8.9+3ef5ba7
-     BuildDate: 2024-01-19T18:33:48Z
-     GitCommit: 3ef5ba76a95d71de88bfa9b6e887c86025a88fdd
+    argocd version
+    argocd: v2.8.9+3ef5ba7
+    BuildDate: 2024-01-19T18:33:48Z
+    GitCommit: 3ef5ba76a95d71de88bfa9b6e887c86025a88fdd
     GitTreeState: clean
     GoVersion: go1.20.12
     Compiler: gc
