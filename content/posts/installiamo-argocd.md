@@ -160,5 +160,46 @@ Proviamo un login utilizzando lo user admin e la password impostata in fase d'in
 L'installazione di ARGO-CD a questo punto possiamo considerarla conclusa, ora non ci (vi) resta che provare lo strumento, per fare questo abbiamo bisogno però di una applicazione e di un server git/gitlab da interrogare.. sarà l'oggetto del mio prossimo post su questo blog?
 
 
+**Contenuto Extra**
+
+Dimenticavo che sarebbe altrettanto utile avere la CLI di Argo-CD, quindi installiamola! Possiamo installare la CLI sul notebook o sulla stessa macchina dove abbiamo già installato Helm
+
+     sudo curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+     sudo chmod +x /usr/local/bin/argocd
+
+     argocd version
+     argocd: v2.8.9+3ef5ba7
+     BuildDate: 2024-01-19T18:33:48Z
+     GitCommit: 3ef5ba76a95d71de88bfa9b6e887c86025a88fdd
+    GitTreeState: clean
+    GoVersion: go1.20.12
+    Compiler: gc
+    Platform: linux/amd64
+    FATA[0000] Argo CD server address unspecified
+
+Adesso facciamo in modo di agganciare la CLI sul nostro ARGO-CD installato precedentemente sul cluster Kubernetes, niente di più semplice puntiamo la stessa url utilizzata per la web-gui, ci verranno chieste le credenziali admin e finito
+
+    sudo argocd login argocd.marcofanuntza.it
+    
+    WARNING: server certificate had error: tls: failed to verify certificate: x509: certificate is valid for ingress.local, not argocd.marcofanuntza.it. Proceed insecurely (y/n)? y
+    WARN[0008] Failed to invoke grpc call. Use flag --grpc-web in grpc calls. To avoid this warning message, use flag --grpc-web.
+    Username: admin
+    Password:
+    'admin:login' logged in successfully
+    Context 'argocd.marcofanuntza.it' updated
+
+Con la CLI possiamo eseguire in maniera più diretta le stesse operazioni possibili dalla web-gui
+
+    sudo argocd context
+    CURRENT  NAME                     SERVER
+    *        argocd.marcofanuntza.it  argocd.marcofanuntza.it
+
+    sudo argocd cluster list --grpc-web
+    SERVER                          NAME        VERSION  STATUS   MESSAGE                                                  PROJECT
+    https://kubernetes.default.svc  in-cluster           Unknown  Cluster has no applications and is not being monitored.
+
+
+Anche la CLI è stata installata, per avere una visione completa dei comandi possibili vi lascio il link della documentazione ufficiale [QUI](https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/)
+
 
 
