@@ -21,7 +21,7 @@ cover:
 ![Example image](/img/velero2.webp#center)
 
 
-**Velero** è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premisis. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri. 
+**Velero** è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premises. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri. 
 Possiamo utilizzare Velero per creare snapshot del cluster Kubernetes in un determinato momento e ripristinare gli oggetti su un cluster differente o in uno stato diverso. Possiamo utilizzarlo anche per migrare i carichi di lavoro tra cluster in cloud e non, oppure per eseguire il ripristino in caso di guasti o perdita di dati.
 
 
