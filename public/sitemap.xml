@@ -2,23 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://marcofanuntza.it/categories/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
+    <loc>https://marcofanuntza.it/tags/argo-cd/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/cluster/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
+    <loc>https://marcofanuntza.it/categories/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/docker/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/hem/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/categories/howto/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/installiamo-argocd/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/linux/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/server/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/cluster/</loc>
     <lastmod>2024-01-25T10:37:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -30,27 +62,7 @@
     <lastmod>2024-01-25T10:37:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/linux/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/categories/server/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2024-01-25T10:37:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>

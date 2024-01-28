@@ -6,8 +6,18 @@
     <description>Recent content in Howto on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Thu, 25 Jan 2024 10:37:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 09:02:24 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installiamo Argocd</title>
+      <link>https://marcofanuntza.it/posts/installiamo-argocd/</link>
+      <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/installiamo-argocd/</guid>
+      <description>ARGO CD
+Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes. Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.
+I principali punti chiave di ARGO CD
+Continuous Deployment: ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.</description>
+    </item>
     <item>
       <title>Proviamo Kubernetes con Kind</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</link>
