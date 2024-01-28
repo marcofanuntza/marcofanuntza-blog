@@ -72,4 +72,4 @@ Non supporta il backup e il ripristino di origini dati esterne, come database o 
 Non fornisce un'interfaccia utente grafica o una console di gestione web. È necessario utilizzare l'interfaccia a riga di comando o uno strumento di terze parti, come Arkade, per gestire e monitorare le operazioni di backup e ripristino.
 
 
-Nel prossimo articolo installeramo e proveremo Velero sul nostro cluster Kubernetes di test utilizzato negli articoli precedenti!
+**Nel prossimo articolo** installeremo e proveremo Velero sul nostro cluster Kubernetes di test utilizzato negli articoli precedenti!
