@@ -13,7 +13,7 @@ tags:
  - Linux
 
 cover:
-  image: 
+  image: img/velero1.webp
 ---
 
 **Velero** è uno strumento che aiuta a gestire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes.
