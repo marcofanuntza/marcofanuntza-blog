@@ -43,26 +43,33 @@ Caratteristiche e funzionalità di Velero:
 
 Sfruttando le funzionalità elencate in precedenza possiamo riassumere i casi d'uso più comuni di Velero:
 
-Backup e ripristino: Utilizzare Velero per eseguire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes, manualmente o su base programmata.
+**Backup e ripristino:** Utilizzare Velero per eseguire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes, manualmente o su base programmata.
 
-Disaster recovery: Utilizzare Velero per eseguire il ripristino di emergenza del tuo cluster Kubernetes, in caso di guasto del cluster o perdita di dati.
+**Disaster recovery:** Utilizzare Velero per eseguire il ripristino di emergenza del tuo cluster Kubernetes, in caso di guasto del cluster o perdita di dati.
 
-Migrazione: Utilizzare Velero per migrare i tuoi carichi di lavoro tra cluster o cloud, senza perdere lo stato o la configurazione delle tue applicazioni e dati. Ad esempio, puoi utilizzare Velero per eseguire il backup del tuo cluster da un fornitore di servizi cloud e ripristinarlo su un altro fornitore di servizi cloud, nel caso desideri cambiare o ottimizzare i tuoi servizi cloud. Puoi anche utilizzare Velero per eseguire il backup del tuo cluster da una versione di Kubernetes e ripristinarlo su un'altra versione di Kubernetes, nel caso desideri eseguire l'aggiornamento o il downgrade del tuo cluster.
+**Migrazione:** Utilizzare Velero per migrare i tuoi carichi di lavoro tra cluster o cloud, senza perdere lo stato o la configurazione delle tue applicazioni e dati. Ad esempio, puoi utilizzare Velero per eseguire il backup del tuo cluster da un fornitore di servizi cloud e ripristinarlo su un altro fornitore di servizi cloud, nel caso desideri cambiare o ottimizzare i tuoi servizi cloud. Puoi anche utilizzare Velero per eseguire il backup del tuo cluster da una versione di Kubernetes e ripristinarlo su un'altra versione di Kubernetes, nel caso desideri eseguire l'aggiornamento o il downgrade del tuo cluster.
 
 
-Vantaggi e svantaggi di Velero:
+![Example image](/img/velero3.webp#center)
 
-Vantaggi:
+
+**Vantaggi:**
 
 È open source e gratuito, con una comunità attiva e documentazione.
+
 È facile da installare e utilizzare, con un'interfaccia a riga di comando semplice e una Helm chart.
+
 È compatibile e interoperabile con altri strumenti e componenti Kubernetes, come kubectl, Helm e kustomize.
+
 È flessibile e personalizzabile, con varie opzioni e parametri per configurare le operazioni di backup e ripristino.
 
-Svantaggi:
+**Svantaggi:**
 
 Non supporta il backup e il ripristino delle risorse a livello di cluster, come CRD, RBAC o admission controllers. È necessario utilizzare uno strumento separato, come kubeadm, per eseguire il backup e il ripristino di queste risorse.
+
 Non supporta il backup e il ripristino di origini dati esterne, come database o code di messaggi, non gestite da Kubernetes. È necessario utilizzare uno strumento separato, come pg_dump, per eseguire il backup e il ripristino di queste fonti di dati.
+
 Non fornisce un'interfaccia utente grafica o una console di gestione web. È necessario utilizzare l'interfaccia a riga di comando o uno strumento di terze parti, come Arkade, per gestire e monitorare le operazioni di backup e ripristino.
 
 
+Nel prossimo articolo installeramo e proveremo Velero sul nostro cluster Kubernetes di test utilizzato negli articoli precedenti!
