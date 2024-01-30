@@ -88,7 +88,7 @@ Proviamo poi il plugin **Clog** che banalmente colora l'output dei logs quando v
 
     kubectl krew install clog
 
-Proviamo il plugin **Outdated** che come potete immaginare farà una scansione delle immagini utilizzate segnalando tag cottente in utilizzo e versione latest, aiutandoci a individuare quali sarebbe meglio aggiornare...
+Proviamo il plugin **Outdated** che come potete immaginare farà una scansione delle immagini utilizzate segnalando tag corrente in utilizzo e versione latest, aiutandoci a individuare quali sarebbe meglio aggiornare...
 
     kubectl krew install outdated
 
