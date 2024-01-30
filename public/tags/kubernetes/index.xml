@@ -6,8 +6,16 @@
     <description>Recent content in Kubernetes on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 26 Jan 2024 09:02:24 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2024 08:24:46 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backup con Velero</title>
+      <link>https://marcofanuntza.it/posts/backup-con-velero/</link>
+      <pubDate>Sun, 28 Jan 2024 08:24:46 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/backup-con-velero/</guid>
+      <description>Velero è uno strumento che aiuta a gestire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes.
+Velero è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premises. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri. Possiamo utilizzare Velero per creare snapshot del cluster Kubernetes in un determinato momento e ripristinare gli oggetti su un cluster differente o in uno stato diverso.</description>
+    </item>
     <item>
       <title>Installiamo Argocd</title>
       <link>https://marcofanuntza.it/posts/installiamo-argocd/</link>
