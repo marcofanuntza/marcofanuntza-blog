@@ -13,7 +13,7 @@ categories:
  - Kubernetes
 
 cover:
-  image: img/krew-cover.jfif
+  image: /img/krew-cover.jfif
 ---
 
 Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!
