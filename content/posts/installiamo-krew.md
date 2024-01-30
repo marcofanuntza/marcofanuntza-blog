@@ -13,7 +13,7 @@ categories:
  - Kubernetes
 
 cover:
-  image:
+  image: img/krew-cover.jfif
 ---
 
 Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!
@@ -94,12 +94,12 @@ Proviamo il plugin **Outdated** che come potete immaginare farà una scansione d
 
     kubectl outdated
 
-![Example image](/img/cattura1.png#center)
+![Example image](/img/Cattura.png#center)
 
 Come già scritto, sono presenti una mirade di plugin, al momento ne contiamo 231, vi rimando alla pagina [ufficiale](https://krew.sigs.k8s.io/plugins/) e scegliete il plugin che desiderate!
 
 
-![Example image](/img/cattura2.png#center)
+![Example image](/img/Cattura1.png#center)
     
 
     
