@@ -99,7 +99,7 @@ Proviamo il plugin **Outdated** che come potete immaginare farà una scansione d
 Come già scritto, sono presenti una mirade di plugin, al momento ne contiamo 231, vi rimando alla pagina [ufficiale](https://krew.sigs.k8s.io/plugins/) e scegliete il plugin che desiderate!
 
 
-![Example image](/img/Cattura1.PNG#center)
+![Example image](/img/Cattura2.PNG#center)
     
 
     
