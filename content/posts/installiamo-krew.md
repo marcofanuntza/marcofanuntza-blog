@@ -26,9 +26,9 @@ Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacch
 
 Krew semplifica anche il processo di aggiornamento dei plugin, consentendo agli utenti di mantenere facilmente le loro estensioni aggiornate con le ultime funzionalità e correzioni di bug.
 
-Tutto questo avviene direttamente dalla stessa interfaccia di comando Kubectl, gli utenti possano accedere a tutte le funzionalità aggiuntive avendo a disposizione un'ambiente totalmente integrato!
+Tutto questo avviene direttamente dalla stessa interfaccia di comando Kubectl, gli utenti possono accedere a tutte le funzionalità aggiuntive avendo a disposizione un'ambiente totalmente integrato!
 
-Se è la prima volta che sentite parlare di krew, posso che consigliarvi di dare un'occhiata alla documentazione ufficiale [QUI](https://krew.sigs.k8s.io/)
+Se è la prima volta che sentite parlare di krew, posso consigliarvi di dare un'occhiata alla documentazione ufficiale [QUI](https://krew.sigs.k8s.io/)
 
 In questo articolo vi mostrerò come installarlo e proveremo alcuni plugin che ho avuto modo di testare.
 
