@@ -94,12 +94,12 @@ Proviamo il plugin **Outdated** che come potete immaginare farà una scansione d
 
     kubectl outdated
 
-![Example image](/img/Cattura.png#center)
+![Example image](/img/Cattura.PNG#center)
 
 Come già scritto, sono presenti una mirade di plugin, al momento ne contiamo 231, vi rimando alla pagina [ufficiale](https://krew.sigs.k8s.io/plugins/) e scegliete il plugin che desiderate!
 
 
-![Example image](/img/Cattura1.png#center)
+![Example image](/img/Cattura1.PNG#center)
     
 
     
