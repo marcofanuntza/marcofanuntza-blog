@@ -9,6 +9,7 @@ tags:
 - Harbor
 - Registry
 - docker registry
+- installare
 
 categories:
 - Howto
