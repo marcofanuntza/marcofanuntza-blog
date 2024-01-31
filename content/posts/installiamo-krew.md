@@ -8,7 +8,7 @@ tags:
  - kubectl
  - krew
  - howto
- - install
+ - installare
 categories:
  - Kubernetes
 
