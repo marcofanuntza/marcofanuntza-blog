@@ -139,7 +139,7 @@ Si la nostra installazione di Harbor sembra completata senza intoppi, siamo pron
 
 ecco la pagina principale
 
-![Example image](/img/harbor-2.webp#center)
+![Resize](/img/harbor-2.webp?width=200px)
 
 
 Adesso non ci resta che creare gli user e relativi permessi per poter così iniziare a caricare immagini sui rispettivi project!
