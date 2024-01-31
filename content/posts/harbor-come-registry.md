@@ -104,3 +104,8 @@ sembra che tutto sia andato per il verso giusto, per scrupolo comunque potete ve
     7f759eda6cb2   goharbor/redis-photon:v2.10.0         "redis-server /etc/r…"   4 minutes ago   Up 3 minutes (healthy)                                                                                         redis
     1d24113d3097   goharbor/harbor-log:v2.10.0           "/bin/sh -c /usr/loc…"   4 minutes ago   Up 3 minutes (healthy)        127.0.0.1:1514->10514/tcp                                                        harbor-log
 
+
+
+
+
+![Example image](/img/velero3.webp#center)
