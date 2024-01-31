@@ -13,6 +13,7 @@ tags:
  - k3d
  - k3s
  - helm
+ - installare
 
 cover:
     image: /img/kube-rancher.webp
