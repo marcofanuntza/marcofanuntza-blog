@@ -117,7 +117,7 @@ mettetevi comodi perche ci vorrà un pò, verranno scaricate le immagini docker 
      ✔ Container nginx              Started 
 
 
-sembra che tutto sia andato per il verso giusto, per scrupolo comunque potete verificare che tutti i container siano in stato di esecuione tramite docker ps
+sembra che tutto sia andato per il verso giusto, per scrupolo comunque potete verificare che tutti i container siano in stato di esecuzione tramite docker ps
 
 
     CONTAINER ID   IMAGE                                 COMMAND                  CREATED         STATUS                        PORTS                                                                            NAMES
