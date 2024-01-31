@@ -13,6 +13,7 @@ tags:
  - Kubernetes
  - Kind
  - Cluster
+ - Installare
 
 cover:
     image: img/cover-kind.webp
