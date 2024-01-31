@@ -1,5 +1,5 @@
 ---
-title: 'Harbor Come Registry'
+title: 'Harbor come Registry'
 date: 2024-01-31T11:26:58+01:00
 draft: false
 
@@ -18,6 +18,29 @@ categories:
 cover:
   image: /img/cover-harbor.webp
 ---
+
+
+**Harbor** è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm, Harbor fornisce un registro sicuro e privato delle immagini dei container, consentendo alle organizzazioni di mantenere il controllo sulla distribuzione delle loro applicazioni in ambienti containerizzati.
+
+Ecco alcune caratteristiche principali di Harbor:
+
+**Harbor** offre un registry sicuro e privato per le immagini dei container, permettendo un controllo totale sulla loro archiviazione e distribuzione.
+
+**Politiche di Sicurezza:** Supporta politiche per garantire che solo immagini sicure e approvate vengano utilizzate nell'ambiente.
+
+**Controllo degli Accessi:** Dispone di un sistema robusto di controllo degli accessi, consentendo la definizione precisa di chi può accedere e distribuire immagini specifiche.
+
+**Integrazione Universale:** Progettato per integrarsi facilmente con strumenti comuni come Kubernetes, Docker e altri.
+
+**Replicazione di Immagini:** Consente la replicazione tra diversi registri Harbor, garantendo la disponibilità e la distribuzione su scala geografica.
+
+**Scansione delle Vulnerabilità:** Fornisce strumenti di scansione per identificare e affrontare potenziali problemi di sicurezza nelle immagini dei container.
+
+**Gestione del Ciclo di Vita:** Supporta l'intero ciclo di vita delle immagini, dalla creazione alla distribuzione e alla dismissione.
+
+Harbor è particolarmente utile in ambienti aziendali in cui la sicurezza e il controllo dell'accesso alle immagini container sono fondamentali. La sua architettura aperta e scalabile lo rende adatto sia a scenari di piccola scala che a implementazioni di grandi dimensioni.
+
+**Proviamolo** installandolo su un server o su una VM
 
 **Prerequisiti**
 -VM o server con distribuzione Linux (in questo articolo ho utilizzato ubuntu-server-22-04-LTS)
@@ -105,7 +128,14 @@ sembra che tutto sia andato per il verso giusto, per scrupolo comunque potete ve
     1d24113d3097   goharbor/harbor-log:v2.10.0           "/bin/sh -c /usr/loc…"   4 minutes ago   Up 3 minutes (healthy)        127.0.0.1:1514->10514/tcp                                                        harbor-log
 
 
+Si la nostra installazione di Harbor sembra completata senza intoppi, siamo pronti per accedere alla sua interfaccia web, apriamo il broswer e inseriamo la credenziali admin, la password la trovate in chiaro sul file harbor.yml, cambiatela dopo il primo login
 
 
+![Example image](/img/harbor-1.webp#center)
 
-![Example image](/img/velero3.webp#center)
+ecco la pagina principale
+
+![Example image](/img/harbor-2.webp#center)
+
+
+Adesso non ci resta che creare gli user e relativi permessi per poter così iniziare a caricare immagini sui rispettivi project!
