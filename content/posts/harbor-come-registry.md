@@ -20,7 +20,7 @@ cover:
 ---
 
 
-**Harbor** è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm, Harbor fornisce un registro sicuro e privato delle immagini dei container, consentendo alle organizzazioni di mantenere il controllo sulla distribuzione delle loro applicazioni in ambienti containerizzati.
+**Harbor** è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm.
 
 Ecco alcune caratteristiche principali di Harbor:
 
