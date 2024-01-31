@@ -13,6 +13,7 @@ tags:
  - automation
  - playbook
  - automazione
+ - installare
 
 cover:
   image: img/ansible-cover.webp
