@@ -12,7 +12,8 @@ tags:
  - Docker
  - Kubernetes
  - Argo-cd
- - Hem
+ - Helm
+ - Installare
 
 cover:
     image: /img/argocd-4.webp
