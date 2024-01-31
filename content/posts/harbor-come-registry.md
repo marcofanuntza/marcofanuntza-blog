@@ -44,8 +44,11 @@ Harbor è particolarmente utile in ambienti aziendali in cui la sicurezza e il c
 
 **Prerequisiti**
 -VM o server con distribuzione Linux (in questo articolo ho utilizzato ubuntu-server-22-04-LTS)
+
 -Docker
+
 -Docker compose
+
 -Openssl
 
 Per installare Docker e Docker Compose posso segnalarvi questo howto che ho scritto in precedenza [QUI](https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/)
