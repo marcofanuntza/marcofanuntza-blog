@@ -14,6 +14,7 @@ tags:
   - Ubuntu
   - Container
   - Virtualizzazione
+  - Installare
 
 cover:
     image: /img/docker-popart.webp
