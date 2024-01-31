@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kubectl on Howto e esperienze di shell..</title>
-    <link>https://marcofanuntza.it/tags/kubectl/</link>
-    <description>Recent content in kubectl on Howto e esperienze di shell..</description>
+    <title>howto on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/howto/</link>
+    <description>Recent content in howto on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 30 Jan 2024 08:47:18 +0100</lastBuildDate>
-    <atom:link href="https://marcofanuntza.it/tags/kubectl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcofanuntza.it/tags/howto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installiamo Krew</title>
       <link>https://marcofanuntza.it/posts/installiamo-krew/</link>
@@ -17,15 +17,6 @@
 Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?
 Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.
 Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin.</description>
-    </item>
-    <item>
-      <title>Reset password utente admin su Rancher</title>
-      <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
-      <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
-      <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
-      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
-Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
-L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
     </item>
   </channel>
 </rss>
