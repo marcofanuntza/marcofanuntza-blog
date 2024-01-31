@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 30 Jan 2024 08:47:18 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jan 2024 11:26:58 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://marcofanuntza.it/tags/docker/</link>
+      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>docker registry</title>
+      <link>https://marcofanuntza.it/tags/docker-registry/</link>
+      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/docker-registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harbor</title>
+      <link>https://marcofanuntza.it/tags/harbor/</link>
+      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/harbor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://marcofanuntza.it/tags/kubernetes/</link>
+      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>https://marcofanuntza.it/tags/registry/</link>
+      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/registry/</guid>
+      <description></description>
+    </item>
     <item>
       <title>howto</title>
       <link>https://marcofanuntza.it/tags/howto/</link>
@@ -37,13 +72,6 @@
       <description></description>
     </item>
     <item>
-      <title>Kubernetes</title>
-      <link>https://marcofanuntza.it/tags/kubernetes/</link>
-      <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Backup</title>
       <link>https://marcofanuntza.it/tags/backup/</link>
       <pubDate>Sun, 28 Jan 2024 08:24:46 +0100</pubDate>
@@ -69,13 +97,6 @@
       <link>https://marcofanuntza.it/tags/argo-cd/</link>
       <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/argo-cd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://marcofanuntza.it/tags/docker/</link>
-      <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/docker/</guid>
       <description></description>
     </item>
     <item>
