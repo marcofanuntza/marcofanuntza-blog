@@ -82,7 +82,7 @@ Verificando possiamo notare la VM appena creata con ID 110 e nome ubuntu-noble-0
 
 Noterete anche che l'immagine ha un disco di soli 3.5GB, nessun problema in base alle vostre esigenze potete ridimensionare il disco eseguendo questo successivo comando
 
-    qm resize 110 resize scsi0 15G
+    qm resize 110 scsi0 15G
     
     Size of logical volume pve/vm-110-disk-0 changed from 3.50 GiB (896 extents) to 15.00 GiB (3840 extents).
     Logical volume pve/vm-110-disk-0 successfully resized.
