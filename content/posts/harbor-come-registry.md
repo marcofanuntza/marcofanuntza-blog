@@ -43,6 +43,7 @@ Harbor è particolarmente utile in ambienti aziendali in cui la sicurezza e il c
 **Proviamolo** installandolo su un server o su una VM
 
 **Prerequisiti**
+
 -VM o server con distribuzione Linux (in questo articolo ho utilizzato ubuntu-server-22-04-LTS)
 
 -Docker
