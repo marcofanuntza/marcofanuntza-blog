@@ -17,7 +17,7 @@ tags:
 
 
 cover:
-  image: 
+  image: /img/gitlab-cover.webp
 ---
 
 Questo articolo continua la serie denominata "Il potere CI/CD", in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.
@@ -61,9 +61,7 @@ Procedura
 
 Per installazione dei pacchetti utilizzeremo il sistema APT, partiamo con installare alcune dipendenze con questo comando che segue
 
-    sudo apt-get install -y curl openssh-server ca-certificates tzdata perl postfix
-
-per la parte postfix vi si presenterà una finestra, lasciate "Internetes Site" e procedete con invio.
+    sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
 
 
 Per l'installazione di Gitlab sarà necessario utilizzare il loro repository specifico, recuperiamolo tramite curl
@@ -88,4 +86,39 @@ Dopo il primo login manco a dirlo procediamo subito con la sostituzione della no
 
 ![Example image](/img/gitlab2.webp)
 
-A questo punto se avete l'esigenza di tenere esposto in rete il servizio non posso che consigliarvi di configurare il certificato SSL (per chi ha avuto l'errore in fase di installazione)
+Il file principale che contiene e permette la maggior parte dei settings Gitlab è **"/etc/gitlab/gitlab.rb"**
+
+Per completare la nostra installazione a questo punto possiamo configurare alcuni aspetti, prima di tutto mettere in sicurezza il nostro servizio gitlab configurando il certificato SSL (per chi ha avuto l'errore in fase di installazione), poi possiamo passare a configurare le notifiche mail.
+
+Per le notiche mail possiamo utilizzare un servizio SMTP esterno, la configurazione dei parametri si può editare sempre dal file /etc/gitlab/gitlab.rb, qui un'esempio dei settings, potete comunque prendere visione della specifica pagina sulla documentazione ufficiale [QUI](https://docs.gitlab.com/omnibus/settings/smtp.html)
+
+    gitlab_rails['smtp_enable'] = true
+    gitlab_rails['smtp_address'] = "smtp.server"
+    gitlab_rails['smtp_port'] = 465
+    gitlab_rails['smtp_user_name'] = "smtp user"
+    gitlab_rails['smtp_password'] = "smtp password"
+    gitlab_rails['smtp_domain'] = "example.com"
+    gitlab_rails['smtp_authentication'] = "login"
+    gitlab_rails['smtp_enable_starttls_auto'] = true
+    gitlab_rails['smtp_openssl_verify_mode'] = 'peer'
+
+    # If your SMTP server does not like the default 'From: gitlab@localhost' you
+    # can change the 'From' with this setting.
+    gitlab_rails['gitlab_email_from'] = 'gitlab@example.com'
+    gitlab_rails['gitlab_email_reply_to'] = 'noreply@example.com'
+
+    # If your SMTP server is using a self signed certificate or a certificate which
+    # is signed by a CA which is not trusted by default, you can specify a custom ca file.
+    # Please note that the certificates from /etc/gitlab/trusted-certs/ are
+    # not used for the verification of the SMTP server certificate.
+    gitlab_rails['smtp_ca_file'] = '/path/to/your/cacert.pem'
+
+Ogni volta che editiamo il file e modifichiamo le impostazioni contenute all'interno è necessario eseguire il seguente comando per applicare le mofidiche:
+
+    sudo gitlab-ctl reconfigure
+
+La configurazione delle notifiche mail è di vitale importanza per la gestione degli user per la conferma delle credenziali, cambio password etc..
+
+L'articolo che completerà la serie mostrerà una pipeline completa che eseguirà un classico rilascio software sfruttando il sistema CI/CD e per farlo utilizzerà gli elementi che sono stato oggetto degli articoli precdenti, Gitlab, ArgoCD, Harbor e Kubernetes
+
+
