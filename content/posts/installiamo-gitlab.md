@@ -82,7 +82,10 @@ Attendiamo che l'installazione tramite APT verrà completata, oltre a gitlab ver
 
 Le credenziali per il login saranno root e la password temporanea potete recuperarla in chiaro sul file /etc/gitlab/initial_root_password
 
+![Example image](/img/gitlab1.webp)
+
 Dopo il primo login manco a dirlo procediamo subito con la sostituzione della nostra password di root, dopo averla sostituita ci ritroveremo nella pagina iniziale pronti per eseguire un nuovo login con le nuove credenziali.
 
+![Example image](/img/gitlab2.webp)
 
 A questo punto se avete l'esigenza di tenere esposto in rete il servizio non posso che consigliarvi di configurare il certificato SSL (per chi ha avuto l'errore in fase di installazione)
