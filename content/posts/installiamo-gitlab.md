@@ -23,7 +23,7 @@ cover:
 Questo articolo continua la serie denominata "Il potere CI/CD", in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.
 
 
-Che cos'è Gitlab?
+**Che cos'è Gitlab?**
 
 GitLab è una piattaforma per la gestione del software basata su Git, fornisce un vasto set di strumenti per favorire la collaborazione, automatizzare processi e monitorare lo sviluppo del software durante il suo ciclo di vita.
 
