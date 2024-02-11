@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Registry on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/registry/</link>
+    <description>Recent content in Registry on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Wed, 31 Jan 2024 11:26:58 +0100</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/registry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harbor come Registry</title>
+      <link>https://marcofanuntza.it/posts/harbor-come-registry/</link>
+      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/harbor-come-registry/</guid>
+      <description>Harbor è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm.
+Ecco alcune caratteristiche principali di Harbor:
+Harbor offre un registry sicuro e privato per le immagini dei container, permettendo un controllo totale sulla loro archiviazione e distribuzione.
+Politiche di Sicurezza: Supporta politiche per garantire che solo immagini sicure e approvate vengano utilizzate nell&amp;rsquo;ambiente.
+Controllo degli Accessi: Dispone di un sistema robusto di controllo degli accessi, consentendo la definizione precisa di chi può accedere e distribuire immagini specifiche.</description>
+    </item>
+  </channel>
+</rss>
