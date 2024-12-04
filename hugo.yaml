@@ -2,9 +2,9 @@ baseURL: "https://marcofanuntza.it"
 languageCode: it-it
 defaultContentLanguage: it
 title: Howto e esperienze di shell..
-paginate: 10
+pagination.pagerSize: 10
 theme: ["PaperMod" , "hugo-shortcode-gallery"]
-
+ignoreLogs: ['warning-goldmark-raw-html']
 
 menu:
   main:
@@ -82,7 +82,7 @@ params:
   tocopen: true
   ShowReadingTime: true
   disableThemeToggle: false
-
+  social: true
   cover:
     responsiveImages: false
     linkFullImages: false
