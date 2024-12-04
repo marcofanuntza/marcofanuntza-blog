@@ -94,3 +94,4 @@ Per questo i files vengono direttamente scritti su uno share NFS presente sul mi
 
 Quello che infatti non ho specificato sullo script è che la variabile $DESTINATION è uno share NFS montato da fstab
 
+Sawadee kap!
