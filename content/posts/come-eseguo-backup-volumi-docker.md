@@ -30,7 +30,7 @@ Partiamo dal presupposto che utilizziate Docker che esegue dei container e che q
 
 **Ecco lo script**
 
-Questo è lo script che utilizzo, ci sono i commenti per ogni fase e spero siano comprensibili per voi.
+Questo è lo script che utilizzo, ci sono i commenti per ogni fase, spero siano comprensibili per voi.
 
     #! /bin/sh
     PATH=/usr/local/bin:/usr/bin:
@@ -58,19 +58,19 @@ Questo è lo script che utilizzo, ci sono i commenti per ogni fase e spero siano
     find $DESTINATION/ -mtime +7 -type f -delete
 
 
-Salviato il file si rende poi eseguibile, il nome che ho dato allo script è: script-bck.sh voi potete scegliere il nome che preferite basta che manteniate estensione del file .sh
+Salvato il file lo si rende eseguibile, il nome che ho dato allo script è: script-bck.sh voi potete scegliere il nome che preferite basta che venga mantenuta estensione del file .sh
 
     chmod a+x script-bck.sh
 
 
-Sarebbe buona norma eseguirlo almeno una volta al giorno e considerando il fatto che i container devono essere momentaneamente fermati vi consiglio di eseguirlo la notte, ci pensa CRON (Obviously numero 1)
+Sarebbe buona norma eseguirlo almeno una volta al giorno e considerando il fatto che i container devono essere momentaneamente fermati vi consiglio di eseguirlo la notte, ci pensa CRON **(Obviously numero 1)**
 
     0 0 * * * /usr/bin/sh /home/marco/backup-docker-volume/script-bck.sh
 
 
-Il backup è importante ma la sua funzione potrebbe essere vana se lasciassimo i files sullo stesso host, muore questo perdiamo anche i backup.. (Obviously numero 2)
+Il backup è importante ma la sua funzione potrebbe essere vana se lasciassimo i files sullo stesso host, muore questo perdiamo anche i backup.. **(Obviously numero 2)**
 
 Per questo i files vengono direttamente scritti su uno share NFS presente sul mio server NAS (TruenasCore) 
 
-Quello che infatti non vi ho specificato sullo script è che la variabile $DESTINATION è uno share NFS montato da fstab :P
+Quello che infatti non ho specificato sullo script è che la variabile $DESTINATION è uno share NFS montato da fstab
 

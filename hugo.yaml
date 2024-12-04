@@ -51,9 +51,9 @@ params:
     imageHeight: 320 # custom size
     buttons:
       - name: Articoli
-        url: "/posts"
+        url: "/posts/"
       - name: Cerca
-        url: "/search"
+        url: "/search/"
 
   defaultTheme: auto
   homeInfoParams:
