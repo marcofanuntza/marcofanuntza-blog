@@ -6,201 +6,239 @@
     <description>Recent content on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sun, 11 Feb 2024 10:59:48 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2024 10:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come eseguo backup dei volumi Docker</title>
+      <link>https://marcofanuntza.it/posts/come-eseguo-backup-volumi-docker/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/come-eseguo-backup-volumi-docker/</guid>
+      <description>&lt;p&gt;Come eseguo il backup dei volumi Docker? Niente di più semplice!&lt;/p&gt;
+&lt;p&gt;Tralasciando la pappardella su quanto sia importante avere dei backup vi mostro come eseguo il backup dei volumi Docker presenti sul mio Raspberry Pi 5&lt;/p&gt;
+&lt;p&gt;Eseguo applicazioni in self hosting e alcune sono dei container Docker, ho citato il Raspberry ma la stessa procedura può essere utilizzata su qualsiasi altra distribuzione Linux&lt;/p&gt;
+&lt;p&gt;Partiamo dal presupposto che utilizziate Docker che esegue dei container e che questi abbiano dei volumi persistenti come nel mio caso.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Installiamo Gitlab</title>
       <link>https://marcofanuntza.it/posts/installiamo-gitlab/</link>
       <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-gitlab/</guid>
-      <description>Questo articolo continua la serie denominata &amp;ldquo;Il potere CI/CD&amp;rdquo;, in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.
-Che cos&amp;rsquo;è Gitlab?
-GitLab è una piattaforma per la gestione del software basata su Git, fornisce un vasto set di strumenti per favorire la collaborazione, automatizzare processi e monitorare lo sviluppo del software durante il suo ciclo di vita.
-Ecco alcuni aspetti chiave di GitLab:</description>
+      <description>&lt;p&gt;Questo articolo continua la serie denominata &amp;ldquo;Il potere CI/CD&amp;rdquo;, in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Che cos&amp;rsquo;è Gitlab?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitLab è una piattaforma per la gestione del software basata su Git, fornisce un vasto set di strumenti per favorire la collaborazione, automatizzare processi e monitorare lo sviluppo del software durante il suo ciclo di vita.&lt;/p&gt;
+&lt;p&gt;Ecco alcuni aspetti chiave di GitLab:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Harbor come Registry</title>
       <link>https://marcofanuntza.it/posts/harbor-come-registry/</link>
       <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/harbor-come-registry/</guid>
-      <description>Harbor è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm.
-Ecco alcune caratteristiche principali di Harbor:
-Harbor offre un registry sicuro e privato per le immagini dei container, permettendo un controllo totale sulla loro archiviazione e distribuzione.
-Politiche di Sicurezza: Supporta politiche per garantire che solo immagini sicure e approvate vengano utilizzate nell&amp;rsquo;ambiente.
-Controllo degli Accessi: Dispone di un sistema robusto di controllo degli accessi, consentendo la definizione precisa di chi può accedere e distribuire immagini specifiche.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Harbor&lt;/strong&gt; è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm.&lt;/p&gt;
+&lt;p&gt;Ecco alcune caratteristiche principali di Harbor:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Harbor&lt;/strong&gt; offre un registry sicuro e privato per le immagini dei container, permettendo un controllo totale sulla loro archiviazione e distribuzione.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Politiche di Sicurezza:&lt;/strong&gt; Supporta politiche per garantire che solo immagini sicure e approvate vengano utilizzate nell&amp;rsquo;ambiente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controllo degli Accessi:&lt;/strong&gt; Dispone di un sistema robusto di controllo degli accessi, consentendo la definizione precisa di chi può accedere e distribuire immagini specifiche.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installiamo Krew</title>
       <link>https://marcofanuntza.it/posts/installiamo-krew/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-krew/</guid>
-      <description>Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!
-Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?
-Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.
-Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin.</description>
+      <description>&lt;p&gt;Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!&lt;/p&gt;
+&lt;p&gt;Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?&lt;/p&gt;
+&lt;p&gt;Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.&lt;/p&gt;
+&lt;p&gt;Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin. L&amp;rsquo;installazione di nuovi plugin avviene in modo uniforme, fornendo una procedura standardizzata che semplifica il processo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Backup con Velero</title>
       <link>https://marcofanuntza.it/posts/backup-con-velero/</link>
       <pubDate>Sun, 28 Jan 2024 08:24:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/backup-con-velero/</guid>
-      <description>Velero è uno strumento che aiuta a gestire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes.
-Velero è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premises. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri. Possiamo utilizzare Velero per creare snapshot del cluster Kubernetes in un determinato momento e ripristinare gli oggetti su un cluster differente o in uno stato diverso.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Velero&lt;/strong&gt; è uno strumento che aiuta a gestire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://marcofanuntza.it/img/velero2.webp#center&#34; alt=&#34;Example image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Velero&lt;/strong&gt; è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premises. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri.
+Possiamo utilizzare Velero per creare snapshot del cluster Kubernetes in un determinato momento e ripristinare gli oggetti su un cluster differente o in uno stato diverso. Possiamo utilizzarlo anche per migrare i carichi di lavoro tra cluster in cloud e non, oppure per eseguire il ripristino in caso di guasti o perdita di dati.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installiamo Argocd</title>
       <link>https://marcofanuntza.it/posts/installiamo-argocd/</link>
       <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-argocd/</guid>
-      <description>ARGO CD
-Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes. Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.
-I principali punti chiave di ARGO CD
-Continuous Deployment: ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.</description>
+      <description>&lt;p&gt;&lt;strong&gt;ARGO CD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes.
+Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I principali punti chiave di ARGO CD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Continuous Deployment:&lt;/strong&gt; ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proviamo Kubernetes con Kind</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</link>
       <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</guid>
-      <description>Proviamo Kubernetes con Kind
-Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.
-Kind (Kubernetes IN Docker) è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.
-Ecco alcune caratteristiche chiave di kind:
-Installazione Semplificata: kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Proviamo Kubernetes con Kind&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kind (Kubernetes IN Docker)&lt;/strong&gt; è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.&lt;/p&gt;
+&lt;p&gt;Ecco alcune caratteristiche chiave di kind:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installazione Semplificata:&lt;/strong&gt; kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automazione con Ansible</title>
       <link>https://marcofanuntza.it/posts/automazione-con-ansible/</link>
       <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/automazione-con-ansible/</guid>
-      <description>Automatic for the people è un album dei R.E.M. mi è venuto in mente quando ho pensato che Ansible è un prodotto di &amp;ldquo;automation&amp;rdquo; IT.
-Ansible è una potente e flessibile piattaforma di automazione IT progettata per semplificare e automatizzare una vasta gamma di compiti, processi e operazioni legate all&amp;rsquo;infrastruttura e allo sviluppo del software.
-Di seguito alcuni aspetti salienti:
-Ansible si distingue per la sua facilità d&amp;rsquo;uso, grazie a una sintassi dichiarativa basata su YAML è accessibile anche a chi ha una conoscenza limitata della programmazione.</description>
+      <description>&lt;p&gt;Automatic for the people è un album dei R.E.M. mi è venuto in mente quando ho pensato che Ansible è un prodotto di &amp;ldquo;automation&amp;rdquo; IT.&lt;/p&gt;
+&lt;p&gt;Ansible è una potente e flessibile piattaforma di automazione IT progettata per semplificare e automatizzare una vasta gamma di compiti, processi e operazioni legate all&amp;rsquo;infrastruttura e allo sviluppo del software.&lt;/p&gt;
+&lt;p&gt;Di seguito alcuni aspetti salienti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ansible si distingue per la sua facilità d&amp;rsquo;uso, grazie a una sintassi dichiarativa basata su YAML è accessibile anche a chi ha una conoscenza limitata della programmazione.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reset password utente admin su Rancher</title>
       <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
-      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
-Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
-L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proviamo Kubernetes con Rancher</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</guid>
-      <description>Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
-Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).
-Si facile da utilizzare dopo che si supera il primo scoglio iniziale..
-Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.</description>
+      <description>&lt;p&gt;Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.&lt;/p&gt;
+&lt;p&gt;Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).&lt;/p&gt;
+&lt;p&gt;Si facile da utilizzare dopo che si supera il primo scoglio iniziale..&lt;/p&gt;
+&lt;p&gt;Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come installare K3D</title>
       <link>https://marcofanuntza.it/posts/come-installare-k3d/</link>
       <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/come-installare-k3d/</guid>
-      <description>Iniziamo con capire che cos&amp;rsquo;è K3D e non confondiamolo con K3S
-K3D
-K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive Wikipedia &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.
-In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.</description>
+      <description>&lt;p&gt;Iniziamo con capire che cos&amp;rsquo;è &lt;strong&gt;K3D&lt;/strong&gt; e non confondiamolo con &lt;strong&gt;K3S&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;K3D&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive &lt;a href=&#34;https://it.wikipedia.org/wiki/Wrapper&#34;&gt;Wikipedia&lt;/a&gt; &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.&lt;/p&gt;
+&lt;p&gt;In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come creare template Ubuntu su Proxmox</title>
       <link>https://marcofanuntza.it/posts/come-creare-template-ubuntu-su-proxmox/</link>
       <pubDate>Tue, 16 Jan 2024 09:33:00 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/come-creare-template-ubuntu-su-proxmox/</guid>
-      <description>Premessa
-Questa guida mostra i comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata è Ubuntu e l&amp;rsquo;immagine sarà una versione specifica per il cloud.
-Le Immagini Cloud sono piccole immagini certificate e pronte per il cloud, hanno Cloud Init preinstallato e pronto per accettare una Cloud Config.
-I comandi verranno tutti eseguiti da shell all&amp;rsquo;interno di un nodo Proxmox
-Procedura
-Iniziamo scaricando l&amp;rsquo;immagine Ubuntu dalla pagina specifica Ubuntu Cloud Images per questa guida utilizzeremo Ubuntu Server 24.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Premessa&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questa guida mostra i comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata è Ubuntu e l&amp;rsquo;immagine sarà una versione specifica per il cloud.&lt;/p&gt;
+&lt;p&gt;Le Immagini Cloud sono piccole immagini certificate e pronte per il cloud, hanno Cloud Init preinstallato e pronto per accettare una Cloud Config.&lt;/p&gt;
+&lt;p&gt;I comandi verranno tutti eseguiti da shell all&amp;rsquo;interno di un nodo Proxmox&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Procedura&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Iniziamo scaricando l&amp;rsquo;immagine Ubuntu dalla pagina specifica &lt;a href=&#34;https://cloud-images.ubuntu.com/&#34;&gt;Ubuntu Cloud Images&lt;/a&gt; per questa guida utilizzeremo Ubuntu Server 24.04 LTS (Noble Numbat)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come installare Docker e Docker Compose su Ubuntu</title>
       <link>https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/</link>
       <pubDate>Mon, 15 Jan 2024 13:34:41 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/come-installare-docker-e-docker-compose-su-ubuntu/</guid>
-      <description>Come installare Docker e Docker compose su Ubuntu
-Questa guida elenca passo per passo la procedura da seguire per installare docker, docker compose e containerd su distribuzione Ubuntu.
-Prerequisiti:
-server o workstation con distribuzione ubuntu accesso alla rete per scaricare i pacchetti Procedura
-Tutti i comandi verranno eseguiti da terminale, se in precedenza avevate già provato un&amp;rsquo;installazione di Docker sarebbe opportuno rimuoverla eseguendo il comando che segue:
-sudo apt-get purge docker-ce docker-ce-cli containerd.</description>
+      <description>&lt;p&gt;Come installare Docker e Docker compose su Ubuntu&lt;/p&gt;
+&lt;p&gt;Questa guida elenca passo per passo la procedura da seguire per installare docker, docker compose e containerd su distribuzione Ubuntu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prerequisiti:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;server o workstation con distribuzione ubuntu&lt;/li&gt;
+&lt;li&gt;accesso alla rete per scaricare i pacchetti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Procedura&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tutti i comandi verranno eseguiti da terminale, se in precedenza avevate già provato un&amp;rsquo;installazione di Docker sarebbe opportuno rimuoverla eseguendo il comando che segue:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;adesso si può procedere con l&amp;rsquo;installazione, si parte prima di tutto aggiungendo il repository ufficiale Docker&lt;/p&gt;</description>
     </item>
     <item>
       <title>Il mio nuovo NAS con Truenas part II</title>
       <link>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</link>
       <pubDate>Sat, 13 Jan 2024 08:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</guid>
-      <description>Questo articolo continua il log partito da QUI dove spiegavo la scelta e il perchè .
-I componenti che attendevo sono arrivati, oltre la lista iniziale ho apportato alcune integrazioni aggiungendo una scheda PCI che di fatto mette a disposizione due porte SATA III aggiuntive. A questa scheda sono direttamente connessi i due dischi da 2,5 pollici, 2TB cadauno. Altra integrazione è un ulteriore banco di ram da 8GB.
-La prima installazione è abbastanza semplice, se avete già avuto modo di installare una distro linux da pendrive USB sarà una passeggiata.</description>
+      <description>&lt;p&gt;Questo articolo continua il log partito da &lt;a href=&#34;https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/&#34;&gt;QUI&lt;/a&gt; dove spiegavo la scelta e il perchè .&lt;/p&gt;
+&lt;p&gt;I componenti che attendevo sono arrivati, oltre la lista iniziale ho apportato alcune integrazioni aggiungendo una scheda PCI che di fatto mette a disposizione due porte SATA III aggiuntive. A questa scheda sono direttamente connessi i due dischi da 2,5 pollici, 2TB cadauno. Altra integrazione è un ulteriore banco di ram da 8GB.&lt;/p&gt;
+&lt;p&gt;La prima installazione è abbastanza semplice, se avete già avuto modo di installare una distro linux da pendrive USB sarà una passeggiata. Per creare la pendrive USB bootabile ho utilizzato il software &lt;strong&gt;Balena Etcher&lt;/strong&gt; e la ISO di Truenas Core potete ovviamente trovarla sui repository ufficiali. La procedura guidata vi chiederà su quale disco installare l&amp;rsquo;OS, imposterete una password e successivamente sarà il turno della rete, finito! nel mio caso ha completato l&amp;rsquo;installazione in pochi minuti. A questo &lt;a href=&#34;https://www.truenas.com/blog/how-to-install-truenas-core/&#34;&gt;link&lt;/a&gt;  comunque potete seguire la pagina ufficiale con immagini passo per passo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ho scelto Hugo!</title>
       <link>https://marcofanuntza.it/2024/01/12/ho-scelto-hugo/</link>
       <pubDate>Fri, 12 Jan 2024 10:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/12/ho-scelto-hugo/</guid>
-      <description>Introduzione:
-Quando ho deciso di riscrivere sul blog il cms scelto inizialmente era stato Wordpress, per ambito lavorativo avevo già gestito server wordpress decine di volte, avevo avuto anche un&amp;rsquo;esperienza come writer assiduo sul defunto blog actioncamitalia, la scelta quindi si era basata esclusivamente sull&amp;rsquo;esperienza passata. Dopo un pò mi sono accorto però che per le mie esigenze, per le esigenze di questo blog specifico, l&amp;rsquo;utilizzo delle risorse necessarie per worpress erano sprecate, insomma non ne avevo bisogno.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Introduzione:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quando ho deciso di riscrivere sul blog il cms scelto inizialmente era stato Wordpress, per ambito lavorativo avevo già gestito server wordpress decine di volte, avevo avuto anche un&amp;rsquo;esperienza come writer assiduo sul defunto blog actioncamitalia, la scelta quindi si era basata esclusivamente sull&amp;rsquo;esperienza passata.
+Dopo un pò mi sono accorto però che per le mie esigenze, per le esigenze di questo blog specifico, l&amp;rsquo;utilizzo delle risorse necessarie per worpress erano sprecate, insomma non ne avevo bisogno.&lt;/p&gt;</description>
     </item>
     <item>
       <title>E pensare che cercavo un logo..</title>
       <link>https://marcofanuntza.it/2024/01/01/pensare-che-cercavo-un-logo/</link>
       <pubDate>Wed, 10 Jan 2024 14:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/01/pensare-che-cercavo-un-logo/</guid>
-      <description>Che ne sarà di noi mi verrebbe da dire.. oggi stavo continuando con il tuning del nuovo tema Hugo che sto utilizzando e ho notato che è possibile inserire un logo in homepage, quindi ho avuto la brillante idea di chiedere a bing-chat e alla nuova funzione di Microsoft chiamata Co-Pilot di generare per me un&amp;rsquo;immagine logo con l&amp;rsquo;ausilio della intelligenza artificiale. Come avrete potuto già intuire la situazione mi è leggermente sfuggita di mano.</description>
+      <description>&lt;p&gt;Che ne sarà di noi mi verrebbe da dire.. oggi stavo continuando con il tuning del nuovo tema Hugo che sto utilizzando e ho notato che è possibile inserire un logo in homepage, quindi ho avuto la brillante idea di chiedere a bing-chat e alla nuova funzione di Microsoft chiamata Co-Pilot di generare per me un&amp;rsquo;immagine logo con l&amp;rsquo;ausilio della intelligenza artificiale.
+Come avrete potuto già intuire la situazione mi è leggermente sfuggita di mano.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grazie a Pi-Hole basta con la pubblicità!</title>
       <link>https://marcofanuntza.it/2024/01/06/grazie-pihole-basta-pubblicita/</link>
       <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/06/grazie-pihole-basta-pubblicita/</guid>
-      <description>Quanto vi infastidiscono gli annunci pubblicitari navigando sul web? Ormai ci sono pagine web piene di annunci, pop-up fastidiosissimi che non fanno altro che farci perdere tempo e voglia di visitarne il sito, i quotidiani con le news e le notizie sportive su tutti sono i più scassa bit.
-Per fortuna ci viene in aiuto Pi-Hole!
-Pi-hole è un software open-source progettato per il controllo e la gestione della rete orientato nello specifico proprio per combattere la pubblicità e gli annunci correlati, sostanzialmente agisce come un filtro DNS, offrendo funzionalità avanzate per bloccare tutti gli annunci pubblicitari, tracker e tutti i contenuti indesiderati ancor prima che raggiungano i nostri dispositivi connessi alla rete.</description>
+      <description>&lt;p&gt;Quanto vi infastidiscono gli annunci pubblicitari navigando sul web? Ormai ci sono pagine web piene di annunci, pop-up fastidiosissimi che non fanno altro che farci perdere tempo e voglia di visitarne il sito, i quotidiani con le news e le notizie sportive su tutti sono i più scassa bit.&lt;/p&gt;
+&lt;p&gt;Per fortuna ci viene in aiuto Pi-Hole!&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://marcofanuntza.it/img/pi-hole-pagina0.webp&#34; alt=&#34;Example image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Pi-hole è un software open-source progettato per il controllo e la gestione della rete orientato nello specifico proprio per combattere la pubblicità e gli annunci correlati, sostanzialmente agisce come un filtro DNS, offrendo funzionalità avanzate per bloccare tutti gli annunci pubblicitari, tracker e tutti i contenuti indesiderati ancor prima che raggiungano i nostri dispositivi connessi alla rete.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Il mio nuovo NAS con Truenas</title>
       <link>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</link>
       <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</guid>
-      <description>Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!</description>
+      <description>&lt;p&gt;Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come reimpostare la password root in un container LXC su Proxmox VE</title>
       <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</guid>
-      <description>Problema
-Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.
-Soluzione
-*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.
-*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:
-105 (passwdDimenticata) *105 saràil suo ID, passwdDimenticata sarà il suo nome.
-*Avviare il container nel caso non lo fosse già</description>
+      <description>&lt;p&gt;&lt;strong&gt;Problema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Soluzione&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.&lt;/p&gt;
+&lt;p&gt;*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;105 (passwdDimenticata) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;*105 saràil suo ID, passwdDimenticata sarà il suo nome.&lt;/p&gt;
+&lt;p&gt;*Avviare il container nel caso non lo fosse già&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ridimensionare disco container su Proxmox</title>
       <link>https://marcofanuntza.it/2023/12/17/ridimensionare-disco-container-su-proxmox/</link>
       <pubDate>Sun, 17 Dec 2023 09:10:01 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/17/ridimensionare-disco-container-su-proxmox/</guid>
-      <description>Spesso può capitare la necessità di dover ridimensionare il disco di un container creato troppo grande o relativamente piccolo, a dire la verità spesso si tende ad aumentare lo spazio disco, vuoi crescita dei logs, aggiunta di nuove funzioni, in questo caso specifico però mostreremo come ridurre lo spazio.
-Per chi come me utilizza Proxmox in ambito domestico dovrà fare subito i conti con la mancanza di una LAN a 10GbE, questo si tradurrà in migrazioni tra i nodi eccessivamente lunghe, la regola quindi deve essere: container piccolo = veloce.</description>
+      <description>&lt;p&gt;Spesso può capitare la necessità di dover ridimensionare il disco di un container creato troppo grande o relativamente piccolo, a dire la verità spesso si tende ad aumentare lo spazio disco, vuoi crescita dei logs, aggiunta di nuove funzioni, in questo caso specifico però mostreremo come ridurre lo spazio.&lt;/p&gt;
+&lt;p&gt;Per chi come me utilizza Proxmox in ambito domestico dovrà fare subito i conti con la mancanza di una LAN a 10GbE, questo si tradurrà in migrazioni tra i nodi eccessivamente lunghe, la regola quindi deve essere: container piccolo = veloce. Quando si crea un container può succedere di non aver ben chiaro in mente quanto dimensionare lo spazio disco, ma niente paura si ridimensiona!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gestione home datacenter con Proxmox</title>
       <link>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</link>
       <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</guid>
-      <description>Introduzione:
-Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.
-Che cos’è Proxmox?
-è una piattaforma di virtualizzazione, un hypervisor di tipo 1 permette di virtualizzare virtual machine e container interfaccia web per il controllo permette configurazione in cluster gestisce storage, snapshot e backup automatizzati basata su Debian, utilizza KVM per le vm e LXC per i container completamente free e open source piani di licenza enterprise attivabili Virtualizzazione e Containerizzazione: La Combo Vincente</description>
+      <description>&lt;p&gt;&lt;strong&gt;Introduzione:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Che cos’è Proxmox?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;è una piattaforma di virtualizzazione, un hypervisor di tipo 1&lt;/li&gt;
+&lt;li&gt;permette di virtualizzare virtual machine e container&lt;/li&gt;
+&lt;li&gt;interfaccia web per il controllo&lt;/li&gt;
+&lt;li&gt;permette configurazione in cluster&lt;/li&gt;
+&lt;li&gt;gestisce storage, snapshot e backup automatizzati&lt;/li&gt;
+&lt;li&gt;basata su Debian, utilizza KVM per le vm e LXC per i container&lt;/li&gt;
+&lt;li&gt;completamente free e open source&lt;/li&gt;
+&lt;li&gt;piani di licenza enterprise attivabili&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Virtualizzazione e Containerizzazione: La Combo Vincente&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

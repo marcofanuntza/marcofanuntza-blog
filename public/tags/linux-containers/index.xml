@@ -13,40 +13,54 @@
       <link>https://marcofanuntza.it/2024/01/06/grazie-pihole-basta-pubblicita/</link>
       <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/06/grazie-pihole-basta-pubblicita/</guid>
-      <description>Quanto vi infastidiscono gli annunci pubblicitari navigando sul web? Ormai ci sono pagine web piene di annunci, pop-up fastidiosissimi che non fanno altro che farci perdere tempo e voglia di visitarne il sito, i quotidiani con le news e le notizie sportive su tutti sono i più scassa bit.
-Per fortuna ci viene in aiuto Pi-Hole!
-Pi-hole è un software open-source progettato per il controllo e la gestione della rete orientato nello specifico proprio per combattere la pubblicità e gli annunci correlati, sostanzialmente agisce come un filtro DNS, offrendo funzionalità avanzate per bloccare tutti gli annunci pubblicitari, tracker e tutti i contenuti indesiderati ancor prima che raggiungano i nostri dispositivi connessi alla rete.</description>
+      <description>&lt;p&gt;Quanto vi infastidiscono gli annunci pubblicitari navigando sul web? Ormai ci sono pagine web piene di annunci, pop-up fastidiosissimi che non fanno altro che farci perdere tempo e voglia di visitarne il sito, i quotidiani con le news e le notizie sportive su tutti sono i più scassa bit.&lt;/p&gt;
+&lt;p&gt;Per fortuna ci viene in aiuto Pi-Hole!&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://marcofanuntza.it/img/pi-hole-pagina0.webp&#34; alt=&#34;Example image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Pi-hole è un software open-source progettato per il controllo e la gestione della rete orientato nello specifico proprio per combattere la pubblicità e gli annunci correlati, sostanzialmente agisce come un filtro DNS, offrendo funzionalità avanzate per bloccare tutti gli annunci pubblicitari, tracker e tutti i contenuti indesiderati ancor prima che raggiungano i nostri dispositivi connessi alla rete.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come reimpostare la password root in un container LXC su Proxmox VE</title>
       <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</guid>
-      <description>Problema
-Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.
-Soluzione
-*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.
-*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:
-105 (passwdDimenticata) *105 saràil suo ID, passwdDimenticata sarà il suo nome.
-*Avviare il container nel caso non lo fosse già</description>
+      <description>&lt;p&gt;&lt;strong&gt;Problema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Soluzione&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.&lt;/p&gt;
+&lt;p&gt;*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;105 (passwdDimenticata) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;*105 saràil suo ID, passwdDimenticata sarà il suo nome.&lt;/p&gt;
+&lt;p&gt;*Avviare il container nel caso non lo fosse già&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ridimensionare disco container su Proxmox</title>
       <link>https://marcofanuntza.it/2023/12/17/ridimensionare-disco-container-su-proxmox/</link>
       <pubDate>Sun, 17 Dec 2023 09:10:01 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/17/ridimensionare-disco-container-su-proxmox/</guid>
-      <description>Spesso può capitare la necessità di dover ridimensionare il disco di un container creato troppo grande o relativamente piccolo, a dire la verità spesso si tende ad aumentare lo spazio disco, vuoi crescita dei logs, aggiunta di nuove funzioni, in questo caso specifico però mostreremo come ridurre lo spazio.
-Per chi come me utilizza Proxmox in ambito domestico dovrà fare subito i conti con la mancanza di una LAN a 10GbE, questo si tradurrà in migrazioni tra i nodi eccessivamente lunghe, la regola quindi deve essere: container piccolo = veloce.</description>
+      <description>&lt;p&gt;Spesso può capitare la necessità di dover ridimensionare il disco di un container creato troppo grande o relativamente piccolo, a dire la verità spesso si tende ad aumentare lo spazio disco, vuoi crescita dei logs, aggiunta di nuove funzioni, in questo caso specifico però mostreremo come ridurre lo spazio.&lt;/p&gt;
+&lt;p&gt;Per chi come me utilizza Proxmox in ambito domestico dovrà fare subito i conti con la mancanza di una LAN a 10GbE, questo si tradurrà in migrazioni tra i nodi eccessivamente lunghe, la regola quindi deve essere: container piccolo = veloce. Quando si crea un container può succedere di non aver ben chiaro in mente quanto dimensionare lo spazio disco, ma niente paura si ridimensiona!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gestione home datacenter con Proxmox</title>
       <link>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</link>
       <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</guid>
-      <description>Introduzione:
-Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.
-Che cos’è Proxmox?
-è una piattaforma di virtualizzazione, un hypervisor di tipo 1 permette di virtualizzare virtual machine e container interfaccia web per il controllo permette configurazione in cluster gestisce storage, snapshot e backup automatizzati basata su Debian, utilizza KVM per le vm e LXC per i container completamente free e open source piani di licenza enterprise attivabili Virtualizzazione e Containerizzazione: La Combo Vincente</description>
+      <description>&lt;p&gt;&lt;strong&gt;Introduzione:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Che cos’è Proxmox?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;è una piattaforma di virtualizzazione, un hypervisor di tipo 1&lt;/li&gt;
+&lt;li&gt;permette di virtualizzare virtual machine e container&lt;/li&gt;
+&lt;li&gt;interfaccia web per il controllo&lt;/li&gt;
+&lt;li&gt;permette configurazione in cluster&lt;/li&gt;
+&lt;li&gt;gestisce storage, snapshot e backup automatizzati&lt;/li&gt;
+&lt;li&gt;basata su Debian, utilizza KVM per le vm e LXC per i container&lt;/li&gt;
+&lt;li&gt;completamente free e open source&lt;/li&gt;
+&lt;li&gt;piani di licenza enterprise attivabili&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Virtualizzazione e Containerizzazione: La Combo Vincente&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

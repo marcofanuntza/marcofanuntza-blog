@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/tags/raspberry/</link>
+    <description>Recent content in Raspberry on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Wed, 04 Dec 2024 10:59:48 +0100</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come eseguo backup dei volumi Docker</title>
+      <link>https://marcofanuntza.it/posts/come-eseguo-backup-volumi-docker/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/come-eseguo-backup-volumi-docker/</guid>
+      <description>&lt;p&gt;Come eseguo il backup dei volumi Docker? Niente di più semplice!&lt;/p&gt;
+&lt;p&gt;Tralasciando la pappardella su quanto sia importante avere dei backup vi mostro come eseguo il backup dei volumi Docker presenti sul mio Raspberry Pi 5&lt;/p&gt;
+&lt;p&gt;Eseguo applicazioni in self hosting e alcune sono dei container Docker, ho citato il Raspberry ma la stessa procedura può essere utilizzata su qualsiasi altra distribuzione Linux&lt;/p&gt;
+&lt;p&gt;Partiamo dal presupposto che utilizziate Docker che esegue dei container e che questi abbiano dei volumi persistenti come nel mio caso.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

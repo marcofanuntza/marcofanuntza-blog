@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>howto on Howto e esperienze di shell..</title>
+    <title>Howto on Howto e esperienze di shell..</title>
     <link>https://marcofanuntza.it/tags/howto/</link>
-    <description>Recent content in howto on Howto e esperienze di shell..</description>
+    <description>Recent content in Howto on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 30 Jan 2024 08:47:18 +0100</lastBuildDate>
@@ -13,10 +13,10 @@
       <link>https://marcofanuntza.it/posts/installiamo-krew/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-krew/</guid>
-      <description>Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!
-Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?
-Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.
-Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin.</description>
+      <description>&lt;p&gt;Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!&lt;/p&gt;
+&lt;p&gt;Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?&lt;/p&gt;
+&lt;p&gt;Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.&lt;/p&gt;
+&lt;p&gt;Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin. L&amp;rsquo;installazione di nuovi plugin avviene in modo uniforme, fornendo una procedura standardizzata che semplifica il processo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

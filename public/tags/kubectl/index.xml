@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kubectl on Howto e esperienze di shell..</title>
+    <title>Kubectl on Howto e esperienze di shell..</title>
     <link>https://marcofanuntza.it/tags/kubectl/</link>
-    <description>Recent content in kubectl on Howto e esperienze di shell..</description>
+    <description>Recent content in Kubectl on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 30 Jan 2024 08:47:18 +0100</lastBuildDate>
@@ -13,19 +13,19 @@
       <link>https://marcofanuntza.it/posts/installiamo-krew/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-krew/</guid>
-      <description>Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!
-Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?
-Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.
-Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin.</description>
+      <description>&lt;p&gt;Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!&lt;/p&gt;
+&lt;p&gt;Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?&lt;/p&gt;
+&lt;p&gt;Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.&lt;/p&gt;
+&lt;p&gt;Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin. L&amp;rsquo;installazione di nuovi plugin avviene in modo uniforme, fornendo una procedura standardizzata che semplifica il processo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reset password utente admin su Rancher</title>
       <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
-      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
-Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
-L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

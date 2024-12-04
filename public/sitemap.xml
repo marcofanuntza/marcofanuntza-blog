@@ -3,6 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://marcofanuntza.it/categories/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/come-eseguo-backup-volumi-docker/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/docker/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/howto/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/linux/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/raspberry/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/ubuntu/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/volumi/</loc>
+    <lastmod>2024-12-04T10:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/ci/cd/</loc>
     <lastmod>2024-02-11T10:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -14,14 +58,6 @@
     <lastmod>2024-02-11T10:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/howto/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/posts/installiamo-gitlab/</loc>
     <lastmod>2024-02-11T10:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
@@ -30,31 +66,11 @@
     <lastmod>2024-02-11T10:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/linux/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/pipeline/</loc>
     <lastmod>2024-02-11T10:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/ubuntu/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/categories/docker/</loc>
-    <lastmod>2024-01-31T11:26:58+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/docker/</loc>
     <lastmod>2024-01-31T11:26:58+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -170,11 +186,11 @@
     <lastmod>2024-01-19T08:57:35+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/rancher/</loc>
+    <loc>https://marcofanuntza.it/tags/rancher/</loc>
     <lastmod>2024-01-19T08:57:35+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/rancher/</loc>
+    <loc>https://marcofanuntza.it/categories/rancher/</loc>
     <lastmod>2024-01-19T08:57:35+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -403,9 +419,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/archives/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/ci/cd/</loc>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/search/</loc>

@@ -13,39 +13,51 @@
       <link>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</link>
       <pubDate>Sat, 13 Jan 2024 08:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/13/il-mio-nuovo-nas-con-truenas-part2/</guid>
-      <description>Questo articolo continua il log partito da QUI dove spiegavo la scelta e il perchè .
-I componenti che attendevo sono arrivati, oltre la lista iniziale ho apportato alcune integrazioni aggiungendo una scheda PCI che di fatto mette a disposizione due porte SATA III aggiuntive. A questa scheda sono direttamente connessi i due dischi da 2,5 pollici, 2TB cadauno. Altra integrazione è un ulteriore banco di ram da 8GB.
-La prima installazione è abbastanza semplice, se avete già avuto modo di installare una distro linux da pendrive USB sarà una passeggiata.</description>
+      <description>&lt;p&gt;Questo articolo continua il log partito da &lt;a href=&#34;https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/&#34;&gt;QUI&lt;/a&gt; dove spiegavo la scelta e il perchè .&lt;/p&gt;
+&lt;p&gt;I componenti che attendevo sono arrivati, oltre la lista iniziale ho apportato alcune integrazioni aggiungendo una scheda PCI che di fatto mette a disposizione due porte SATA III aggiuntive. A questa scheda sono direttamente connessi i due dischi da 2,5 pollici, 2TB cadauno. Altra integrazione è un ulteriore banco di ram da 8GB.&lt;/p&gt;
+&lt;p&gt;La prima installazione è abbastanza semplice, se avete già avuto modo di installare una distro linux da pendrive USB sarà una passeggiata. Per creare la pendrive USB bootabile ho utilizzato il software &lt;strong&gt;Balena Etcher&lt;/strong&gt; e la ISO di Truenas Core potete ovviamente trovarla sui repository ufficiali. La procedura guidata vi chiederà su quale disco installare l&amp;rsquo;OS, imposterete una password e successivamente sarà il turno della rete, finito! nel mio caso ha completato l&amp;rsquo;installazione in pochi minuti. A questo &lt;a href=&#34;https://www.truenas.com/blog/how-to-install-truenas-core/&#34;&gt;link&lt;/a&gt;  comunque potete seguire la pagina ufficiale con immagini passo per passo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Il mio nuovo NAS con Truenas</title>
       <link>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</link>
       <pubDate>Mon, 01 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/2024/01/01/il-mio-nuovo-nas-con-truenas/</guid>
-      <description>Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!</description>
+      <description>&lt;p&gt;Acquistai il mio primo NAS nel lontano 2011, uno Zyxel NSA320 che nonostante tutto funziona ancora ma il peso degli anni si sente tutto, è ormai fuori supporto da tempo, nessuna opzione per upgrade o mod varie, versione tls obsoleta e opzioni su share NFS inesistenti. Quest’ultimo aspetto mi sta dando problemi con i backup dei container che ho su Proxmox e per questo ho preso la decisione… nuovo NAS sia!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come reimpostare la password root in un container LXC su Proxmox VE</title>
       <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</guid>
-      <description>Problema
-Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.
-Soluzione
-*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.
-*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:
-105 (passwdDimenticata) *105 saràil suo ID, passwdDimenticata sarà il suo nome.
-*Avviare il container nel caso non lo fosse già</description>
+      <description>&lt;p&gt;&lt;strong&gt;Problema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Soluzione&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.&lt;/p&gt;
+&lt;p&gt;*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;105 (passwdDimenticata) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;*105 saràil suo ID, passwdDimenticata sarà il suo nome.&lt;/p&gt;
+&lt;p&gt;*Avviare il container nel caso non lo fosse già&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gestione home datacenter con Proxmox</title>
       <link>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</link>
       <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</guid>
-      <description>Introduzione:
-Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.
-Che cos’è Proxmox?
-è una piattaforma di virtualizzazione, un hypervisor di tipo 1 permette di virtualizzare virtual machine e container interfaccia web per il controllo permette configurazione in cluster gestisce storage, snapshot e backup automatizzati basata su Debian, utilizza KVM per le vm e LXC per i container completamente free e open source piani di licenza enterprise attivabili Virtualizzazione e Containerizzazione: La Combo Vincente</description>
+      <description>&lt;p&gt;&lt;strong&gt;Introduzione:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Che cos’è Proxmox?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;è una piattaforma di virtualizzazione, un hypervisor di tipo 1&lt;/li&gt;
+&lt;li&gt;permette di virtualizzare virtual machine e container&lt;/li&gt;
+&lt;li&gt;interfaccia web per il controllo&lt;/li&gt;
+&lt;li&gt;permette configurazione in cluster&lt;/li&gt;
+&lt;li&gt;gestisce storage, snapshot e backup automatizzati&lt;/li&gt;
+&lt;li&gt;basata su Debian, utilizza KVM per le vm e LXC per i container&lt;/li&gt;
+&lt;li&gt;completamente free e open source&lt;/li&gt;
+&lt;li&gt;piani di licenza enterprise attivabili&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Virtualizzazione e Containerizzazione: La Combo Vincente&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

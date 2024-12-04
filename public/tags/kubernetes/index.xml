@@ -13,89 +13,93 @@
       <link>https://marcofanuntza.it/posts/installiamo-gitlab/</link>
       <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-gitlab/</guid>
-      <description>Questo articolo continua la serie denominata &amp;ldquo;Il potere CI/CD&amp;rdquo;, in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.
-Che cos&amp;rsquo;è Gitlab?
-GitLab è una piattaforma per la gestione del software basata su Git, fornisce un vasto set di strumenti per favorire la collaborazione, automatizzare processi e monitorare lo sviluppo del software durante il suo ciclo di vita.
-Ecco alcuni aspetti chiave di GitLab:</description>
+      <description>&lt;p&gt;Questo articolo continua la serie denominata &amp;ldquo;Il potere CI/CD&amp;rdquo;, in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Che cos&amp;rsquo;è Gitlab?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitLab è una piattaforma per la gestione del software basata su Git, fornisce un vasto set di strumenti per favorire la collaborazione, automatizzare processi e monitorare lo sviluppo del software durante il suo ciclo di vita.&lt;/p&gt;
+&lt;p&gt;Ecco alcuni aspetti chiave di GitLab:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Harbor come Registry</title>
       <link>https://marcofanuntza.it/posts/harbor-come-registry/</link>
       <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/harbor-come-registry/</guid>
-      <description>Harbor è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm.
-Ecco alcune caratteristiche principali di Harbor:
-Harbor offre un registry sicuro e privato per le immagini dei container, permettendo un controllo totale sulla loro archiviazione e distribuzione.
-Politiche di Sicurezza: Supporta politiche per garantire che solo immagini sicure e approvate vengano utilizzate nell&amp;rsquo;ambiente.
-Controllo degli Accessi: Dispone di un sistema robusto di controllo degli accessi, consentendo la definizione precisa di chi può accedere e distribuire immagini specifiche.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Harbor&lt;/strong&gt; è un registry open-source per la gestione delle immagini dei container. Progettato per funzionare con orchestration tools come Kubernetes e Docker Swarm.&lt;/p&gt;
+&lt;p&gt;Ecco alcune caratteristiche principali di Harbor:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Harbor&lt;/strong&gt; offre un registry sicuro e privato per le immagini dei container, permettendo un controllo totale sulla loro archiviazione e distribuzione.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Politiche di Sicurezza:&lt;/strong&gt; Supporta politiche per garantire che solo immagini sicure e approvate vengano utilizzate nell&amp;rsquo;ambiente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controllo degli Accessi:&lt;/strong&gt; Dispone di un sistema robusto di controllo degli accessi, consentendo la definizione precisa di chi può accedere e distribuire immagini specifiche.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installiamo Krew</title>
       <link>https://marcofanuntza.it/posts/installiamo-krew/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-krew/</guid>
-      <description>Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!
-Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?
-Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.
-Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin.</description>
+      <description>&lt;p&gt;Se siete arrivati a leggere questo articolo do per scontato conosciate già Kubectl, il non plus ultra della riga di comando per Kubernetes!&lt;/p&gt;
+&lt;p&gt;Sapevate che Kubectl può acquisire ancora più potenza grazie a Krew?&lt;/p&gt;
+&lt;p&gt;Krew è uno strumento che semplifica la gestione, l&amp;rsquo;installazione e l&amp;rsquo;aggiornamento di tutta una serie di plugin specifici per Kubectl, estendendone di fatto la già ampia funzionalità.&lt;/p&gt;
+&lt;p&gt;Il suo funzionamento può sembrare molto simile ai tradizionali gestori di pacchetti yum, apt, apk, brew e altri, utilizza un modello basato su repository per distribuire e gestire i plugin. L&amp;rsquo;installazione di nuovi plugin avviene in modo uniforme, fornendo una procedura standardizzata che semplifica il processo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Backup con Velero</title>
       <link>https://marcofanuntza.it/posts/backup-con-velero/</link>
       <pubDate>Sun, 28 Jan 2024 08:24:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/backup-con-velero/</guid>
-      <description>Velero è uno strumento che aiuta a gestire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes.
-Velero è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premises. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri. Possiamo utilizzare Velero per creare snapshot del cluster Kubernetes in un determinato momento e ripristinare gli oggetti su un cluster differente o in uno stato diverso.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Velero&lt;/strong&gt; è uno strumento che aiuta a gestire il backup e il ripristino delle risorse e dei volumi persistenti del tuo cluster Kubernetes.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://marcofanuntza.it/img/velero2.webp#center&#34; alt=&#34;Example image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Velero&lt;/strong&gt; è uno strumento open source molto utilizzato che consente il backup e il ripristino delle risorse Kubernetes e dei volumi persistenti tra cluster in cloud o on-premises. Supporta la maggior parte dei provider di archiviazione, come AWS, Azure, GCP, DigitalOcean e altri.
+Possiamo utilizzare Velero per creare snapshot del cluster Kubernetes in un determinato momento e ripristinare gli oggetti su un cluster differente o in uno stato diverso. Possiamo utilizzarlo anche per migrare i carichi di lavoro tra cluster in cloud e non, oppure per eseguire il ripristino in caso di guasti o perdita di dati.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installiamo Argocd</title>
       <link>https://marcofanuntza.it/posts/installiamo-argocd/</link>
       <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-argocd/</guid>
-      <description>ARGO CD
-Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes. Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.
-I principali punti chiave di ARGO CD
-Continuous Deployment: ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.</description>
+      <description>&lt;p&gt;&lt;strong&gt;ARGO CD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes.
+Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I principali punti chiave di ARGO CD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Continuous Deployment:&lt;/strong&gt; ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proviamo Kubernetes con Kind</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</link>
       <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</guid>
-      <description>Proviamo Kubernetes con Kind
-Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.
-Kind (Kubernetes IN Docker) è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.
-Ecco alcune caratteristiche chiave di kind:
-Installazione Semplificata: kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Proviamo Kubernetes con Kind&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kind (Kubernetes IN Docker)&lt;/strong&gt; è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.&lt;/p&gt;
+&lt;p&gt;Ecco alcune caratteristiche chiave di kind:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installazione Semplificata:&lt;/strong&gt; kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reset password utente admin su Rancher</title>
       <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
-      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
-Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
-L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proviamo Kubernetes con Rancher</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</guid>
-      <description>Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
-Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).
-Si facile da utilizzare dopo che si supera il primo scoglio iniziale..
-Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.</description>
+      <description>&lt;p&gt;Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.&lt;/p&gt;
+&lt;p&gt;Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).&lt;/p&gt;
+&lt;p&gt;Si facile da utilizzare dopo che si supera il primo scoglio iniziale..&lt;/p&gt;
+&lt;p&gt;Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come installare K3D</title>
       <link>https://marcofanuntza.it/posts/come-installare-k3d/</link>
       <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/come-installare-k3d/</guid>
-      <description>Iniziamo con capire che cos&amp;rsquo;è K3D e non confondiamolo con K3S
-K3D
-K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive Wikipedia &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.
-In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.</description>
+      <description>&lt;p&gt;Iniziamo con capire che cos&amp;rsquo;è &lt;strong&gt;K3D&lt;/strong&gt; e non confondiamolo con &lt;strong&gt;K3S&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;K3D&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive &lt;a href=&#34;https://it.wikipedia.org/wiki/Wrapper&#34;&gt;Wikipedia&lt;/a&gt; &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.&lt;/p&gt;
+&lt;p&gt;In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

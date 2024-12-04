@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dimenticata on Howto e esperienze di shell..</title>
+    <title>Dimenticata on Howto e esperienze di shell..</title>
     <link>https://marcofanuntza.it/tags/dimenticata/</link>
-    <description>Recent content in dimenticata on Howto e esperienze di shell..</description>
+    <description>Recent content in Dimenticata on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Sun, 31 Dec 2023 17:34:21 +0000</lastBuildDate>
@@ -13,13 +13,15 @@
       <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</guid>
-      <description>Problema
-Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.
-Soluzione
-*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.
-*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:
-105 (passwdDimenticata) *105 saràil suo ID, passwdDimenticata sarà il suo nome.
-*Avviare il container nel caso non lo fosse già</description>
+      <description>&lt;p&gt;&lt;strong&gt;Problema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Soluzione&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.&lt;/p&gt;
+&lt;p&gt;*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;105 (passwdDimenticata) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;*105 saràil suo ID, passwdDimenticata sarà il suo nome.&lt;/p&gt;
+&lt;p&gt;*Avviare il container nel caso non lo fosse già&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

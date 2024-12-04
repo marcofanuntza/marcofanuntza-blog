@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>password on Howto e esperienze di shell..</title>
+    <title>Password on Howto e esperienze di shell..</title>
     <link>https://marcofanuntza.it/tags/password/</link>
-    <description>Recent content in password on Howto e esperienze di shell..</description>
+    <description>Recent content in Password on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Fri, 19 Jan 2024 08:57:35 +0100</lastBuildDate>
@@ -13,22 +13,24 @@
       <link>https://marcofanuntza.it/posts/reset-password-admin-rancher/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/reset-password-admin-rancher/</guid>
-      <description>Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin
-Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..
-L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Rancher come eseguire un reset della password dell&amp;rsquo;utente Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si può capitare a tutti di dimenticare una password, ad alcuni spesso, ma niente paura possiamo eseguire un reset eseguendo questi semplici comandi che seguono..&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;esempio che segue mostra come eseguire il reset della password dell&amp;rsquo;utente admin di Rancher installato all&amp;rsquo;interno di un cluster Kubernetes, le operazioni in parte sono valide anche nel caso il vostro Rancher fosse stato installato su un semplice container docker.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come reimpostare la password root in un container LXC su Proxmox VE</title>
       <link>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/31/come-reimpostare-la-password-root-in-un-container-lxc-su-proxmox-ve/</guid>
-      <description>Problema
-Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.
-Soluzione
-*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.
-*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:
-105 (passwdDimenticata) *105 saràil suo ID, passwdDimenticata sarà il suo nome.
-*Avviare il container nel caso non lo fosse già</description>
+      <description>&lt;p&gt;&lt;strong&gt;Problema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abbiamo dimenticato la password di un container LXC in esecuzione su Proxmox e non abbiamo alternative se non quella di resettarla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Soluzione&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Effettuare l’accesso sulla web GUI del vostro cluster Proxmox.&lt;/p&gt;
+&lt;p&gt;*Individuate il container LXC per il quale si desidera reimpostare la password e ricordarsi l’ID del container. Ad esempio, se vediamo un container chiamato:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;105 (passwdDimenticata) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;*105 saràil suo ID, passwdDimenticata sarà il suo nome.&lt;/p&gt;
+&lt;p&gt;*Avviare il container nel caso non lo fosse già&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sun, 11 Feb 2024 10:59:48 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2024 10:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://marcofanuntza.it/tags/docker/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberry</title>
+      <link>https://marcofanuntza.it/tags/raspberry/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/raspberry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://marcofanuntza.it/tags/ubuntu/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volumi</title>
+      <link>https://marcofanuntza.it/tags/volumi/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/volumi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>https://marcofanuntza.it/tags/ci/cd/</link>
+      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/ci/cd/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>https://marcofanuntza.it/tags/git/</link>
@@ -37,21 +72,7 @@
       <description></description>
     </item>
     <item>
-      <title>ubuntu</title>
-      <link>https://marcofanuntza.it/tags/ubuntu/</link>
-      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://marcofanuntza.it/tags/docker/</link>
-      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>docker registry</title>
+      <title>Docker Registry</title>
       <link>https://marcofanuntza.it/tags/docker-registry/</link>
       <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/docker-registry/</guid>
@@ -65,7 +86,7 @@
       <description></description>
     </item>
     <item>
-      <title>installare</title>
+      <title>Installare</title>
       <link>https://marcofanuntza.it/tags/installare/</link>
       <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/installare/</guid>
@@ -79,21 +100,21 @@
       <description></description>
     </item>
     <item>
-      <title>howto</title>
+      <title>Howto</title>
       <link>https://marcofanuntza.it/tags/howto/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/howto/</guid>
       <description></description>
     </item>
     <item>
-      <title>krew</title>
+      <title>Krew</title>
       <link>https://marcofanuntza.it/tags/krew/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/krew/</guid>
       <description></description>
     </item>
     <item>
-      <title>kubectl</title>
+      <title>Kubectl</title>
       <link>https://marcofanuntza.it/tags/kubectl/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/kubectl/</guid>
@@ -121,7 +142,7 @@
       <description></description>
     </item>
     <item>
-      <title>Argo-cd</title>
+      <title>Argo-Cd</title>
       <link>https://marcofanuntza.it/tags/argo-cd/</link>
       <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/argo-cd/</guid>
@@ -149,42 +170,42 @@
       <description></description>
     </item>
     <item>
-      <title>ansible</title>
+      <title>Ansible</title>
       <link>https://marcofanuntza.it/tags/ansible/</link>
       <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/ansible/</guid>
       <description></description>
     </item>
     <item>
-      <title>automation</title>
+      <title>Automation</title>
       <link>https://marcofanuntza.it/tags/automation/</link>
       <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/automation/</guid>
       <description></description>
     </item>
     <item>
-      <title>automazione</title>
+      <title>Automazione</title>
       <link>https://marcofanuntza.it/tags/automazione/</link>
       <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/automazione/</guid>
       <description></description>
     </item>
     <item>
-      <title>playbook</title>
+      <title>Playbook</title>
       <link>https://marcofanuntza.it/tags/playbook/</link>
       <pubDate>Fri, 19 Jan 2024 15:01:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/playbook/</guid>
       <description></description>
     </item>
     <item>
-      <title>admin</title>
+      <title>Admin</title>
       <link>https://marcofanuntza.it/tags/admin/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/admin/</guid>
       <description></description>
     </item>
     <item>
-      <title>password</title>
+      <title>Password</title>
       <link>https://marcofanuntza.it/tags/password/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/password/</guid>
@@ -198,21 +219,21 @@
       <description></description>
     </item>
     <item>
-      <title>reset</title>
+      <title>Reset</title>
       <link>https://marcofanuntza.it/tags/reset/</link>
       <pubDate>Fri, 19 Jan 2024 08:57:35 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/reset/</guid>
       <description></description>
     </item>
     <item>
-      <title>K3D</title>
+      <title>K3d</title>
       <link>https://marcofanuntza.it/tags/k3d/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/k3d/</guid>
       <description></description>
     </item>
     <item>
-      <title>K3S</title>
+      <title>K3s</title>
       <link>https://marcofanuntza.it/tags/k3s/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/k3s/</guid>
@@ -226,7 +247,7 @@
       <description></description>
     </item>
     <item>
-      <title>template</title>
+      <title>Template</title>
       <link>https://marcofanuntza.it/tags/template/</link>
       <pubDate>Tue, 16 Jan 2024 09:33:00 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/template/</guid>
@@ -247,7 +268,7 @@
       <description></description>
     </item>
     <item>
-      <title>Docker compose</title>
+      <title>Docker Compose</title>
       <link>https://marcofanuntza.it/tags/docker-compose/</link>
       <pubDate>Mon, 15 Jan 2024 13:34:41 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/docker-compose/</guid>
@@ -261,7 +282,7 @@
       <description></description>
     </item>
     <item>
-      <title>Backup e Ripristino</title>
+      <title>Backup E Ripristino</title>
       <link>https://marcofanuntza.it/tags/backup-e-ripristino/</link>
       <pubDate>Sat, 13 Jan 2024 08:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/backup-e-ripristino/</guid>
@@ -380,14 +401,14 @@
       <description></description>
     </item>
     <item>
-      <title>adblocker</title>
+      <title>Adblocker</title>
       <link>https://marcofanuntza.it/tags/adblocker/</link>
       <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/adblocker/</guid>
       <description></description>
     </item>
     <item>
-      <title>advertising</title>
+      <title>Advertising</title>
       <link>https://marcofanuntza.it/tags/advertising/</link>
       <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/advertising/</guid>
@@ -401,21 +422,21 @@
       <description></description>
     </item>
     <item>
-      <title>pi-hole</title>
+      <title>Pi-Hole</title>
       <link>https://marcofanuntza.it/tags/pi-hole/</link>
       <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/pi-hole/</guid>
       <description></description>
     </item>
     <item>
-      <title>pihole</title>
+      <title>Pihole</title>
       <link>https://marcofanuntza.it/tags/pihole/</link>
       <pubDate>Sat, 06 Jan 2024 09:53:54 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/pihole/</guid>
       <description></description>
     </item>
     <item>
-      <title>dimenticata</title>
+      <title>Dimenticata</title>
       <link>https://marcofanuntza.it/tags/dimenticata/</link>
       <pubDate>Sun, 31 Dec 2023 17:34:21 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/dimenticata/</guid>
@@ -489,13 +510,6 @@
       <link>https://marcofanuntza.it/tags/supporto-professionale/</link>
       <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/supporto-professionale/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CI/CD</title>
-      <link>https://marcofanuntza.it/tags/ci/cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://marcofanuntza.it/tags/ci/cd/</guid>
       <description></description>
     </item>
   </channel>

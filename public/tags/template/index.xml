@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>template on Howto e esperienze di shell..</title>
+    <title>Template on Howto e esperienze di shell..</title>
     <link>https://marcofanuntza.it/tags/template/</link>
-    <description>Recent content in template on Howto e esperienze di shell..</description>
+    <description>Recent content in Template on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 16 Jan 2024 09:33:00 +0100</lastBuildDate>
@@ -13,12 +13,12 @@
       <link>https://marcofanuntza.it/posts/come-creare-template-ubuntu-su-proxmox/</link>
       <pubDate>Tue, 16 Jan 2024 09:33:00 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/come-creare-template-ubuntu-su-proxmox/</guid>
-      <description>Premessa
-Questa guida mostra i comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata è Ubuntu e l&amp;rsquo;immagine sarà una versione specifica per il cloud.
-Le Immagini Cloud sono piccole immagini certificate e pronte per il cloud, hanno Cloud Init preinstallato e pronto per accettare una Cloud Config.
-I comandi verranno tutti eseguiti da shell all&amp;rsquo;interno di un nodo Proxmox
-Procedura
-Iniziamo scaricando l&amp;rsquo;immagine Ubuntu dalla pagina specifica Ubuntu Cloud Images per questa guida utilizzeremo Ubuntu Server 24.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Premessa&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questa guida mostra i comandi da eseguire per creare un template di una VM da utilizzare su Proxmox, la distro utilizzata è Ubuntu e l&amp;rsquo;immagine sarà una versione specifica per il cloud.&lt;/p&gt;
+&lt;p&gt;Le Immagini Cloud sono piccole immagini certificate e pronte per il cloud, hanno Cloud Init preinstallato e pronto per accettare una Cloud Config.&lt;/p&gt;
+&lt;p&gt;I comandi verranno tutti eseguiti da shell all&amp;rsquo;interno di un nodo Proxmox&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Procedura&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Iniziamo scaricando l&amp;rsquo;immagine Ubuntu dalla pagina specifica &lt;a href=&#34;https://cloud-images.ubuntu.com/&#34;&gt;Ubuntu Cloud Images&lt;/a&gt; per questa guida utilizzeremo Ubuntu Server 24.04 LTS (Noble Numbat)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

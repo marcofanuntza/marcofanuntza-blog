@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>K3S on Howto e esperienze di shell..</title>
+    <title>K3s on Howto e esperienze di shell..</title>
     <link>https://marcofanuntza.it/tags/k3s/</link>
-    <description>Recent content in K3S on Howto e esperienze di shell..</description>
+    <description>Recent content in K3s on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Wed, 17 Jan 2024 09:01:55 +0100</lastBuildDate>
@@ -13,20 +13,20 @@
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</guid>
-      <description>Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
-Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).
-Si facile da utilizzare dopo che si supera il primo scoglio iniziale..
-Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.</description>
+      <description>&lt;p&gt;Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.&lt;/p&gt;
+&lt;p&gt;Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).&lt;/p&gt;
+&lt;p&gt;Si facile da utilizzare dopo che si supera il primo scoglio iniziale..&lt;/p&gt;
+&lt;p&gt;Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come installare K3D</title>
       <link>https://marcofanuntza.it/posts/come-installare-k3d/</link>
       <pubDate>Tue, 16 Jan 2024 09:52:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/come-installare-k3d/</guid>
-      <description>Iniziamo con capire che cos&amp;rsquo;è K3D e non confondiamolo con K3S
-K3D
-K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive Wikipedia &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.
-In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.</description>
+      <description>&lt;p&gt;Iniziamo con capire che cos&amp;rsquo;è &lt;strong&gt;K3D&lt;/strong&gt; e non confondiamolo con &lt;strong&gt;K3S&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;K3D&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;K3D è un &amp;ldquo;wrapper&amp;rdquo; che come scrive &lt;a href=&#34;https://it.wikipedia.org/wiki/Wrapper&#34;&gt;Wikipedia&lt;/a&gt; &amp;ldquo;è un&amp;rsquo;avvolgitore, un modulo software che ne &amp;ldquo;riveste&amp;rdquo; un altro&amp;rdquo; Si la traduzione dall&amp;rsquo;inglese non è felicissima, in questo caso specifico consente di eseguire K3S, che è la distribuzione minimale di Kubernetes sviluppata da Rancher Labs, all&amp;rsquo;interno di Docker.&lt;/p&gt;
+&lt;p&gt;In altre parole, K3D semplifica la creazione e la gestione di cluster Kubernetes leggeri e portatili che utilizzano K3S, rendendo il processo più agevole, specialmente per coloro che sviluppano in locale utilizzando tecnologie Kubernetes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

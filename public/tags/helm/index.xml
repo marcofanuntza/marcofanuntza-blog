@@ -13,20 +13,21 @@
       <link>https://marcofanuntza.it/posts/installiamo-argocd/</link>
       <pubDate>Fri, 26 Jan 2024 09:02:24 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-argocd/</guid>
-      <description>ARGO CD
-Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes. Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.
-I principali punti chiave di ARGO CD
-Continuous Deployment: ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.</description>
+      <description>&lt;p&gt;&lt;strong&gt;ARGO CD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Argo CD è uno strumento open-source progettato per implementare e gestire il CD (continous deployment) su infrastrutture Kubernetes.
+Si basa sui principi GitOps, utilizza repository Git come unica fonte di verità per la configurazione dell&amp;rsquo;infrastruttura e delle applicazioni.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I principali punti chiave di ARGO CD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Continuous Deployment:&lt;/strong&gt; ARGO CD automatizza il processo di implementazione delle applicazioni su cluster Kubernetes, garantendo che lo stato attuale corrisponda a quello dichiarato nel repository Git.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proviamo Kubernetes con Rancher</title>
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-e-rancher-con-k3d/</guid>
-      <description>Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.
-Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).
-Si facile da utilizzare dopo che si supera il primo scoglio iniziale..
-Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.</description>
+      <description>&lt;p&gt;Kubernetes è un sistema di gestione (orchestratore) di container che è diventato di fatto lo standard per distribuire applicazioni containerizzate.&lt;/p&gt;
+&lt;p&gt;Questo perché Kubernetes è potente, affidabile, flessibile e per lo più facile da usare (come no).&lt;/p&gt;
+&lt;p&gt;Si facile da utilizzare dopo che si supera il primo scoglio iniziale..&lt;/p&gt;
+&lt;p&gt;Io personalmente ho avuto difficoltà nel visualizzare mentalmente il cluster e tutti i componenti che ne facevano parte utilizzando solo gli strumenti della riga di comando finché non ho familiarizzato con la sua struttura.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

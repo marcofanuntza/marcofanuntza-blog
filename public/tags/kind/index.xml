@@ -13,11 +13,11 @@
       <link>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</link>
       <pubDate>Thu, 25 Jan 2024 10:37:46 +0100</pubDate>
       <guid>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</guid>
-      <description>Proviamo Kubernetes con Kind
-Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.
-Kind (Kubernetes IN Docker) è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.
-Ecco alcune caratteristiche chiave di kind:
-Installazione Semplificata: kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Proviamo Kubernetes con Kind&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questa guida è indicata per tutti coloro che hanno esigenza di interagire con un cluster Kubernetes per meri scopi di test, conoscenza e sviluppo utilizzando una workstation o notebook con risorse limitate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kind (Kubernetes IN Docker)&lt;/strong&gt; è uno strumento open-source progettato per semplificare la creazione e la gestione di cluster Kubernetes locali utilizzando container Docker come nodi del cluster.&lt;/p&gt;
+&lt;p&gt;Ecco alcune caratteristiche chiave di kind:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installazione Semplificata:&lt;/strong&gt; kind semplifica notevolmente il processo di installazione di Kubernetes su una macchina locale, consentendo agli sviluppatori di creare rapidamente e facilmente cluster Kubernetes per scopi di sviluppo o test.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

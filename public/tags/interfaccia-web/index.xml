@@ -13,10 +13,20 @@
       <link>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</link>
       <pubDate>Sat, 16 Dec 2023 13:18:27 +0000</pubDate>
       <guid>https://marcofanuntza.it/2023/12/16/gestione-home-datacenter-con-proxmox/</guid>
-      <description>Introduzione:
-Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.
-Che cos’è Proxmox?
-è una piattaforma di virtualizzazione, un hypervisor di tipo 1 permette di virtualizzare virtual machine e container interfaccia web per il controllo permette configurazione in cluster gestisce storage, snapshot e backup automatizzati basata su Debian, utilizza KVM per le vm e LXC per i container completamente free e open source piani di licenza enterprise attivabili Virtualizzazione e Containerizzazione: La Combo Vincente</description>
+      <description>&lt;p&gt;&lt;strong&gt;Introduzione:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nel corso della mia esperienza nel settore dell’IT, se c’è qualcosa che ho imparato è che l’efficienza e la flessibilità sono fondamentali. È qui che entra in gioco Proxmox, una piattaforma che ho scoperto essere un vero game-changer. In questo primo articolo, voglio condividere la mia esperienza con Proxmox e negli articoli che seguiranno mostrarvi come ho configurato il mio “homedatacenter”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Che cos’è Proxmox?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;è una piattaforma di virtualizzazione, un hypervisor di tipo 1&lt;/li&gt;
+&lt;li&gt;permette di virtualizzare virtual machine e container&lt;/li&gt;
+&lt;li&gt;interfaccia web per il controllo&lt;/li&gt;
+&lt;li&gt;permette configurazione in cluster&lt;/li&gt;
+&lt;li&gt;gestisce storage, snapshot e backup automatizzati&lt;/li&gt;
+&lt;li&gt;basata su Debian, utilizza KVM per le vm e LXC per i container&lt;/li&gt;
+&lt;li&gt;completamente free e open source&lt;/li&gt;
+&lt;li&gt;piani di licenza enterprise attivabili&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Virtualizzazione e Containerizzazione: La Combo Vincente&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
