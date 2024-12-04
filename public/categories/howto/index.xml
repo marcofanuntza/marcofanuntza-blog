@@ -6,8 +6,18 @@
     <description>Recent content in Howto on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 31 Jan 2024 11:26:58 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2024 10:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installiamo Gitlab</title>
+      <link>https://marcofanuntza.it/posts/installiamo-gitlab/</link>
+      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/installiamo-gitlab/</guid>
+      <description>Questo articolo continua la serie denominata &amp;ldquo;Il potere CI/CD&amp;rdquo;, in precedenza abbiamo mostrato come installare ArgoCD, poi siamo passati al registry con Harbor, adesso è arrivato il momento di Gitlab.
+Che cos&amp;rsquo;è Gitlab?
+GitLab è una piattaforma per la gestione del software basata su Git, fornisce un vasto set di strumenti per favorire la collaborazione, automatizzare processi e monitorare lo sviluppo del software durante il suo ciclo di vita.
+Ecco alcuni aspetti chiave di GitLab:</description>
+    </item>
     <item>
       <title>Harbor come Registry</title>
       <link>https://marcofanuntza.it/posts/harbor-come-registry/</link>
