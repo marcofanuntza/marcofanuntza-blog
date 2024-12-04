@@ -67,8 +67,6 @@ Sarebbe buona norma eseguirlo almeno una volta al giorno e considerando il fatto
 
     0 0 * * * /usr/bin/sh /home/marco/backup-docker-volume/script-bck.sh
 
-![Example image](/img/gitlab2.webp)
-
 
 Il backup è importante ma la sua funzione potrebbe essere vana se lasciassimo i files sullo stesso host, muore questo perdiamo anche i backup.. (Obviously numero 2)
 
