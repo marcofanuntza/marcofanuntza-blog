@@ -15,7 +15,7 @@ tags:
 
 
 cover:
-  image: /img/gitlab-cover.webp
+  image: /img/img-backup-vol.webp
 ---
 
 Come eseguo il backup dei volumi Docker? Niente di più semplice!
