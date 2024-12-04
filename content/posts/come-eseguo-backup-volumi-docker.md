@@ -26,6 +26,26 @@ Eseguo applicazioni in self hosting e alcune sono dei container Docker, ho citat
 
 Partiamo dal presupposto che utilizziate Docker che esegue dei container e che questi abbiano dei volumi persistenti come nel mio caso.
 
+    docker volume ls
+    
+    DRIVER    VOLUME NAME
+    local     portainer_data
+    local     vaultw-data
+
+Se non conoscete il percorso dove Docker posiziona i volumi potete ottenerlo semplicemente con un inspect del volume
+
+    docker inspect vaultw-data
+    [
+    {
+        "CreatedAt": "2024-12-01T08:45:34Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/vaultw-data/_data",
+        "Name": "vaultw-data",
+        "Options": null,
+        "Scope": "local"
+    }
+    ]
 
 
 **Ecco lo script**
