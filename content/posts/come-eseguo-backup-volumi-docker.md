@@ -5,13 +5,14 @@ draft: false
 
 categories:
  - Howto
- - Linux
+ - Docker
+ - Backup
 
 tags:
  - Docker
  - Volumi
  - Raspberry
- - Ubuntu
+ - Backup
 
 
 cover:
