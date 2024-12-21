@@ -29,13 +29,12 @@ Il **GitLab Container Registry** è un registro integrato all'interno di GitLab 
 
 Questa integrazione, insieme a GitLab CI, rende GitLab una piattaforma completa per automatizzare e accelerare i processi DevOps, semplificando ulteriormente l'intero ciclo di vita dello sviluppo software.
 
-Se utilizzate GitLab come servizio direttamente su [gitlab.com](https://gitlab.com), troverete il registry già abilitato.  
-Se invece lo avete installato su un vostro server locale, sarà necessario abilitarlo.
+Se utilizzate GitLab come servizio direttamente su [gitlab.com](https://gitlab.com), troverete il registry già abilitato, se invece lo avete installato su un vostro server locale sarà necessario abilitarlo.
 
 La documentazione ufficiale può sembrare molto esaustiva ma spesso ci si perde tra i dettagli.  
 In questa guida vi mostrerò brevemente solo quattro semplici stringhe da modificare per abilitare il registry.
 
-**Partiamo dalla premessa** che voi siate l'amministratore del sistema e che ne abbiate accesso e pieno controllo. Il file da editare sarà il classico **"/etc/gitlab/gitlab.rb"**.
+**Partiamo dalla premessa** che voi siate l'amministratore del sistema e che ne abbiate accesso e pieno controllo, il file da editare sarà il classico **"/etc/gitlab/gitlab.rb"**.
 
 Limitiamoci a editare queste sole stringhe, ovviamente voi adattatele alla vostra url
 
@@ -54,4 +53,8 @@ Dovete sapere che potete impostare una url specifica esclusiva per il registry, 
 
 Prima di procedere con ulteriori test assicuratevi che la porta 5050 sia ora in ascolto, è la porta default che viene utilizzata per contattare il registry, se la porta è in ascolto possiamo andare avanti.
 
+Ora già per un primo controllo "visivo" accedete su un vostro project all'interno di gitlab, tra le voci presenti sulla sinistra andate su "Deploy" dovrebbe esservi apparsa nel sottomenù la voce "Container Ragistry"
 
+
+![Example image](/img/gitlab-registry1.webp)
+![Example image](/img/gitlab-registry2.webp)

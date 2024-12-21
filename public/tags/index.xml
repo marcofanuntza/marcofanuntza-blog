@@ -6,20 +6,55 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 04 Dec 2024 10:59:48 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 08:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Backup</title>
-      <link>https://marcofanuntza.it/tags/backup/</link>
-      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/backup/</guid>
+      <title>CI/CD</title>
+      <link>https://marcofanuntza.it/tags/ci/cd/</link>
+      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
       <link>https://marcofanuntza.it/tags/docker/</link>
-      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://marcofanuntza.it/tags/git/</link>
+      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitlab</title>
+      <link>https://marcofanuntza.it/tags/gitlab/</link>
+      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipeline</title>
+      <link>https://marcofanuntza.it/tags/pipeline/</link>
+      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/pipeline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>https://marcofanuntza.it/tags/registry/</link>
+      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backup</title>
+      <link>https://marcofanuntza.it/tags/backup/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/backup/</guid>
       <description></description>
     </item>
     <item>
@@ -37,38 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>CI/CD</title>
-      <link>https://marcofanuntza.it/tags/ci/cd/</link>
-      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>https://marcofanuntza.it/tags/git/</link>
-      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gitlab</title>
-      <link>https://marcofanuntza.it/tags/gitlab/</link>
-      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/gitlab/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kubernetes</title>
       <link>https://marcofanuntza.it/tags/kubernetes/</link>
       <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pipeline</title>
-      <link>https://marcofanuntza.it/tags/pipeline/</link>
-      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/pipeline/</guid>
       <description></description>
     </item>
     <item>
@@ -97,13 +104,6 @@
       <link>https://marcofanuntza.it/tags/installare/</link>
       <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/installare/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Registry</title>
-      <link>https://marcofanuntza.it/tags/registry/</link>
-      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/registry/</guid>
       <description></description>
     </item>
     <item>
