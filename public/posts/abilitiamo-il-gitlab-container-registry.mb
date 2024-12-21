@@ -1,24 +1,11 @@
 ---
-title: 'Abilitiamo il Gitlab Container Registry'
-date: 2024-02-21T08:59:48+01:00
+title: "Come Abilitare il GitLab Container Registry"
+date: 2024-12-21
 draft: false
-
-categories:
- - Howto
-
-tags:
- - Gitlab
- - CI/CD
- - Docker
- - Pipeline
- - Registry
- - Git
-
-
-cover:
-  image: /img/gitlab-cover.webp
+description: "Guida semplice per abilitare il GitLab Container Registry e integrarlo nei progetti DevOps."
+tags: ["GitLab", "Container Registry", "DevOps", "Guida"]
+categories: ["DevOps", "Tutorial"]
 ---
-
 
 Nel precedente articolo avevo mostrato come procedere all'installazione di GitLab su un nostro server locale, [clicca qui per leggerlo](https://marcofanuntza.it/posts/installiamo-gitlab/).
 
