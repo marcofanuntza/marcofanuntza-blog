@@ -61,3 +61,40 @@ Ora già per un primo controllo "visivo" accedete su un vostro project all'inter
 Entrando sulla pagina vi mostrerà i comandi da eseguire sul vostro client docker per procedere con creazione e upload del container sul vostro nuovo Gitlab Container Registry
 
 ![Example image](/img/gitlab-registry2.webp)
+
+
+Procediamo con quest'ultima verifica direttamente dal client Docker... 
+
+Dobbiamo istruire il nostro client per considerare il registry come "insicuro" editando/creando il file /etc/docker/daemon.json
+
+    {
+        "insecure-registries" : [ "https://gitlab.marcofanuntza.it:5050" ]
+    }
+
+Non allarmatevi questa istruzione è necessaria quando si utilizza un certificato self-signed e la CA non può essere verificata da Docker
+
+
+Per la successiva build prepariamo un semplice Dockerfile come segue:
+
+    FROM ubuntu
+
+    RUN apt-get update
+
+    CMD ["echo", "Ciao, Gitlab Registry!"]
+
+
+Adesso siamo pronti! eseguiamo il login con il primo comando, le credenziali saranno le stesse del vostro user gitlab che vi permette di accedere al progetto
+
+
+    docker login gitlab.marcofanuntza.it:5050
+
+Con il comando che segue eseguiamo la build del nostro container
+
+    docker build -t gitlab.marcofanuntza.it:5050/utentezero/testregistry .
+
+Ora il momento cruciale, con il comando successivo carichiamo l'immagine docker finalmente sul nostro Gitlab Container Registry
+
+    docker push gitlab.marcofanuntza.it:5050/utentezero/testregistry
+
+
+Nel prossimo articolo cercherò di mostrarvi lo stesso concetto però eseguito in automatico da una pipeline, sempre all'interno di Gitlab!
