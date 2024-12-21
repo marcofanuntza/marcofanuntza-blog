@@ -1,0 +1,35 @@
+---
+title: 'Abilitiamo il Gitlab Container Registry'
+date: 2024-02-21T10:59:48+01:00
+draft: true
+
+categories:
+ - Howto
+ - Linux
+
+tags:
+ - Gitlab
+ - CI/CD
+ - Registry
+ - Pipeline
+ - Docker
+ - Git
+
+
+cover:
+  image: /img/gitlab-cover.webp
+---
+
+Nel precedente articolo avevo mostrato come procedere all'installazione di Gitlab su un nostro server locale, clicca qui per leggerlo. 
+
+Gitlab è uno strumento leader nel mondo Devops, oggi è tra i pià diffusi per il versionamento del proprio codice software, ma oltre a questo è molto di più! Gitlab infatti tra le tante feautures mette a disposizione anche un container registry
+
+Il GitLab Container Registry è un registry integrato all'interno di Gitlab stesso, consente di archiviare, condividere e distribuire facilmente le immagini dei container all'interno dei progetti GitLab.
+
+Questa integrazione insieme a GitLab CI, rende GitLab una piattaforma completa per automatizzare e accelerare i processi DevOps, semplificardo ulteriormente l'intero ciclo di vita dello sviluppo software.
+
+Se utilizzate Gitlab come servizio direttamente su gitlab.com troverete il registry già bello che abilitato, se invece lo avete installato su un vostro server locale sarà necessario abilitarlo.
+
+La documentazione ufficiale può sembrare molto esaustiva ma spesso ci si perde tra i dettagli, in questa guida vi mostrerò brevemente solo quattro semplici stringhe da editare necessarie per abilitare il registry
+
+Partiamo dalla premssa che voi siata l'amministratore del sistema e che abbiate l'accesso e pieno controllo del server, il file da editare sarà il classico gitlab
