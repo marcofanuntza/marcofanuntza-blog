@@ -16,7 +16,7 @@ tags:
 
 
 cover:
-  image: /img/gitlab-cover.webp
+  image: /img/gitlab-registry3.webp
 ---
 
 
