@@ -9,6 +9,20 @@
     <lastBuildDate>Wed, 04 Dec 2024 10:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Backup</title>
+      <link>https://marcofanuntza.it/categories/backup/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/categories/backup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://marcofanuntza.it/categories/docker/</link>
+      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/categories/docker/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Howto</title>
       <link>https://marcofanuntza.it/categories/howto/</link>
       <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
@@ -18,15 +32,8 @@
     <item>
       <title>Linux</title>
       <link>https://marcofanuntza.it/categories/linux/</link>
-      <pubDate>Wed, 04 Dec 2024 10:59:48 +0100</pubDate>
+      <pubDate>Sun, 11 Feb 2024 10:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/categories/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://marcofanuntza.it/categories/docker/</link>
-      <pubDate>Wed, 31 Jan 2024 11:26:58 +0100</pubDate>
-      <guid>https://marcofanuntza.it/categories/docker/</guid>
       <description></description>
     </item>
     <item>

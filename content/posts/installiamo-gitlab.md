@@ -113,7 +113,7 @@ Per le notiche mail possiamo utilizzare un servizio SMTP esterno, la configurazi
     # not used for the verification of the SMTP server certificate.
     gitlab_rails['smtp_ca_file'] = '/path/to/your/cacert.pem'
 
-Ogni volta che editiamo il file e modifichiamo le impostazioni contenute all'interno è necessario eseguire il seguente comando per applicare le mofidiche:
+Ogni volta che editiamo il file e modifichiamo le impostazioni contenute all'interno è necessario eseguire il seguente comando per applicare le modifiche:
 
     sudo gitlab-ctl reconfigure
 

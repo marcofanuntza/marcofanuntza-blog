@@ -1,35 +1,44 @@
 ---
-title: 'Abilitiamo il Gitlab Container Registry'
-date: 2024-02-21T10:59:48+01:00
-draft: true
-
-categories:
- - Howto
- - Linux
-
-tags:
- - Gitlab
- - CI/CD
- - Registry
- - Pipeline
- - Docker
- - Git
-
-
-cover:
-  image: /img/gitlab-cover.webp
+title: "Come Abilitare il GitLab Container Registry"
+date: 2024-12-21
+draft: false
+description: "Guida semplice per abilitare il GitLab Container Registry e integrarlo nei progetti DevOps."
+tags: ["GitLab", "Container Registry", "DevOps", "Guida"]
+categories: ["DevOps", "Tutorial"]
 ---
 
-Nel precedente articolo avevo mostrato come procedere all'installazione di Gitlab su un nostro server locale, clicca qui per leggerlo. 
+Nel precedente articolo avevo mostrato come procedere all'installazione di GitLab su un nostro server locale, [clicca qui per leggerlo](https://marcofanuntza.it/posts/installiamo-gitlab/).
 
-Gitlab è uno strumento leader nel mondo Devops, oggi è tra i pià diffusi per il versionamento del proprio codice software, ma oltre a questo è molto di più! Gitlab infatti tra le tante feautures mette a disposizione anche un container registry
+GitLab è uno strumento leader nel mondo DevOps, oggi è tra i più diffusi per il versionamento del proprio codice software, ma oltre a questo è molto di più!  
+GitLab, infatti, tra le tante funzionalità, mette a disposizione anche un Container Registry.
 
-Il GitLab Container Registry è un registry integrato all'interno di Gitlab stesso, consente di archiviare, condividere e distribuire facilmente le immagini dei container all'interno dei progetti GitLab.
+Il **GitLab Container Registry** è un registro integrato all'interno di GitLab stesso, che consente di archiviare, condividere e distribuire facilmente le immagini dei container all'interno dei progetti GitLab.
 
-Questa integrazione insieme a GitLab CI, rende GitLab una piattaforma completa per automatizzare e accelerare i processi DevOps, semplificardo ulteriormente l'intero ciclo di vita dello sviluppo software.
+Questa integrazione, insieme a GitLab CI, rende GitLab una piattaforma completa per automatizzare e accelerare i processi DevOps, semplificando ulteriormente l'intero ciclo di vita dello sviluppo software.
 
-Se utilizzate Gitlab come servizio direttamente su gitlab.com troverete il registry già bello che abilitato, se invece lo avete installato su un vostro server locale sarà necessario abilitarlo.
+Se utilizzate GitLab come servizio direttamente su [gitlab.com](https://gitlab.com), troverete il registry già abilitato.  
+Se invece lo avete installato su un vostro server locale, sarà necessario abilitarlo.
 
-La documentazione ufficiale può sembrare molto esaustiva ma spesso ci si perde tra i dettagli, in questa guida vi mostrerò brevemente solo quattro semplici stringhe da editare necessarie per abilitare il registry
+La documentazione ufficiale può sembrare molto esaustiva ma spesso ci si perde tra i dettagli.  
+In questa guida vi mostrerò brevemente solo quattro semplici stringhe da modificare per abilitare il registry.
 
-Partiamo dalla premssa che voi siata l'amministratore del sistema e che abbiate l'accesso e pieno controllo del server, il file da editare sarà il classico gitlab
+**Partiamo dalla premessa** che voi siate l'amministratore del sistema e che ne abbiate accesso e pieno controllo. Il file da editare sarà il classico **"/etc/gitlab/gitlab.rb"**.
+
+Limitiamoci a editare queste sole stringhe, ovviamente voi adattatele alla vostra url
+
+    registry_external_url 'https://gitlab.marcofanuntza.it:5050'
+
+    gitlab_rails['registry_enabled'] = true
+    gitlab_rails['registry_host'] = "gitlab.marcofanuntza.it"
+
+    gitlab_rails['registry_path'] = "/var/opt/gitlab/gitlab-rails/shared/registry"
+
+
+Dovete sapere che potete impostare una url specifica esclusiva per il registry, come per esempio registry.gitlab.esempio.it ma nel mio caso ho preferito avere un'unico indirizzo in comune con il servizio principale. Salvate il file e subito dopo eseguite il comando per applicare la configurazione alla vostra istanza in esecuzione con: 
+
+    sudo gitlab-ctl reconfigure
+    sudo gitlab-ctl restart
+
+Prima di procedere con ulteriori test assicuratevi che la porta 5050 sia ora in ascolto, è la porta default che viene utilizzata per contattare il registry, se la porta è in ascolto possiamo andare avanti.
+
+
