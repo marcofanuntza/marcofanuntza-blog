@@ -57,4 +57,7 @@ Ora già per un primo controllo "visivo" accedete su un vostro project all'inter
 
 
 ![Example image](/img/gitlab-registry1.webp)
+
+Entrando sulla pagina vi mostrerà i comandi da eseguire sul vostro client docker per procedere con creazione e upload del container sul vostro nuovo Gitlab Container Registry
+
 ![Example image](/img/gitlab-registry2.webp)
