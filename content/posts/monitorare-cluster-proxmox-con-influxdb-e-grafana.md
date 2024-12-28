@@ -70,16 +70,18 @@ Completiamo inserendo i dati per far raggiungere InfluxDB e relativo bucket, il 
 
 ![Example image](/img/monit-inluxdb6.webp)
 
-Adesso arriva la parte finale e più soddisfacente, su Grafana dobbiamo creare la nostra Dashboard. Cioè creare... c'è già qualcuno più bravo di noi e disponibile che ha già fatto una dashboard! 
+Adesso arriva la parte finale e più soddisfacente, su Grafana dobbiamo creare la nostra Dashboard. Cioè avvocato...creare... c'è già qualcuno più bravo di noi e disponibile che ha già fatto una dashboard! 
 
 Grazie alla community Grafana permette di condividere dashboard già pronte e semplici da importare direttamente sulla vostra istanza, queste si trovano facilmente sul sito grafanalabs.
 
-![Example image](/img/monit-inluxdb9.webp)
+![Example image](/img/monit-inluxdb09.webp)
 
-Provate a cercare proxmox
+Provate a cercare proxmox e scoprirete quante sono già state condivise e disponibili
 
 ![Example image](/img/monit-inluxdb10.webp)
 
+Io ho scelto la dashboard **Proxmox Cluster Flux** e per installarla su Grafana basta semplicemente scaricare il file json e importarlo sulle nostre dashboard
 
+![Example image](/img/monit-inluxdb11.webp)
 
 
