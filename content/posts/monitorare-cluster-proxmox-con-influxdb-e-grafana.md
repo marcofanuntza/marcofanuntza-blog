@@ -74,11 +74,11 @@ Adesso arriva la parte finale e più soddisfacente, su Grafana dobbiamo creare l
 
 Grazie alla community Grafana permette di condividere dashboard già pronte e semplici da importare direttamente sulla vostra istanza, queste si trovano facilmente sul sito grafanalabs.
 
-![Example image](/img/monit-inluxdb8.webp)
+![Example image](/img/monit-inluxdb9.webp)
 
 Provate a cercare proxmox
 
-![Example image](/img/monit-inluxdb9.webp)
+![Example image](/img/monit-inluxdb10.webp)
 
 
 
