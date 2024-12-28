@@ -2,19 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcofanuntza.it/categories/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/monitorare-cluster-proxmox-con-influxdb-e-grafana/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/docker/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/grafana/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/grafana/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/howto/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/influxdb/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/monitoring/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/portainer/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/proxmox/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/proxmox/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/tutorial/</loc>
+    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/posts/abilitiamo-il-gitlab-container-registry/</loc>
     <lastmod>2024-12-21T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/</loc>
-    <lastmod>2024-12-21T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/ci/cd/</loc>
-    <lastmod>2024-12-21T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/docker/</loc>
     <lastmod>2024-12-21T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -26,27 +78,11 @@
     <lastmod>2024-12-21T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/howto/</loc>
-    <lastmod>2024-12-21T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/</loc>
-    <lastmod>2024-12-21T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/pipeline/</loc>
     <lastmod>2024-12-21T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-12-21T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/registry/</loc>
-    <lastmod>2024-12-21T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2024-12-21T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -227,10 +263,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/posts/come-creare-template-ubuntu-su-proxmox/</loc>
-    <lastmod>2024-01-16T09:33:00+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/proxmox/</loc>
     <lastmod>2024-01-16T09:33:00+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>

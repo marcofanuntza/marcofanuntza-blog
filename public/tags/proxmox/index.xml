@@ -6,8 +6,18 @@
     <description>Recent content in Proxmox on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 16 Jan 2024 09:33:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 08:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come monitoro il mio cluster Proxmox con InfluxDB e Grafana</title>
+      <link>https://marcofanuntza.it/posts/monitorare-cluster-proxmox-con-influxdb-e-grafana/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/posts/monitorare-cluster-proxmox-con-influxdb-e-grafana/</guid>
+      <description>&lt;p&gt;Nel mio Homelab, come ho descritto in precedenza in altri post, utilizzo un cluster Proxmox.&lt;/p&gt;
+&lt;p&gt;Sebbene il cluster disponga già di una dashboard integrata, questa risulta piuttosto spartana.
+Così, in questo tranquillo pomeriggio delle ferie natalizie, ho colto l&amp;rsquo;occasione per sperimentare una soluzione più avanzata: InfluxDB + Grafana.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;InfluxDB&lt;/strong&gt; è un database open-source progettato specificamente per la gestione di serie temporali, ovvero dati che variano nel tempo come metriche, eventi e log. Grazie alla sua architettura ottimizzata, è in grado di gestire grandi volumi di dati in tempo reale, rendendolo una scelta ideale per applicazioni di monitoraggio e analisi delle prestazioni.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Come creare template Ubuntu su Proxmox</title>
       <link>https://marcofanuntza.it/posts/come-creare-template-ubuntu-su-proxmox/</link>

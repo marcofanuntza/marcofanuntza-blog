@@ -6,13 +6,27 @@
     <description>Recent content in Categories on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 21 Dec 2024 08:59:48 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 08:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grafana</title>
+      <link>https://marcofanuntza.it/categories/grafana/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/categories/grafana/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Howto</title>
       <link>https://marcofanuntza.it/categories/howto/</link>
-      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/categories/howto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxmox</title>
+      <link>https://marcofanuntza.it/categories/proxmox/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/categories/proxmox/</guid>
       <description></description>
     </item>
     <item>

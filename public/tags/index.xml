@@ -6,20 +6,62 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 21 Dec 2024 08:59:48 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 08:59:48 +0100</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://marcofanuntza.it/tags/docker/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grafana</title>
+      <link>https://marcofanuntza.it/tags/grafana/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/grafana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Influxdb</title>
+      <link>https://marcofanuntza.it/tags/influxdb/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/influxdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>https://marcofanuntza.it/tags/monitoring/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portainer</title>
+      <link>https://marcofanuntza.it/tags/portainer/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/portainer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxmox</title>
+      <link>https://marcofanuntza.it/tags/proxmox/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>https://marcofanuntza.it/tags/tutorial/</link>
+      <pubDate>Fri, 27 Dec 2024 08:59:48 +0100</pubDate>
+      <guid>https://marcofanuntza.it/tags/tutorial/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CI/CD</title>
       <link>https://marcofanuntza.it/tags/ci/cd/</link>
       <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://marcofanuntza.it/tags/docker/</link>
-      <pubDate>Sat, 21 Dec 2024 08:59:48 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/docker/</guid>
       <description></description>
     </item>
     <item>
@@ -237,13 +279,6 @@
       <link>https://marcofanuntza.it/tags/k3s/</link>
       <pubDate>Wed, 17 Jan 2024 09:01:55 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/k3s/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proxmox</title>
-      <link>https://marcofanuntza.it/tags/proxmox/</link>
-      <pubDate>Tue, 16 Jan 2024 09:33:00 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/proxmox/</guid>
       <description></description>
     </item>
     <item>
