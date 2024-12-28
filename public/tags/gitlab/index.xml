@@ -15,7 +15,7 @@
       <guid>https://marcofanuntza.it/posts/abilitiamo-il-gitlab-container-registry/</guid>
       <description>&lt;p&gt;Nel precedente articolo avevo mostrato come procedere all&amp;rsquo;installazione di GitLab su un nostro server locale, &lt;a href=&#34;https://marcofanuntza.it/posts/installiamo-gitlab/&#34;&gt;clicca qui per leggerlo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;GitLab è uno strumento leader nel mondo DevOps, oggi è tra i più diffusi per il versionamento del proprio codice software, ma oltre a questo è molto di più!&lt;br&gt;
-GitLab, infatti, tra le tante funzionalità, mette a disposizione anche un Container Registry.&lt;/p&gt;
+GitLab tra le tante funzionalità, mette a disposizione anche un Container Registry.&lt;/p&gt;
 &lt;p&gt;Il &lt;strong&gt;GitLab Container Registry&lt;/strong&gt; è un registro integrato all&amp;rsquo;interno di GitLab stesso, che consente di archiviare, condividere e distribuire facilmente le immagini dei container all&amp;rsquo;interno dei progetti GitLab.&lt;/p&gt;</description>
     </item>
     <item>
