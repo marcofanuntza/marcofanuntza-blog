@@ -1,7 +1,7 @@
 ---
 title: "Come monitoro il mio cluster Proxmox con InfluxDB e Grafana"
-date: 2024-12-21T08:59:48+01:00
-draft: true
+date: 2024-12-27T08:59:48+01:00
+draft: false
 
 categories:
  - Howto
@@ -18,7 +18,7 @@ tags:
  - Tutorial
 
 cover:
-  image: /img/monit-influxdb.webp
+  image: /img/monit-influxdb7.webp
 ---
 
 Nel mio Homelab, come ho descritto in precedenza in altri post, utilizzo un cluster Proxmox. Sebbene il cluster disponga già di una dashboard integrata, questa risulta piuttosto spartana. Così, in questo tranquillo pomeriggio delle ferie natalizie, ho colto l'occasione per sperimentare una soluzione più avanzata: InfluxDB + Grafana.
@@ -46,15 +46,21 @@ I template su Portainer sono già strutturati per l'inserimento delle variabili,
 
 Dopo aver installato entrambi vai istruito il cluster Proxmox per indirizzare le metriche su InfluxDB, dalla GUI sulla sezione root del Datacenter si va sul menù **Metric Server** ADD > InfluxDB
 
-immagine 1 qui
+![Example image](/img/monit-inluxdb1.webp)
 
 Come potete notare viene chiesto anche un Token, questo va creato su InfluxDB, io per comodità ho clonato il token admin già presente su sezione Load Data >> API Tokens 
 
-immagine 2 qui
+![Example image](/img/monit-inluxdb2.webp)
 
 Salvate su Proxmox e se i dati sono stati inseriti correttamente dovreste già vedere il bucket popolarsi con le metriche, nel mio caso il bucket si chiama proxmox-mnt.
 
-immagine 3 qui
+![Example image](/img/monit-inluxdb3.webp)
  
 La parte di configurazione su Proxmox e InfluxDB possiamo considerarla conclusa, ora si potrà continuare su Grafana
+
+![Example image](/img/monit-inluxdb4.webp)
+
+
+
+
 
