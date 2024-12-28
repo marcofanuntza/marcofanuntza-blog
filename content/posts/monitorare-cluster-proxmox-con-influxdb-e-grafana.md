@@ -86,6 +86,15 @@ Io ho scelto la dashboard **Proxmox Cluster Flux** e per installarla su Grafana 
 
 La procedura è talmente semplice che non sto a elencarvela, passo direttamente a mostrarvi il risultato finale, queste sono le metriche generate dal mio cluster Proxmox, salvate da InfluxDB e "graficate" da Grafana
 
+Vengono mostrati in bella mostra i dati relativi alla CPU e al consumo di memoria dei due nodi presenti, una media del carico di utilizzo, lo storage disponibile. Le VM attualmente accese e i container LXC attivi.
+
 ![Example image](/img/monit-inluxdb7.webp)
+
+Scendendo più in basso sono presenti tutta una serie di grafici che possiamo zoomare e estendere o ridurre la finestra temporale.
+
+![Example image](/img/monit-inluxdb12.webp)
+
+![Example image](/img/monit-inluxdb13.webp)
+
 
 Buone feste e felice anno nuovo!
