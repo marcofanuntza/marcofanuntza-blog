@@ -84,4 +84,8 @@ Io ho scelto la dashboard **Proxmox Cluster Flux** e per installarla su Grafana 
 
 ![Example image](/img/monit-inluxdb11.webp)
 
+La procedura è talmente semplice che non sto a elencarvela, passo direttamente a mostrarvi il risultato finale, queste sono le metriche generate dal mio cluster Proxmox, salvate da InfluxDB e "graficate" da Grafana
 
+![Example image](/img/monit-inluxdb7.webp)
+
+Buone feste e felice anno nuovo!
