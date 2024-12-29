@@ -29,7 +29,7 @@ Così, in questo tranquillo pomeriggio delle ferie natalizie, ho colto l'occasio
 
 **InfluxDB** è un database open-source progettato specificamente per la gestione di serie temporali, ovvero dati che variano nel tempo come metriche, eventi e log. Grazie alla sua architettura ottimizzata, è in grado di gestire grandi volumi di dati in tempo reale, rendendolo una scelta ideale per applicazioni di monitoraggio e analisi delle prestazioni.  
 
-Grazie alla sua natura scalabile e alla capacità di integrarsi con strumenti come Grafana, Prometheus e Telegraf, InfluxDB è ampiamente utilizzato nel campo DevOps. Con un'interfaccia semplice e un set di funzionalità avanzate, rappresenta una soluzione potente per chiunque abbia bisogno di analizzare e visualizzare dati basati sul tempo.
+Con la sua natura scalabile e alla capacità di integrarsi con strumenti come Grafana, Prometheus e Telegraf, InfluxDB è ampiamente utilizzato nel campo DevOps. Con un'interfaccia semplice e un set di funzionalità avanzate, rappresenta una soluzione potente per chiunque abbia bisogno di analizzare e visualizzare dati basati sul tempo.
 
 
 **Grafana** è una piattaforma open-source progettata per la visualizzazione e l'analisi di dati in tempo reale, utilizzata principalmente per il monitoraggio delle metriche e dei log. Grazie alla sua capacità di supportare numerose fonti di dati, come Prometheus, InfluxDB, Elasticsearch e database relazionali, consente agli utenti di creare dashboard altamente personalizzabili e interattive per analizzare informazioni complesse.
@@ -99,4 +99,4 @@ Scendendo più in basso sono presenti tutta una serie di grafici che possiamo zo
 
 Credo che al momento possa essere la mia scelta definitiva per monitorare il mio cluster Proxmox, il passo successivo sarà impostare alcuni alert in base al carico con relative notifiche via mail.
 
-Per ora e tutto! Buone feste e felice anno nuovo!
+Per ora è tutto! Buone feste e felice anno nuovo!
