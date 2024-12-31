@@ -62,7 +62,7 @@ Su Grafana iniziamo con "agganciare" la base dati salvata da InfluxDB, per fare 
 
 ![Example image](/img/monit-inluxdb4.webp)
 
-Prestate attenzione nel linguaggio SQL da scegliere, e importante selezionare Flux
+Prestate attenzione nel linguaggio SQL da scegliere, è importante selezionare Flux
 
 ![Example image](/img/monit-inluxdb5.webp)
 
