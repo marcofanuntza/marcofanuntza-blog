@@ -6,7 +6,7 @@ tags: ["Kubernetes", "Kubespray", "Ansible", "Cluster"]
 categories: ["DevOps", "Container"]
 draft: false
 cover:
-  image: /img/kubespray_02.webp
+  image: /img/kubespray_01.webp
 
 ---
 
