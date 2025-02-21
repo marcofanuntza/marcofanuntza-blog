@@ -2,8 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcofanuntza.it/tags/ansible/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
     <loc>https://marcofanuntza.it/categories/</loc>
-    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/cluster/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/container/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/devops/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/installiamo-kubernets-con-kubespray/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubespray/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/posts/monitorare-cluster-proxmox-con-influxdb-e-grafana/</loc>
@@ -26,10 +66,6 @@
     <lastmod>2024-12-27T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/</loc>
-    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/influxdb/</loc>
     <lastmod>2024-12-27T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
@@ -42,19 +78,11 @@
     <lastmod>2024-12-27T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/proxmox/</loc>
     <lastmod>2024-12-27T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/categories/proxmox/</loc>
-    <lastmod>2024-12-27T08:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2024-12-27T08:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -111,10 +139,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/posts/installiamo-gitlab/</loc>
-    <lastmod>2024-02-11T10:59:48+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
     <lastmod>2024-02-11T10:59:48+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -190,20 +214,12 @@
     <lastmod>2024-01-26T09:02:24+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/cluster/</loc>
-    <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/kind/</loc>
     <lastmod>2024-01-25T10:37:46+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/posts/proviamo-kubernetes-con-kind/</loc>
     <lastmod>2024-01-25T10:37:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/ansible/</loc>
-    <lastmod>2024-01-19T15:01:35+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/automation/</loc>
