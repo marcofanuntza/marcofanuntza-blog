@@ -6,7 +6,7 @@ tags: ["Kubernetes", "Kubespray", "Ansible", "Cluster"]
 categories: ["DevOps", "Container"]
 draft: false
 cover:
-  image: /img/monit-in.webp
+  image: /img/kubespray_02.webp
 
 ---
 
@@ -105,7 +105,8 @@ Se tutti i nodi saranno raggiungibili senza problemi siamo finalmente pronti per
     ansible-playbook -i inventory/proxmox01/hosts.yaml -e @inventory/proxmox01/cluster-variables.yaml --become --become-user=root -u service cluster.yml
 
 Il comando è abbastanza parlante e chiaro, ora attendete che kubespray tramite ansible installi il cluster kubernetes nei nodi predefiniti, dovrebbe impiegare alcuni minuti.
-Terminato il tutto dovreste avere il messaggio di recap simile a questo
+
+**Terminato** il tutto dovreste avere il messaggio di recap simile a questo
 
 ![Example image](/img/kubespray_02.webp)
 
