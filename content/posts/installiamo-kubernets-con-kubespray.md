@@ -6,13 +6,13 @@ tags: ["Kubernetes", "Kubespray", "Ansible", "Cluster"]
 categories: ["DevOps", "Container"]
 draft: false
 cover:
-  image: /img/monit-inluxdb7.webp
+  image: /img/monit-in.webp
 
 ---
 
 ## Installare Kubernetes con Kubespray
 
-Installare Kubernetes seguendo la documentazione ufficiale è noto come **"the hard way"**, e scoprirete presto quanto questo nome sia appropriato.  
+Installare Kubernetes seguendo la documentazione ufficiale è noto come **"the hard way"** e scoprirete presto quanto questo nome sia appropriato.  
 Fortunatamente, grazie all'open source, sono stati sviluppati diversi strumenti per semplificare questa procedura complessa. Uno dei più validi è senza dubbio **Kubespray**.
 
 ### Cos'è Kubespray?
@@ -35,20 +35,24 @@ Se state cercando un'alternativa a *kubeadm* che vi offra maggiore controllo sul
 In questa guida, vedremo passo dopo passo come installare un cluster Kubernetes utilizzando Kubespray.  
 
 
-Prerequisiti
+**Prerequisiti**
 
-3 VM per i nodi master
-3 VM per i nodi worker
+La mia installazione è stata eseguita utilizzando alcune virtual machine create sul mio cluster Proxmox. Nel dettaglio abbiamo bisogno di:
 
-kubespray-master-01 192.168.1.184
-kubespray-master-02 192.168.1.189
-kubespray-master-03 192.168.1.190
+- 3 VM per i nodi master
 
-kubespray-worker-01 192.168.1.191
-kubespray-worker-02 192.168.1.192
-kubespray-worker-03 192.168.1.193
+- 3 VM per i nodi worker
 
-Copiare chiavi SSH da workstation verso i nodi, verranno utilizzate da ansible.
+- workstation con distribuzione linux, oppure  WSL2 se utilizzate Windows
+
+    kubespray-master-01 192.168.1.184
+    kubespray-master-02 192.168.1.189
+    kubespray-master-03 192.168.1.190
+
+    kubespray-worker-01 192.168.1.191
+    kubespray-worker-02 192.168.1.192
+    kubespray-worker-03 192.168.1.193
+
 
 
 Su workstation clonare il repository git, creare env virtuale pyrhon e scaricare i requirements
@@ -79,11 +83,12 @@ aggiungiamo un file inserendo alcune variabili
     helm_enabled: true
     kube_proxy_mode: iptables
 
-ora siamo pronti per installare il cluster, prima un ultima verifica eseguendo un test di raggiungibilità sui nodi
+ora siamo pronti per installare il cluster, prima un'ultima verifica eseguendo un test di raggiungibilità sui nodi, oltre al comando che segue dobbiamo copiare la nostra chiave SSH sui nodi precedentemente creati
+il comando che segue eseguirà un ping
 
     ansible -i inventory/proxmox01/hosts.yaml -m ping all -u service
 
-se tutti i nodi sono raggiungibili senza problemi siamo pronti per installare il cluster
+se tutti i nodi saranno raggiungibili senza problemi siamo finalmente pronti per installare il cluster
 
     ansible-playbook -i inventory/proxmox01/hosts.yaml -e @inventory/proxmox01/cluster-variables.yaml --become --become-user=root -u service cluster.yml
 
