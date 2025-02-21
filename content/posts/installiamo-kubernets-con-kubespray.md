@@ -73,7 +73,7 @@ Su workstation clonare il repository git, io ho utilizzato la versione 2.26.0, c
 
     pip3 install -U -r requirements.txt
 
-Ora è necessario editare i files necessari al deploy tramite ansible, copiamo una directory sample e editiamola in base alle nostre esigenze
+Ora editare i files necessari al deploy tramite ansible, copiamo una directory sample e editiamola in base alle nostre esigenze
 
     cp -rfp inventory/sample inventory/proxmox01
 
