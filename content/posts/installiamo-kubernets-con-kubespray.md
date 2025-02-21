@@ -61,15 +61,19 @@ La lista delle VM e relativi IP:
 
 
 
-Su workstation clonare il repository git, creare env virtuale pyrhon e scaricare i requirements
+Su workstation clonare il repository git, io ho utilizzato la versione 1.25.0, creare un "env" ambiente virtuale per pyrhon e installare i moduli "requirements" tramite pip3
 
     git clone https://github.com/kubernetes-sigs/kubespray.git
+
     cd kubespray
+
     python3 -m venv kubespray-venv
+
     source kubespray-venv/bin/activate
+
     pip3 install -U -r requirements.txt
 
-ora è necessario editare i files necessari al deploy tramite ansible
+Ora è necessario editare i files necessari al deploy tramite ansible, copiamo una directory sample e editiamola in base alle nostre esigenze
 
     cp -rfp inventory/sample inventory/proxmox01
 
@@ -77,31 +81,33 @@ ora è necessario editare i files necessari al deploy tramite ansible
 
     CONFIG_FILE=inventory/proxmox01/hosts.yaml python3 contrib/inventory_builder/inventory.py ${IPS[@]}
 
-il comando precedente ha creato un file chiamato hosts-yaml e inserito IP, dobbiamo editarlo ulteriormente con i nomi dei nostri nodi
+Il comando precedente ha creato un file chiamato hosts-yaml e inserito IP, dobbiamo editarlo ulteriormente con i nomi dei nostri nodi
 
-    nano inventory/proxmox01/hosts.yaml
+    vim inventory/proxmox01/hosts.yaml
 
-aggiungiamo un file inserendo alcune variabili
+Aggiungiamo un'ulteriore file dove inseriremo alcune variabili
 
-    nano inventory/proxmox01/cluster-variables.yaml
+    vi inventory/proxmox01/cluster-variables.yaml
+
+Questo sarà il contenuto:
 
     kube_version: v1.30.1
     helm_enabled: true
     kube_proxy_mode: iptables
 
-ora siamo pronti per installare il cluster, prima un'ultima verifica eseguendo un test di raggiungibilità sui nodi, oltre al comando che segue dobbiamo copiare la nostra chiave SSH sui nodi precedentemente creati
+Ora siamo pronti per installare il cluster, prima un'ultima verifica eseguendo un test di raggiungibilità sui nodi, oltre al comando che segue dobbiamo copiare la nostra chiave SSH sui nodi precedentemente creati
 il comando che segue eseguirà un ping
 
     ansible -i inventory/proxmox01/hosts.yaml -m ping all -u service
 
-se tutti i nodi saranno raggiungibili senza problemi siamo finalmente pronti per installare il cluster
+Se tutti i nodi saranno raggiungibili senza problemi siamo finalmente pronti per installare il cluster
 
     ansible-playbook -i inventory/proxmox01/hosts.yaml -e @inventory/proxmox01/cluster-variables.yaml --become --become-user=root -u service cluster.yml
 
-il comando è abbastanza parlante e chiaro, ora attendete che kubespray tramite ansible installi il cluster kubernetes nei nodi predefiniti
+Il comando è abbastanza parlante e chiaro, ora attendete che kubespray tramite ansible installi il cluster kubernetes nei nodi predefiniti, dovrebbe impiegare alcuni minuti.
+Terminato il tutto dovreste avere il messaggio di recap simile a questo
 
-terminato il tutto dovreste avere il messaggio di recap simile a questo
-
+![Example image](/img/kubespray_02.webp)
 
 verifichiamo il cluster kubernetes, eseguiamo un accesso ssh sul primo nodo master e facciamo in modo che il nostro user possa chiamare il cluster tramite kubectl, per fare questo copiamo il file di configurazione come segue:
 
@@ -117,6 +123,8 @@ Ora il più classico dei comandi
  
     kubectl get nodes
 
+
+![Example image](/img/kubespray_03.webp)
 
 
 
