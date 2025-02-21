@@ -43,15 +43,17 @@ La mia installazione è stata eseguita utilizzando alcune virtual machine create
 
 - 3 VM per i nodi worker
 
-- workstation con distribuzione linux, oppure  WSL2 se utilizzate Windows
+- workstation con distribuzione linux, oppure  WSL2 se utilizzate Windows.
 
-    kubespray-master-01 192.168.1.184
-    kubespray-master-02 192.168.1.189
-    kubespray-master-03 192.168.1.190
 
-    kubespray-worker-01 192.168.1.191
-    kubespray-worker-02 192.168.1.192
-    kubespray-worker-03 192.168.1.193
+
+     kubespray-master-01 192.168.1.184
+     kubespray-master-02 192.168.1.189
+     kubespray-master-03 192.168.1.190
+
+     kubespray-worker-01 192.168.1.191
+     kubespray-worker-02 192.168.1.192
+     kubespray-worker-03 192.168.1.193
 
 
 
