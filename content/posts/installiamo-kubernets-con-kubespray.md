@@ -61,7 +61,7 @@ La lista delle VM e relativi IP:
 
 
 
-Su workstation clonare il repository git, io ho utilizzato la versione 1.25.0, creare un "env" ambiente virtuale per pyrhon e installare i moduli "requirements" tramite pip3
+Su workstation clonare il repository git, io ho utilizzato la versione 2.26.0, creare un "env" ambiente virtuale per pyrhon e installare i moduli "requirements" tramite pip3
 
     git clone https://github.com/kubernetes-sigs/kubespray.git
 
