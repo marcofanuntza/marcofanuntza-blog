@@ -102,13 +102,17 @@ il comando è abbastanza parlante e chiaro, ora attendete che kubespray tramite 
 
 terminato il tutto dovreste avere il messaggio di recap simile a questo
 
-verifichiamo il cluster kubernetes, eseguiamo un accesso ssh sul primo nodo master
 
-#Copy kubeconfig to user path
+verifichiamo il cluster kubernetes, eseguiamo un accesso ssh sul primo nodo master e facciamo in modo che il nostro user possa chiamare il cluster tramite kubectl, per fare questo copiamo il file di configurazione come segue:
+
+
     sudo mkdir -p $HOME/.kube
+
     sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+
     sudo chown $(id -u):$(id -g) $HOME/.kube/config
  
+
 Ora il più classico dei comandi
  
     kubectl get nodes
