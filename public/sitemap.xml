@@ -2,11 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://marcofanuntza.it/tags/ansible/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <loc>https://marcofanuntza.it/tags/bitnami/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/categories/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/elasticsearch/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/elasticsearch/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/helm/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/helm/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/categories/kubernetes/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/posts/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url><url>
+    <loc>https://marcofanuntza.it/tags/ansible/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -22,27 +66,11 @@
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/posts/installiamo-kubernets-con-kubespray/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/tags/kubernetes/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/kubespray/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/posts/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
@@ -166,10 +194,6 @@
     <lastmod>2024-01-31T11:26:58+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>https://marcofanuntza.it/categories/kubernetes/</loc>
-    <lastmod>2024-01-31T11:26:58+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
     <loc>https://marcofanuntza.it/tags/howto/</loc>
     <lastmod>2024-01-30T08:47:18+01:00</lastmod>
     <changefreq>daily</changefreq>
@@ -199,10 +223,6 @@
     <changefreq>daily</changefreq>
   </url><url>
     <loc>https://marcofanuntza.it/tags/argo-cd/</loc>
-    <lastmod>2024-01-26T09:02:24+01:00</lastmod>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://marcofanuntza.it/tags/helm/</loc>
     <lastmod>2024-01-26T09:02:24+01:00</lastmod>
     <changefreq>daily</changefreq>
   </url><url>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Helm on Howto e esperienze di shell..</title>
+    <link>https://marcofanuntza.it/categories/helm/</link>
+    <description>Recent content in Helm on Howto e esperienze di shell..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://marcofanuntza.it/categories/helm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installare Elasticsearch con Helm Chart di Bitnami</title>
+      <link>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</guid>
+      <description>Guida rapida per installare Elasticsearch su Kubernetes utilizzando Helm Chart di Bitnami.</description>
+    </item>
+  </channel>
+</rss>

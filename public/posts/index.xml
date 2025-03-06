@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installare Elasticsearch con Helm Chart di Bitnami</title>
+      <link>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</guid>
+      <description>Guida rapida per installare Elasticsearch su Kubernetes utilizzando Helm Chart di Bitnami.</description>
+    </item>
     <item>
       <title>Installare Kubernetes con Kubespray</title>
       <link>https://marcofanuntza.it/posts/installiamo-kubernets-con-kubespray/</link>
