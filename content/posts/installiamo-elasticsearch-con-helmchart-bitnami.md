@@ -93,6 +93,8 @@ helm upgrade elasticsearch-test-stage bitnami/elasticsearch \
   -f values.yaml
 ```
 
+Happy helming!
+
 ---
 
 
