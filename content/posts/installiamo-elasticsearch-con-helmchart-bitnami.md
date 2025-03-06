@@ -5,6 +5,8 @@ description: "Guida rapida per installare Elasticsearch su Kubernetes utilizzand
 categories: ["Kubernetes", "Helm", "Elasticsearch"]
 tags: ["Helm", "Bitnami", "Elasticsearch", "Kubernetes"]
 draft: false
+cover:
+  image: /img/helmchart-elastic.webp
 ---
 
 ## Introduzione
