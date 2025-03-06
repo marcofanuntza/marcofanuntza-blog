@@ -13,7 +13,7 @@
       <link>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</guid>
-      <description>Guida rapida per installare Elasticsearch su Kubernetes utilizzando Helm Chart di Bitnami.</description>
+      <description>Guida rapida per installare Elasticsearch su Kubernetes utilizzando HelmChart di Bitnami.</description>
     </item>
   </channel>
 </rss>

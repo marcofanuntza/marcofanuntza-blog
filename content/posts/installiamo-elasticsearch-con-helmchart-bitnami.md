@@ -1,7 +1,7 @@
 ---
 title: "Installare Elasticsearch con Helm Chart di Bitnami"
 date: 2025-02-26
-description: "Guida rapida per installare Elasticsearch su Kubernetes utilizzando Helm Chart di Bitnami."
+description: "Guida rapida per installare Elasticsearch su Kubernetes utilizzando HelmChart di Bitnami."
 categories: ["Kubernetes", "Helm", "Elasticsearch"]
 tags: ["Helm", "Bitnami", "Elasticsearch", "Kubernetes"]
 draft: false
@@ -10,7 +10,7 @@ cover:
 ---
 
 ## Introduzione
-In questa guida vedremo come installare **Elasticsearch** su Kubernetes utilizzando i **Helm Chart di Bitnami**. Seguiremo un approccio strutturato, includendo la configurazione personalizzata tramite un file `values.yaml`.
+In questa guida vedremo come installare **Elasticsearch** su Kubernetes utilizzando **HelmChart di Bitnami**. Seguiremo un approccio strutturato, includendo la configurazione personalizzata tramite un file `values.yaml`
 
 ## Aggiungere il repository Helm di Bitnami
 Per prima cosa, aggiungiamo il repository **Bitnami** alla nostra installazione di Helm:
@@ -80,6 +80,18 @@ kubectl get all -n elasticsearch-test-stage
 ```
 
 Se tutto è andato a buon fine, Elasticsearch sarà pronto per l'uso! 🚀
+
+
+tips. terminata installazione vi siete resi conto di aver dimenticato un ulteriore parametro necessario? La soluzione è semplicissima!
+
+Editate il file values.yaml e invece che utilizzare "install" eseguirete il comando con "upgrade" 
+
+```sh
+helm upgrade elasticsearch-test-stage bitnami/elasticsearch \
+  --version 19.9.4 \
+  --namespace elasticsearch-test-stage \
+  -f values.yaml
+```
 
 ---
 
