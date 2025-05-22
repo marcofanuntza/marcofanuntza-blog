@@ -5,7 +5,7 @@ description: "Come sincronizzare gli indici Elasticsearch tra due istanze in Kub
 tags: ["kubernetes", "elasticsearch", "elasticdump", "devops"]
 draft: false
 cover:
-  image: /img/helmchart-elastic.webp
+  image: /img/elasticdump.webp
 ---
 
 ## Eseguire un'immagine temporanea nello stesso namespace
@@ -51,7 +51,5 @@ NODE_TLS_REJECT_UNAUTHORIZED=0 elasticdump \
 * `--output=...`: URL della destinazione Elasticsearch. Verrà creato (o aggiornato) un indice con lo stesso nome e contenuti.
 
 ---
-
-> ⚠️ **Nota di sicurezza**: Disabilitare la verifica SSL è sconsigliato in ambienti di produzione pubblici. Utilizzare solo in ambienti interni o di sviluppo.
 
 ```
