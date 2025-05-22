@@ -6,8 +6,15 @@
     <description>Recent content on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sincronizzazione Indici Elasticsearch con Elasticdump in Kubernetes</title>
+      <link>https://marcofanuntza.it/posts/sincronizzazione.indici.elasticsearch.con.elasticdump.in.kubernetes/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/posts/sincronizzazione.indici.elasticsearch.con.elasticdump.in.kubernetes/</guid>
+      <description>Come sincronizzare gli indici Elasticsearch tra due istanze in Kubernetes usando Elasticdump.</description>
+    </item>
     <item>
       <title>Installare Elasticsearch con Helm Chart di Bitnami</title>
       <link>https://marcofanuntza.it/posts/installiamo-elasticsearch-con-helmchart-bitnami/</link>

@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops</title>
+      <link>https://marcofanuntza.it/tags/devops/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elasticdump</title>
+      <link>https://marcofanuntza.it/tags/elasticdump/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/elasticdump/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elasticsearch</title>
+      <link>https://marcofanuntza.it/tags/elasticsearch/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://marcofanuntza.it/tags/kubernetes/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bitnami</title>
       <link>https://marcofanuntza.it/tags/bitnami/</link>
@@ -16,24 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Elasticsearch</title>
-      <link>https://marcofanuntza.it/tags/elasticsearch/</link>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://marcofanuntza.it/tags/elasticsearch/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Helm</title>
       <link>https://marcofanuntza.it/tags/helm/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://marcofanuntza.it/tags/helm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://marcofanuntza.it/tags/kubernetes/</link>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://marcofanuntza.it/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
