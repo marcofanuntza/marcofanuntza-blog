@@ -52,4 +52,8 @@ NODE_TLS_REJECT_UNAUTHORIZED=0 elasticdump \
 
 ---
 
-```
+## Considerazioni finali
+La sincronizzazione degli indici tra due istanze di Elasticsearch è una pratica molto utile in diversi scenari. Ad esempio, può servire durante attività di migrazione tra ambienti (da staging a produzione), in caso di ripristino parziale dei dati o per effettuare test su dati reali in ambienti isolati.
+
+Utilizzare strumenti come elasticdump consente di eseguire questo allineamento in modo semplice e granulare, mantenendo il controllo sui singoli indici. È una soluzione comoda anche perché non richiede downtime, permettendo la copia dei dati in tempo reale, direttamente dal cluster di origine a quello di destinazione.
+
