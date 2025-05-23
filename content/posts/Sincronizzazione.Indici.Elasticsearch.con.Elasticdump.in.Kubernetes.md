@@ -8,9 +8,9 @@ cover:
   image: /img/elasticdump.webp
 ---
 
-## Eseguire un'immagine temporanea nello stesso namespace
+## Eseguire un'immagine temporanea con Elasticdump
 
-Il comando seguente consente di creare un **pod temporaneo** nel namespace `elasticsearch-prod`, ed accedere alla sua shell Bash:
+Il comando seguente consente di creare un **pod temporaneo** nel namespace `elasticsearch-prod` dove risiede l'istanza elasticsearch, e nello stesso tempo permette di accedere alla sua shell Bash:
 
 ```bash
 kubectl run elasticdump-client --rm -it --image=node:18 -n elasticsearch-prod -- bash
@@ -28,7 +28,7 @@ npm install -g elasticdump
 
 ## Eseguire la sincronizzazione degli indici
 
-Ora siamo pronti per eseguire il **sync** dei dati tra gli indici. Esegui il seguente comando per ogni indice da copiare:
+Ora siamo pronti per eseguire il **sync** dei dati tra gli indici. Eseguiamo il seguente comando per ogni indice da copiare:
 
 ### Indice: `prod-index`
 
