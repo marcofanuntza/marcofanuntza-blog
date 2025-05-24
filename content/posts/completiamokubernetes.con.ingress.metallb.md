@@ -2,6 +2,9 @@
 ---
 title: "Completare cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manager"
 date: 2025-05-24
+description: "Guida passo passo per completare un cluster Kubernetes con Ingress Controller NGINX, MetalLB per il bilanciamento del carico e Cert-Manager per HTTPS automatico."
+keywords: ["kubernetes", "ingress", "nginx", "metal-lb", "cert-manager", "helm", "kubespray", "ssl", "https", "devops"]
+slug: completare-cluster-kubernetes
 draft: false
 cover:
   image: /img/install-ing-metal.webp

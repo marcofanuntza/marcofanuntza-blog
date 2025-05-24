@@ -10,17 +10,10 @@
     <atom:link href="https://marcofanuntza.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Completare cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manager</title>
-      <link>https://marcofanuntza.it/posts/completiamokubernetes.con.ingress.metallb/</link>
+      <link>https://marcofanuntza.it/posts/completare-cluster-kubernetes/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://marcofanuntza.it/posts/completiamokubernetes.con.ingress.metallb/</guid>
-      <description>&lt;p&gt;Nei miei post precedenti ho mostrato diversi metodi per installare un cluster Kubernetes: utilizzando Kind, K3D, Rancher e infine Kubespray.&lt;/p&gt;
-&lt;p&gt;Partendo proprio da quest’ultimo — l&amp;rsquo;articolo lo trovate qui: &lt;a href=&#34;https://marcofanuntza.it/posts/installiamo-kubernets-con-kubespray&#34;&gt;Installiamo Kubernetes con Kubespray&lt;/a&gt; — oggi voglio completare la configurazione del cluster aggiungendo tre componenti fondamentali per renderlo pronto a gestire ambienti di test e l’erogazione di servizi:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ingress Controller&lt;/strong&gt; con NGINX&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MetalLB&lt;/strong&gt; per l’assegnazione di indirizzi IP ai LoadBalancer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cert-Manager&lt;/strong&gt; per la gestione automatica dei certificati SSL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tutti questi componenti saranno installati tramite &lt;strong&gt;Helm&lt;/strong&gt;, lo strumento di package management per Kubernetes.&lt;/p&gt;</description>
+      <guid>https://marcofanuntza.it/posts/completare-cluster-kubernetes/</guid>
+      <description>Guida passo passo per completare un cluster Kubernetes con Ingress Controller NGINX, MetalLB per il bilanciamento del carico e Cert-Manager per HTTPS automatico.</description>
     </item>
     <item>
       <title>Sincronizzazione Indici Elasticsearch con Elasticdump in Kubernetes</title>
