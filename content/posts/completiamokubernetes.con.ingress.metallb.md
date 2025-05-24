@@ -4,7 +4,7 @@ title: "Completare un cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manag
 date: 2025-05-24
 draft: false
 cover:
-  image: /img/elasticdump.webp
+  image: /img/install-ing-metal.webp
 ---
 
 Nei miei post precedenti ho mostrato diversi metodi per installare un cluster Kubernetes: utilizzando Kind, K3D, Rancher e infine Kubespray.
