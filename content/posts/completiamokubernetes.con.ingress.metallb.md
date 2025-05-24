@@ -157,7 +157,5 @@ Con questi tre componenti — **Ingress NGINX**, **MetalLB** e **Cert-Manager** 
 
 Questo è un setup ideale per ambienti **di test realistici**, **demo** o **piccole installazioni on-premise**.
 
-Nel prossimo articolo potremmo vedere come deployare una vera applicazione web e renderla accessibile via HTTPS.
-
 Hai dubbi, suggerimenti o vuoi raccontarmi la tua esperienza?
 Lascia un commento o scrivimi!
