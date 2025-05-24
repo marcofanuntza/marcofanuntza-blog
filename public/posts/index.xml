@@ -9,7 +9,7 @@
     <lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Completare un cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manager</title>
+      <title>Completare cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manager</title>
       <link>https://marcofanuntza.it/posts/completiamokubernetes.con.ingress.metallb/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
       <guid>https://marcofanuntza.it/posts/completiamokubernetes.con.ingress.metallb/</guid>

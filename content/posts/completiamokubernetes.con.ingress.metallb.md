@@ -1,6 +1,6 @@
 
 ---
-title: "Completare un cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manager"
+title: "Completare cluster Kubernetes con Ingress NGINX, MetalLB e Cert-Manager"
 date: 2025-05-24
 draft: false
 cover:
