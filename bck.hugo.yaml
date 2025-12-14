@@ -8,6 +8,14 @@ ignoreLogs: ['warning-goldmark-raw-html']
 
 menu:
   main:
+    - identifier: categories
+      name: Categorie
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
     - identifier: posts
       name: Articoli
       url: /posts/
@@ -20,6 +28,17 @@ menu:
 googleAnalytics: G-DMXNC50LDV
 
 enableRobotsTXT: true
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessa
+        - SITEMAP
+
+sitemap:
+  changeFreq: "daily"
+  filename: sitemap.xml
+  priority: -1
 analytics:
     google:
         SiteVerificationTag: "G-DMXNC50LDV"
@@ -107,17 +126,6 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessa
-
-sitemap:
-  changeFreq: "daily"
-  filename: sitemap.xml
-  priority: -1
-
 services:
   disqus:
     shortname: marcofanuntza-it
@@ -155,3 +163,6 @@ markup:
     noHl: false
     # style: monokai
     tabWidth: 4
+
+
+
