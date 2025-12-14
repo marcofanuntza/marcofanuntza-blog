@@ -107,25 +107,34 @@ roleRef:
 kubectl apply -f readonly-binding.yaml
 ```
 
-## Creazione del kubeconfig dedicato
+## Creazione del kubeconfig dedicato (metodo base64)
 
-Si utilizza un kubeconfig **file-based** per ridurre gli errori.
+Qui utilizziamo il metodo con i certificati codificati in Base64 direttamente nel kubeconfig.
+
+1. Converti i certificati in Base64:
+
+```bash
+base64 -w0 user-readonly.crt > user-readonly.crt.base64
+base64 -w0 user-readonly.key > user-readonly.key.base64
+base64 -w0 /etc/kubernetes/pki/ca.crt > ca.crt.base64
+```
+
+2. Crea il kubeconfig:
 
 ```yaml
 apiVersion: v1
 kind: Config
-
 clusters:
 - name: kubernetes
   cluster:
     server: https://IP-API-SERVER:6443
-    certificate-authority: ./ca.crt
+    certificate-authority-data: <contenuto di ca.crt.base64>
 
 users:
 - name: user-readonly
   user:
-    client-certificate: ./user-readonly.crt
-    client-key: ./user-readonly.key
+    client-certificate-data: <contenuto di user-readonly.crt.base64>
+    client-key-data: <contenuto di user-readonly.key.base64>
 
 contexts:
 - name: readonly-context
@@ -135,6 +144,8 @@ contexts:
 
 current-context: readonly-context
 ```
+
+Sostituisci `<contenuto di ...>` con i rispettivi file Base64 generati.
 
 ## Test dell’accesso
 
