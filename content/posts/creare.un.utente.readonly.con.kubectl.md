@@ -184,6 +184,6 @@ kubectl auth can-i delete pods --as=user-readonly
 
 ## Conclusione
 
-Questo soluzione fornisce un accesso **minimale, sicuro e nativo** a Kubernetes, ideale da condividere con i colleghi DEV e permettergli di consultare tutti gli oggetti presenti nel cluster, con la certezza però che non vengano combinati dei guai "non tocchis nudda" :D
+Questa soluzione fornisce un accesso **minimale, sicuro e nativo** a Kubernetes, ideale da condividere con i colleghi DEV e permettergli di consultare tutti gli oggetti presenti nel cluster, con la certezza però che non vengano combinati dei guai "non tocchis nudda" :D
 
 *Happy kubectl!* 🚀
