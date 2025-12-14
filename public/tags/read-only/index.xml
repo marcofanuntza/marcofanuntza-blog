@@ -9,25 +9,26 @@
     <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/read-only/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creare un utente Kubernetes read-only con kubectl</title>
+      <title>Creare un utente Kubernetes read-only per kubectl</title>
       <link>https://marcofanuntza.it/posts/creare.un.utente.readonly.con.kubectl/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://marcofanuntza.it/posts/creare.un.utente.readonly.con.kubectl/</guid>
-      <description>&lt;h1 id=&#34;creare-un-utente-read-only-in-kubernetes-solo-kubectl-senza-oidc&#34;&gt;Creare un utente &lt;strong&gt;read-only&lt;/strong&gt; in Kubernetes (solo kubectl, senza OIDC)&lt;/h1&gt;
-&lt;p&gt;In questo articolo vediamo come creare &lt;strong&gt;uno user Kubernetes con accesso esclusivamente in lettura&lt;/strong&gt; utilizzando &lt;strong&gt;certificati client x509&lt;/strong&gt; e &lt;strong&gt;RBAC&lt;/strong&gt;, senza Keycloak, senza dashboard, solo Kubernetes puro.&lt;/p&gt;
-&lt;p&gt;La procedura è valida per cluster installati con &lt;strong&gt;kubespray&lt;/strong&gt; o kubeadm ed è adatta a:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;utenti di consultazione&lt;/li&gt;
-&lt;li&gt;operatori di supporto&lt;/li&gt;
-&lt;li&gt;audit / troubleshooting&lt;/li&gt;
-&lt;/ul&gt;
+      <description>&lt;h1 id=&#34;creare-un-utente-read-only-in-kubernetes&#34;&gt;Creare un utente &lt;strong&gt;read-only&lt;/strong&gt; in Kubernetes&lt;/h1&gt;
+&lt;p&gt;In questo post riassumo le operazioni per creare &lt;strong&gt;uno user Kubernetes con accesso in sola lettura&lt;/strong&gt; utilizzando &lt;strong&gt;certificati client x509&lt;/strong&gt; e &lt;strong&gt;RBAC&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La procedura è valida per qualsiasi cluster Kubernetes&lt;/p&gt;
 &lt;h2 id=&#34;obiettivo&#34;&gt;Obiettivo&lt;/h2&gt;
-&lt;p&gt;Lo user finale potrà:&lt;/p&gt;
+&lt;p&gt;Lo user read-only potrà eseguire operazioni di:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;get&lt;/code&gt;, &lt;code&gt;list&lt;/code&gt;, &lt;code&gt;watch&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;usare &lt;code&gt;kubectl get&lt;/code&gt;, &lt;code&gt;describe&lt;/code&gt;, &lt;code&gt;logs&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Non potrà:&lt;/p&gt;</description>
+&lt;p&gt;Non potrà:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;creare / modificare / cancellare risorse&lt;/li&gt;
+&lt;li&gt;usare &lt;code&gt;kubectl apply&lt;/code&gt;, &lt;code&gt;delete&lt;/code&gt;, &lt;code&gt;exec&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;concetti-chiave&#34;&gt;Concetti chiave&lt;/h2&gt;
+&lt;p&gt;Kubernetes nativamente &lt;strong&gt;non gestisce utenti interni&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

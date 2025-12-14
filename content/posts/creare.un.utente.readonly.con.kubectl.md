@@ -1,26 +1,22 @@
 ---
-title: "Creare un utente Kubernetes read-only con kubectl"
+title: "Creare un utente Kubernetes read-only per kubectl"
 date: 2025-12-14
 draft: false
 keywords: ["Kubernetes", "RBAC", "DevOps"]
 tags: ["kubectl", "read-only", "certificati", "RBAC"]
 cover:
-  image: /img/install-ing-metal.webp
+  image: /img/read-only-user.webp
 ---
 
-# Creare un utente **read-only** in Kubernetes (solo kubectl, senza OIDC)
+# Creare un utente **read-only** in Kubernetes
 
-In questo articolo vediamo come creare **uno user Kubernetes con accesso esclusivamente in lettura** utilizzando **certificati client x509** e **RBAC**, senza Keycloak, senza dashboard, solo Kubernetes puro.
+In questo post riassumo le operazioni per creare **uno user Kubernetes con accesso in sola lettura** utilizzando **certificati client x509** e **RBAC**.
 
-La procedura è valida per cluster installati con **kubespray** o kubeadm ed è adatta a:
-
-* utenti di consultazione
-* operatori di supporto
-* audit / troubleshooting
+La procedura è valida per qualsiasi cluster Kubernetes
 
 ## Obiettivo
 
-Lo user finale potrà:
+Lo user read-only potrà eseguire operazioni di:
 
 * `get`, `list`, `watch`
 * usare `kubectl get`, `describe`, `logs`
@@ -32,13 +28,16 @@ Non potrà:
 
 ## Concetti chiave
 
-Kubernetes **non gestisce utenti interni**.
-L’accesso avviene in due fasi:
+Kubernetes nativamente **non gestisce utenti interni**.
+
+L’accesso è possibile grazie a due componenti:
 
 * **Autenticazione** → certificato client
 * **Autorizzazione** → RBAC (Role / ClusterRole)
 
 ## Creazione della chiave privata
+
+Per comodità tutte le operazioni che seguono verranno eseguite da shell su un nodo control-plane del vostro cluster Kubernetes
 
 ```bash
 openssl genrsa -out user-readonly.key 2048
@@ -57,7 +56,6 @@ openssl req -new \
 
 ## Firma del certificato con la CA del cluster
 
-Da eseguire su un control-plane:
 
 ```bash
 openssl x509 -req \
@@ -150,7 +148,19 @@ Sostituisci `<contenuto di ...>` con i rispettivi file Base64 generati.
 ## Test dell’accesso
 
 ```bash
-KUBECONFIG=./kubeconfig-readonly kubectl get pods -A
+KUBECONFIG=./kubeconfig-readonly kubectl get nodes
+```
+
+Che ci mostrerà:
+
+```bash
+NAME                  STATUS   ROLES           AGE   VERSION
+kubespray-master-01   Ready    control-plane   21d   v1.34.2
+kubespray-master-02   Ready    control-plane   21d   v1.34.2
+kubespray-master-03   Ready    control-plane   21d   v1.34.2
+kubespray-worker-01   Ready    <none>          21d   v1.34.2
+kubespray-worker-02   Ready    <none>          21d   v1.34.2
+kubespray-worker-03   Ready    <none>          21d   v1.34.2
 ```
 
 Test di un’operazione vietata:
@@ -159,25 +169,18 @@ Test di un’operazione vietata:
 KUBECONFIG=./kubeconfig-readonly kubectl delete pod test -n default
 ```
 
-Risultato atteso:
+Che se tutto è andato per il verso giusto ci sarà errore:
 
 ```
-Error from server (Forbidden)
+Error from server (Forbidden): pods "test" is forbidden: User "user-readonly" cannot delete resource "pods" in API group "" in the namespace "default"
 ```
 
-## Verifica RBAC
+## Ulteriore verifica tramite RBAC
 
 ```bash
 kubectl auth can-i get pods --as=user-readonly
 kubectl auth can-i delete pods --as=user-readonly
 ```
-
-## Considerazioni di sicurezza
-
-* usare certificati con scadenza breve
-* non distribuire la CA
-* un kubeconfig per ogni ruolo
-* evitare `cluster-admin`
 
 ## Conclusione
 
