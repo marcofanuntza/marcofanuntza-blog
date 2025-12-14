@@ -107,7 +107,7 @@ kubectl apply -f readonly-binding.yaml
 
 ## Creazione del kubeconfig dedicato (metodo base64)
 
-Qui utilizziamo il metodo con i certificati codificati in Base64 direttamente nel kubeconfig.
+Ora che abbiamo tutto pronto ci manca solo il file di configurazione da utilizzare con kubectl, il kubeconfig appunto. Per crearlo utilizziamo il metodo con i certificati codificati in Base64 direttamente nel kubeconfig.
 
 1. Converti i certificati in Base64:
 
