@@ -8,69 +8,58 @@ cover:
   image: /img/install-ing-metal.webp
 ---
 
+Creare un utente read-only in Kubernetes (solo kubectl, senza OIDC)
 
-# Creare un utente **read-only** in Kubernetes (solo kubectl, senza OIDC)
+In questo articolo vediamo come creare uno user Kubernetes con accesso esclusivamente in lettura utilizzando certificati client x509 e RBAC, senza Keycloak, senza dashboard, solo Kubernetes puro.
 
-In questo articolo vediamo come creare **uno user Kubernetes con accesso esclusivamente in lettura** utilizzando **certificati client x509** e **RBAC**, senza Keycloak, senza dashboard, solo Kubernetes puro.
+La procedura è valida per cluster installati con kubespray o kubeadm ed è adatta a:
 
-La procedura è valida per cluster installati con **kubespray** o kubeadm ed è adatta a:
+utenti di consultazione
 
-* utenti di consultazione
-* operatori di supporto
-* audit / troubleshooting
+operatori di supporto
 
----
+audit / troubleshooting
 
-## Obiettivo
+Obiettivo
 
 Lo user finale potrà:
 
-* `get`, `list`, `watch`
-* usare `kubectl get`, `describe`, `logs`
+get, list, watch
+
+usare kubectl get, describe, logs
 
 Non potrà:
 
-* creare / modificare / cancellare risorse
-* usare `kubectl apply`, `delete`, `exec`
+creare / modificare / cancellare risorse
 
----
+usare kubectl apply, delete, exec
 
-## Concetti chiave
+Concetti chiave
 
-Kubernetes **non gestisce utenti interni**.
+Kubernetes non gestisce utenti interni.
 L’accesso avviene in due fasi:
 
-1. **Autenticazione** → certificato client
-2. **Autorizzazione** → RBAC (Role / ClusterRole)
+Autenticazione → certificato client
 
----
+Autorizzazione → RBAC (Role / ClusterRole)
 
-## 1. Creazione della chiave privata
+Creazione della chiave privata
 
-```bash
 openssl genrsa -out user-readonly.key 2048
-```
 
----
+Creazione della CSR
 
-## 2. Creazione della CSR
+Il CN diventerà lo username visto da Kubernetes.
 
-Il `CN` diventerà lo username visto da Kubernetes.
-
-```bash
 openssl req -new \
   -key user-readonly.key \
   -out user-readonly.csr \
   -subj "/CN=user-readonly/O=readonly"
-```
 
----
-
-## 3. Firma del certificato con la CA del cluster
+Firma del certificato con la CA del cluster
 
 Da eseguire su un control-plane:
 
-```bash
 openssl x509 -req \
   -in user-readonly.csr \
   -CA /etc/kubernetes/pki/ca.crt \
@@ -78,13 +67,9 @@ openssl x509 -req \
   -CAcreateserial \
   -out user-readonly.crt \
   -days 365
-```
 
----
+Creazione della ClusterRole read-only
 
-## 4. Creazione della ClusterRole read-only
-
-```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
@@ -93,17 +78,11 @@ rules:
 - apiGroups: ["*"]
   resources: ["*"]
   verbs: ["get", "list", "watch"]
-```
 
-```bash
 kubectl apply -f readonly-clusterrole.yaml
-```
 
----
+Binding dello user alla ClusterRole
 
-## 5. Binding dello user alla ClusterRole
-
-```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
@@ -116,19 +95,13 @@ roleRef:
   kind: ClusterRole
   name: readonly-cluster
   apiGroup: rbac.authorization.k8s.io
-```
 
-```bash
 kubectl apply -f readonly-binding.yaml
-```
 
----
+Creazione del kubeconfig dedicato
 
-## 6. Creazione del kubeconfig dedicato
+Si utilizza un kubeconfig file-based per ridurre gli errori.
 
-Si utilizza un kubeconfig **file-based** per ridurre gli errori.
-
-```yaml
 apiVersion: v1
 kind: Config
 
@@ -151,32 +124,36 @@ contexts:
     user: user-readonly
 
 current-context: readonly-context
-```
 
----
+Test dell’accesso
 
-## 7. Test dell’accesso
-
-```bash
 KUBECONFIG=./kubeconfig-readonly kubectl get pods -A
-```
 
 Test di un’operazione vietata:
 
-```bash
 KUBECONFIG=./kubeconfig-readonly kubectl delete pod test -n default
-```
 
 Risultato atteso:
 
-```
 Error from server (Forbidden)
-```
 
----
+Verifica RBAC
 
-## 8. Verifica RBAC
+kubectl auth can-i get pods --as=user-readonly
+kubectl auth can-i delete pods --as=user-readonly
 
-```bash
-kube
-```
+Considerazioni di sicurezza
+
+usare certificati con scadenza breve
+
+non distribuire la CA
+
+un kubeconfig per ogni ruolo
+
+evitare cluster-admin
+
+Conclusione
+
+Questo approccio fornisce un accesso minimale, sicuro e nativo a Kubernetes, ideale per ambienti enterprise o cluster senza Identity Provider esterni.
+
+Happy kubectl! 🚀

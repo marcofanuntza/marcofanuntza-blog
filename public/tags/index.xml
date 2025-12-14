@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certificati</title>
+      <link>https://marcofanuntza.it/tags/certificati/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/certificati/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubectl</title>
+      <link>https://marcofanuntza.it/tags/kubectl/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/kubectl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RBAC</title>
+      <link>https://marcofanuntza.it/tags/rbac/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/rbac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Read-Only</title>
+      <link>https://marcofanuntza.it/tags/read-only/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/tags/read-only/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Devops</title>
       <link>https://marcofanuntza.it/tags/devops/</link>
@@ -216,13 +244,6 @@
       <link>https://marcofanuntza.it/tags/krew/</link>
       <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
       <guid>https://marcofanuntza.it/tags/krew/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubectl</title>
-      <link>https://marcofanuntza.it/tags/kubectl/</link>
-      <pubDate>Tue, 30 Jan 2024 08:47:18 +0100</pubDate>
-      <guid>https://marcofanuntza.it/tags/kubectl/</guid>
       <description></description>
     </item>
     <item>

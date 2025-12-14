@@ -6,8 +6,24 @@
     <description>Recent content in Kubectl on Howto e esperienze di shell..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 30 Jan 2024 08:47:18 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcofanuntza.it/tags/kubectl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creare un utente Kubernetes read-only con kubectl</title>
+      <link>https://marcofanuntza.it/posts/creare.un.utente.readonly.con.kubectl/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://marcofanuntza.it/posts/creare.un.utente.readonly.con.kubectl/</guid>
+      <description>&lt;p&gt;Creare un utente read-only in Kubernetes (solo kubectl, senza OIDC)&lt;/p&gt;
+&lt;p&gt;In questo articolo vediamo come creare uno user Kubernetes con accesso esclusivamente in lettura utilizzando certificati client x509 e RBAC, senza Keycloak, senza dashboard, solo Kubernetes puro.&lt;/p&gt;
+&lt;p&gt;La procedura è valida per cluster installati con kubespray o kubeadm ed è adatta a:&lt;/p&gt;
+&lt;p&gt;utenti di consultazione&lt;/p&gt;
+&lt;p&gt;operatori di supporto&lt;/p&gt;
+&lt;p&gt;audit / troubleshooting&lt;/p&gt;
+&lt;p&gt;Obiettivo&lt;/p&gt;
+&lt;p&gt;Lo user finale potrà:&lt;/p&gt;
+&lt;p&gt;get, list, watch&lt;/p&gt;
+&lt;p&gt;usare kubectl get, describe, logs&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Installiamo Krew</title>
       <link>https://marcofanuntza.it/posts/installiamo-krew/</link>
