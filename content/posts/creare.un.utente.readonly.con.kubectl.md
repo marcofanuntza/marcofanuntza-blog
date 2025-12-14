@@ -169,7 +169,7 @@ Test di un’operazione vietata:
 KUBECONFIG=./kubeconfig-readonly kubectl delete pod test -n default
 ```
 
-Che se tutto è andato per il verso giusto ci sarà errore:
+Se tutto è andato per il verso giusto ci darà errore:
 
 ```
 Error from server (Forbidden): pods "test" is forbidden: User "user-readonly" cannot delete resource "pods" in API group "" in the namespace "default"
