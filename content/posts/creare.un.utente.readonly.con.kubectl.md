@@ -184,6 +184,6 @@ kubectl auth can-i delete pods --as=user-readonly
 
 ## Conclusione
 
-Questo approccio fornisce un accesso **minimale, sicuro e nativo** a Kubernetes, ideale per ambienti enterprise o cluster senza Identity Provider esterni.
+Questo soluzione fornisce un accesso **minimale, sicuro e nativo** a Kubernetes, ideale da condividere con i colleghi DEV e permettergli di consultare tutti gli oggetti presenti nel cluster, con la cetezza però che non vengano combinate dei guai "non tocchis nudda" :D
 
 *Happy kubectl!* 🚀
